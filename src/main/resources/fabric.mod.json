@@ -1,27 +1,30 @@
 {
   "schemaVersion": 1,
   "id": "mtrfranceaddon",
-  "version": "${version}",
+  "version": "0.0.1",
   "name": "MTR France Addon",
   "description": "Addon pour MTR avec du contenu français.",
   "authors": [
-    "noob_at_everything",
+    "Noob_at_Everything",
     "Créator Lady Lyanna",
     "Aide Inclusion MTR"
   ],
   "contact": {
-    "homepage": "https://github.com/tonpseudo/mtr-france-addon",
-    "sources": "https://github.com/tonpseudo/mtr-france-addon"
+    "homepage": "https://github.com/Noob_at_Everything/mtr-france-addon",
+    "sources": "https://github.com/Noob_at_Everything/mtr-france-addon"
   },
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
-    "main": ["fr.mtraddon.Main"]
+    "main": [
+      "fr.mtraddon.Main"
+    ]
   },
   "depends": {
-    "fabricloader": ">=0.15.11",
-    "fabric-api": ">=0.92.1+1.20.4",
+    "fabricloader": ">=0.15.6",
+    "fabric": "*",
+    "fabric-api": "*",
     "minecraft": "1.20.4",
-    "mtr": "*"
+    "mtr": "4.0.0"
   }
 }
