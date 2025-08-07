@@ -1,0 +1,4 @@
+@ParametersAreNonnullByDefault
+package fr.mtrfranceaddon.block;
+
+import javax.annotation.ParametersAreNonnullByDefault;
