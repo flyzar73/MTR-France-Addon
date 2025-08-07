@@ -3,34 +3,27 @@ plugins {
     id 'maven-publish'
 }
 
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
     }
 }
 
-ext {
-    minecraft_version = "1.20.4"
-    loader_version = "0.15.6"
-    fabric_version = "0.97.3+1.20.4"
-    maven_group = "fr.mtraddon"
-    archives_base_name = "mtrfranceaddon"
-    mod_version = "0.0.1"
-    mtr_version = "FABRIC-4.0.0+1.20.4"
-}
-
-group = maven_group
-version = mod_version
-
-base {
-    archivesName = archives_base_name
-}
-
 repositories {
-    mavenCentral()
     flatDir {
         dirs 'libs'
     }
+
+    maven { url "https://jitpack.io" }
+    maven { url "https://maven.fabricmc.net/"}
+    mavenCentral()
     // Dépendence via modrinth
     maven {
         name = "Modrinth"
@@ -39,18 +32,27 @@ repositories {
 }
 
 dependencies {
-    // Minecraft + Fabric
-    minecraft "com.mojang:minecraft:${minecraft_version}"
-    mappings "net.fabricmc:yarn:${minecraft_version}+build.3:v2"
-    modImplementation "net.fabricmc:fabric-loader:${loader_version}"
-    modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    // mappings loom.officialMojangMappings()
+    mappings "net.fabricmc:yarn:${project.minecraft_version}+build.3:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    // MTR
-    modLocalRuntime "maven.modrinth:minecraft-transit-railway:${mtr_version}" // Local
+    modImplementation files("libs/MTR-fabric-4.0.0+1.20.4.jar")
+
+    implementation 'com.google.code.findbugs:jsr305:3.0.2'
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
 }
 
 jar {
     from("LICENSE") {
-        rename { "LICENSE_${archives_base_name}" }
+        rename { "LICENSE_${project.archives_base_name}" }
     }
 }
