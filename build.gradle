@@ -16,6 +16,7 @@ ext {
     maven_group = "fr.mtraddon"
     archives_base_name = "mtrfranceaddon"
     mod_version = "0.0.1"
+    mtr_version = "FABRIC-4.0.0+1.20.4"
 }
 
 group = maven_group
@@ -30,16 +31,22 @@ repositories {
     flatDir {
         dirs 'libs'
     }
+    // Dépendence via modrinth
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
 }
 
 dependencies {
+    // Minecraft + Fabric
     minecraft "com.mojang:minecraft:${minecraft_version}"
     mappings "net.fabricmc:yarn:${minecraft_version}+build.3:v2"
     modImplementation "net.fabricmc:fabric-loader:${loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
 
-    // MTR utilisé uniquement à la compilation, pas inclus dans le .jar
-    modCompileOnly files("libs/mtr-4.0.0.jar")
+    // MTR
+    modLocalRuntime "maven.modrinth:minecraft-transit-railway:${mtr_version}" // Local
 }
 
 jar {

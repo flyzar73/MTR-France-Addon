@@ -3,11 +3,13 @@
   "id": "mtrfranceaddon",
   "version": "0.0.1",
   "name": "MTR France Addon",
-  "description": "Addon pour MTR avec du contenu français.",
+  "description": "Addon MTR Français avec du contenu créé par sa communauté.\nFrench Addon for MTR created with content made by it's community.\n\nThis addon is provided to give French Railway content to players through the Minecraft Transit Railway mod by jonafanho.",
+  "icon" : "assets/mtrfrance/icon.png",
   "authors": [
     "Noob_at_Everything",
-    "Créator Lady Lyanna",
-    "Aide Inclusion MTR"
+    "Flyzar73",
+    "Lady Lyanna",
+    "Aca."
   ],
   "contact": {
     "homepage": "https://github.com/Noob_at_Everything/mtr-france-addon",
@@ -26,5 +28,8 @@
     "fabric-api": "*",
     "minecraft": "1.20.4",
     "mtr": "4.0.0"
-  }
+  },
+  "mixins": [
+    "mtrfranceaddon.mixins.json"
+  ]
 }
