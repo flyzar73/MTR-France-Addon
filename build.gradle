@@ -17,28 +17,19 @@ java {
 }
 
 repositories {
-    flatDir {
-        dirs 'libs'
-    }
-
     maven { url "https://jitpack.io" }
-    maven { url "https://maven.fabricmc.net/"}
+    maven { url "https://maven.fabricmc.net/" }
+    maven { url "https://api.modrinth.com/maven" }
     mavenCentral()
-    // Dépendence via modrinth
-    maven {
-        name = "Modrinth"
-        url = "https://api.modrinth.com/maven"
-    }
 }
 
 dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
-    // mappings loom.officialMojangMappings()
     mappings "net.fabricmc:yarn:${project.minecraft_version}+build.3:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    modImplementation files("libs/MTR-fabric-4.0.0+1.20.4.jar")
+    modCompileOnly "maven.modrinth:minecraft-transit-railway:${project.mtr_version}"
 
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
 }
