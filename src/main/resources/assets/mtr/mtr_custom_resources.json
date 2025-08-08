@@ -83,7 +83,19 @@
 			"base_train_type": "m_train",
 			"texture_id": "mtr:mi79-mi84/mi84_idf_mtrain.png",
 			"render_door_overlay": false
-		}
+		},
+    "tgv_inoui": {
+      "name": "TGV Inoui mono étage",
+      "color": "#eeeeee",
+      "base_train_type": "class_802_gwr",
+      "texture_id": "mtr:tgv_395/tgv_inoui.png"
+    },
+    "tgv_ouigo": {
+      "name": "TGV Ouigo mono étage",
+      "color": "#f1c232",
+      "base_train_type": "class_802_gwr",
+      "texture_id": "mtr:tgv_395/tgv_ouigo.png"
+    }
 	},
   "vehicles": [
     {
