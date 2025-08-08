@@ -1,0 +1,88 @@
+{
+	"custom_trains": {
+		"m_train_mi79_stif_mini": {
+			"name": "mi79_m_train_stif_mini",
+			"color": "#00AA91",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi79_stif_small": {
+			"name": "mi79_m_train_stif_small",
+			"color": "#00AA91",
+			"base_train_type": "m_train_small",
+			"texture_id": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi79_stif": {
+			"name": "mi79_m_train_stif",
+			"color": "#00AA91",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi79_idfm_mini": {
+			"name": "mi79_m_train_idfm_mini",
+			"color": "#65b6e4",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi79_idfm_small": {
+			"name": "mi79_m_train_idfm_small",
+			"color": "#65b6e4",
+			"base_train_type": "m_train_small",
+			"texture_id": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi79_idfm": {
+			"name": "mi79_m_train_idfm",
+			"color": "#65b6e4",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idfm_mini": {
+			"name": "mi84_m_train_idfm_mini",
+			"color": "#65b6e4",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idfm_small": {
+			"name": "mi84_m_train_idfm_small",
+			"color": "#65b6e4",
+			"base_train_type": "m_train_small",
+			"texture_id": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idfm": {
+			"name": "mi84_m_train_idfm",
+			"color": "#870707",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idf_mini": {
+			"name": "mi84_m_train_idf_mini",
+			"color": "#870707",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idf_small": {
+			"name": "mi84_m_train_idf_small",
+			"color": "#870707",
+			"base_train_type": "m_train_small",
+			"texture_id": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idf": {
+			"name": "mi84_m_train_idf",
+			"color": "#870707",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+			"render_door_overlay": false
+		}
+	}
+}
