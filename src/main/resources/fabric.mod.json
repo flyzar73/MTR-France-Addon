@@ -24,6 +24,5 @@
 		"minecraft": "1.20.4",
 		"java": ">=17",
 		"mtr": "4.0.0"
-	},
-	"mixins": ["mtrfranceaddon.mixins.json"]
+	}
 }

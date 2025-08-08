@@ -30,6 +30,7 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     modCompileOnly "maven.modrinth:minecraft-transit-railway:${project.mtr_version}"
+    modRuntimeOnly "maven.modrinth:minecraft-transit-railway:${project.mtr_version}"
 
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
 }
