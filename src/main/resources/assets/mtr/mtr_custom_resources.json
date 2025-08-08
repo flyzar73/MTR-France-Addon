@@ -1,0 +1,4488 @@
+{
+	"custom_trains": {
+		"m_train_mi79_stif_mini": {
+			"name": "mi79_m_train_stif_mini",
+			"color": "#00AA91",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi79_stif_small": {
+			"name": "mi79_m_train_stif_small",
+			"color": "#00AA91",
+			"base_train_type": "m_train_small",
+			"texture_id": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi79_stif": {
+			"name": "mi79_m_train_stif",
+			"color": "#00AA91",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi79_idfm_mini": {
+			"name": "mi79_m_train_idfm_mini",
+			"color": "#65b6e4",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi79_idfm_small": {
+			"name": "mi79_m_train_idfm_small",
+			"color": "#65b6e4",
+			"base_train_type": "m_train_small",
+			"texture_id": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi79_idfm": {
+			"name": "mi79_m_train_idfm",
+			"color": "#65b6e4",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idfm_mini": {
+			"name": "mi84_m_train_idfm_mini",
+			"color": "#65b6e4",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idfm_small": {
+			"name": "mi84_m_train_idfm_small",
+			"color": "#65b6e4",
+			"base_train_type": "m_train_small",
+			"texture_id": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idfm": {
+			"name": "mi84_m_train_idfm",
+			"color": "#870707",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idf_mini": {
+			"name": "mi84_m_train_idf_mini",
+			"color": "#870707",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idf_small": {
+			"name": "mi84_m_train_idf_small",
+			"color": "#870707",
+			"base_train_type": "m_train_small",
+			"texture_id": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+			"render_door_overlay": false
+		},
+		"m_train_mi84_idf": {
+			"name": "mi84_m_train_idf",
+			"color": "#870707",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+			"render_door_overlay": false
+		},
+    "tgv_inoui": {
+      "name": "TGV Inoui mono étage",
+      "color": "#eeeeee",
+      "base_train_type": "class_802_gwr",
+      "texture_id": "mtr:tgv_395/tgv_inoui.png"
+    },
+    "tgv_ouigo": {
+      "name": "TGV Ouigo mono étage",
+      "color": "#f1c232",
+      "base_train_type": "class_802_gwr",
+      "texture_id": "mtr:tgv_395/tgv_ouigo.png"
+    }
+	},
+  "vehicles": [
+    {
+      "id": "tgv_pse_bogie",
+      "name": "TGV PSE Bogie",
+      "color": "000000",
+      "transportMode": "TRAIN",
+      "length": 1.0,
+      "width": 2.0,
+      "bogie1Position": 0.0,
+      "bogie2Position": 0.0,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Bogie to put between every TGV PSE Car, except the power & end cars (which have their own bogies). Don't forget this or your train will look strange!",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_d2da1fec.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_e320c2d3.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car1-forwards-panto5",
+      "name": "TGV PSE Carmillon Cab (F) (P5)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -6.6,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing forwards, with the pantograph up to 5 blocks height.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_11eb4377.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_a11a67ea.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_ac7ab7a1.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_95e0061a.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_de1d5d4d.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_38f275d7.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car1-forwards-panto6",
+      "name": "TGV PSE Carmillon Cab (F) (P6)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -6.6,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing forwards, with the pantograph up to 6 blocks height.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_6ccd4c3f.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_be42afea.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_d1ab9765.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_396c965b.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_ad75e2b0.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_6c119e3f.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car1-backwards-nopanto",
+      "name": "TGV PSE Carmillon Cab (B) (PX)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 6.6,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing backwards, with the pantograph retracted.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_7a734cca.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_dbb5d69c.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_b65735b.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_bcca8cc9.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_875262c5.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_27c96bc3.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car1-forwards-panto5",
+      "name": "TGV PSE Orange Cab (F) (P5)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -6.6,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing forwards, with the pantograph up to 5 blocks height.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_bad0ac01.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_4d2b9dd6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_afaee419.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_3ddbc532.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_1b03f314.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_ad6d644b.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car1-forwards-panto6",
+      "name": "TGV PSE Orange Cab (F) (P6)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -6.6,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing forwards, with the pantograph up to 6 blocks height.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_ace0c4a0.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_2f9fd0ee.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_2e4afd6f.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_afe2f602.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_11c1d96d.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_d0160ba4.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car1-backwards-nopanto",
+      "name": "TGV PSE Orange Cab (B) (PX)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 6.6,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing backwards, with the pantograph retracted.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_cc724fd1.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_fc6bfe14.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_daf67ad3.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_57cb0c2c.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_c2550325.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_f64ce492.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car1-forwards-panto5",
+      "name": "TGV PSE Silver Cab (F) (P5)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -6.6,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing forwards, with the pantograph up to 5 blocks height.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_c6c2aff9.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_a22ee36b.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_40bb86e7.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_2230e46.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_5c3f9b07.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_d920eff.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car1-forwards-panto6",
+      "name": "TGV PSE Silver Cab (F) (P6)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -6.6,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing forwards, with the pantograph up to 6 blocks height.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_397f461a.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_c6bd8175.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_e7c1cde4.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_1a44759e.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_664313cb.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_24d63a85.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car1-backwards-nopanto",
+      "name": "TGV PSE Silver Cab (B) (PX)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 6.6,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing backwards, with the pantograph retracted.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_cf5806c9.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_9c875fb1.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_76700650.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_b706c76b.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_f03e412e.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_265ec367.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car2_class1-forwards",
+      "name": "TGV PSE Carmillon End Car (F) (1st class)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 10.0,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class end passenger car facing forwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_641ef1fc.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_e8c88e40.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_e58f9245.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_570b1288.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car2_class2-forwards",
+      "name": "TGV PSE Carmillon End Car (F) (2nd class)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 10.0,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class end passenger car facing forwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_7c25b4ae.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_2d62d369.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_367d5a87.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_5ca8eb40.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car2_class1-backwards",
+      "name": "TGV PSE Carmillon End Car (B) (1st class)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -10.0,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class end passenger car facing backwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_e977acbe.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_162afaaa.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_46e800d1.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_b209581c.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car2_class2-backwards",
+      "name": "TGV PSE Carmillon End Car (B) (2nd class)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -10.0,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class end passenger car facing backwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_5d59cab3.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_7dbf3300.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_57e76334.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_484eb7da.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car2_class1-forwards",
+      "name": "TGV PSE Orange End Car (F) (1st class)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 10.0,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class end passenger car facing forwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_9cd166e4.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_8b40f823.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_ebc4afe4.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_dd19c578.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car2_class2-forwards",
+      "name": "TGV PSE Orange End Car (F) (2nd class)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 10.0,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class end passenger car facing forwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_806bb3ed.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_c09901e5.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_558b4ea3.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_dbde5a8.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car2_class1-backwards",
+      "name": "TGV PSE Orange End Car (B) (1st class)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -10.0,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class end passenger car facing backwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_5c8b5ae1.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_be538997.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_aec9932e.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_7612cad9.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car2_class2-backwards",
+      "name": "TGV PSE Orange End Car (B) (2nd class)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -10.0,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class end passenger car facing backwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_6f1ccd95.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_7e78a38d.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_6df7c9f9.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_61de038f.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car2_class1-forwards",
+      "name": "TGV PSE Silver End Car (F) (1st class)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 10.0,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class end passenger car facing forwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_ed57c126.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_46f69f56.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_756ad9b2.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_769f2a1.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car2_class2-forwards",
+      "name": "TGV PSE Silver End Car (F) (2nd class)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 10.0,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class end passenger car facing forwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_a5009334.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_4d553f9f.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_2e4d851b.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_4c08bc92.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car2_class1-backwards",
+      "name": "TGV PSE Silver End Car (B) (1st class)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -10.0,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class end passenger car facing backwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_b692296a.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_762fea20.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_93ffb7c8.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_f6e4969e.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car2_class2-backwards",
+      "name": "TGV PSE Silver End Car (B) (2nd class)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -10.0,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class end passenger car facing backwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_3bc8f58b.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_70560cd7.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_e835bc16.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_3e7abcf2.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car3_class1-forwards",
+      "name": "TGV PSE Carmillon Car (F) (1st class)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class standard passenger car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_194e4593.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_e56faae4.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car3_class2-forwards",
+      "name": "TGV PSE Carmillon Car (F) (2nd class)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class standard passenger car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_33b99034.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_638fcd96.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car3_class1-backwards",
+      "name": "TGV PSE Carmillon Car (B) (1st class)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class standard passenger car facing backwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_6554bd13.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_87d5a97f.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car3_class2-backwards",
+      "name": "TGV PSE Carmillon Car (B) (2nd class)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class standard passenger car facing backwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_3b20d5a5.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_ba95fb37.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car3_class1-forwards",
+      "name": "TGV PSE Orange Car (F) (1st class)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class standard passenger car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_15386c9e.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_27d0532f.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car3_class2-forwards",
+      "name": "TGV PSE Orange Car (F) (2nd class)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class standard passenger car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_e5a93a68.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_75010b2d.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car3_class1-backwards",
+      "name": "TGV PSE Orange Car (B) (1st class)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class standard passenger car facing backwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_12209360.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_5ad445.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car3_class2-backwards",
+      "name": "TGV PSE Orange Car (B) (2nd class)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class standard passenger car facing backwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_d9a89fb7.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_ac7f4b5b.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car3_class1-forwards",
+      "name": "TGV PSE Silver Car (F) (1st class)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class standard passenger car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_89e3bef0.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_ea5d0a07.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car3_class2-forwards",
+      "name": "TGV PSE Silver Car (F) (2nd class)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class standard passenger car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_c0fdb597.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_58249185.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car3_class1-backwards",
+      "name": "TGV PSE Silver Car (B) (1st class)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class standard passenger car facing backwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_81a1538c.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_b6ff3d2a.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car3_class2-backwards",
+      "name": "TGV PSE Silver Car (B) (2nd class)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class standard passenger car facing backwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_4338d0d2.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_b49f2909.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car-bar-forwards",
+      "name": "TGV PSE Carmillon Bar Car (F)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Bar car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_f8dc1b09.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_1910bbcb.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_carmillon_car-bar-backwards",
+      "name": "TGV PSE Carmillon Bar Car (B)",
+      "color": "AE1041",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Bar car facing backwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_carmillon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_69901ec5.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_63dfd54e.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car-bar-forwards",
+      "name": "TGV PSE Orange Bar Car (F)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Bar car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_c76deda0.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_c0097506.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_orange_car-bar-backwards",
+      "name": "TGV PSE Orange Bar Car (B)",
+      "color": "E18437",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Bar car facing backwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_orange.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_f1a2ffd0.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_40c0df3d.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car-bar-forwards",
+      "name": "TGV PSE Silver Bar Car (F)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Bar car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_45375575.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_81bb67b5.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_silver_car-bar-backwards",
+      "name": "TGV PSE Silver Bar Car (B)",
+      "color": "AFAFAF",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Bar car facing backwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_argent.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_c9452836.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_d379a575.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    }
+  ],
+	"signs": [
+		{
+			"id": "sncf_logo",
+			"textureResource": "mtr:mtr_france_sign/sncf_logo.png",
+			"isSmall": false,
+			"customText": "Bienvenue|Welcome|Bienvenida",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "sncf_logo_reverse",
+			"textureResource": "mtr:mtr_france_sign/sncf_logo.png",
+			"isSmall": false,
+			"customText": "Bienvenue|Welcome|Bienvenida",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "sncf_logo_small",
+			"textureResource": "mtr:mtr_france_sign/sncf_logo.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "train_logo",
+			"textureResource": "mtr:mtr_france_sign/logo_train.png",
+			"isSmall": false,
+			"customText": "Train|Trains|Tren",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "train_logo_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_train.png",
+			"isSmall": false,
+			"customText": "Train|Trains|Tren",
+			"flipCustomText": true,
+			"flipTexture": true,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "train_logo_small",
+			"textureResource": "mtr:mtr_france_sign/logo_train.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "metro_logo",
+			"textureResource": "mtr:mtr_france_sign/logo_metro.png",
+			"isSmall": false,
+			"customText": "Metro",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "metro_logo_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_metro.png",
+			"isSmall": false,
+			"customText": "Metro",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "metro_logo_small",
+			"textureResource": "mtr:mtr_france_sign/logo_metro.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "rer_logo",
+			"textureResource": "mtr:mtr_france_sign/logo_rer.png",
+			"isSmall": false,
+			"customText": "Rer",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "rer_logo_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_rer.png",
+			"isSmall": false,
+			"customText": "Rer",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "rer_logo_small",
+			"textureResource": "mtr:mtr_france_sign/logo_rer.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_tickets",
+			"textureResource": "mtr:mtr_france_sign/logo_tickets.png",
+			"isSmall": false,
+			"customText": "Billetterie|Tickets Office|Venta de billetes",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_tickets_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_tickets.png",
+			"isSmall": false,
+			"customText": "Billetterie|Tickets Office|Venta de billetes",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_tickets_small",
+			"textureResource": "mtr:mtr_france_sign/logo_tickets.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "autobus_logo",
+			"textureResource": "mtr:mtr_france_sign/logo_autobus.png",
+			"isSmall": false,
+			"customText": "Autobus|Autobús",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "autobus_logo_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_autobus.png",
+			"isSmall": false,
+			"customText": "Autobus|Autobús",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "autobus_logo_small",
+			"textureResource": "mtr:mtr_france_sign/logo_autobus.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "taxi_logo",
+			"textureResource": "mtr:mtr_france_sign/logo_taxi.png",
+			"isSmall": false,
+			"customText": "Taxi",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "taxi_logo_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_taxi.png",
+			"isSmall": false,
+			"customText": "Taxi",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "taxi_logo_small",
+			"textureResource": "mtr:mtr_france_sign/logo_taxi.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_telecable",
+			"textureResource": "mtr:mtr_france_sign/logo_telecable.png",
+			"isSmall": false,
+			"customText": "Téléphérique|Cable car|Teleférico",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_telecable_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_telecable.png",
+			"isSmall": false,
+			"customText": "Téléphérique|Cable car|Teleférico",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_telecable_small",
+			"textureResource": "mtr:mtr_france_sign/logo_telecable.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_location_voiture",
+			"textureResource": "mtr:mtr_france_sign/logo_location_voiture.png",
+			"isSmall": false,
+			"customText": "Location de voiture|Car rental|Alquiler de coches",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_location_voiture_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_location_voiture.png",
+			"isSmall": false,
+			"customText": "Location de voiture|Car rental|Alquiler de coches",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_location_voiture_small",
+			"textureResource": "mtr:mtr_france_sign/logo_location_voiture.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_depose_minute",
+			"textureResource": "mtr:mtr_france_sign/logo_depose_minute.png",
+			"isSmall": false,
+			"customText": "Dépose minute|Drop-off minute|Entrega de minutos",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_depose_minute_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_depose_minute.png",
+			"isSmall": false,
+			"customText": "Dépose minute|Drop-off minute|Entrega de minutos",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_depose_minute_small",
+			"textureResource": "mtr:mtr_france_sign/logo_depose_minute.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_parking",
+			"textureResource": "mtr:mtr_france_sign/logo_parking.png",
+			"isSmall": false,
+			"customText": "Parking|Aparcamiento",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_parking_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_parking.png",
+			"isSmall": false,
+			"customText": "Parking|Aparcamiento",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_parking_small",
+			"textureResource": "mtr:mtr_france_sign/logo_parking.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_parking_moto",
+			"textureResource": "mtr:mtr_france_sign/logo_parking_moto.png",
+			"isSmall": false,
+			"customText": "Parking Moto|Estacionamiento de motos",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_parking_moto_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_parking_moto.png",
+			"isSmall": false,
+			"customText": "Parking Moto|Estacionamiento de motos",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_parking_moto_small",
+			"textureResource": "mtr:mtr_france_sign/logo_parking_moto.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_parking_velo",
+			"textureResource": "mtr:mtr_france_sign/logo_parking_velo.png",
+			"isSmall": false,
+			"customText": "Parking Vélo|Estacionamiento de Vélos",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_parking_velo_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_parking_velo.png",
+			"isSmall": false,
+			"customText": "Parking Vélo|Estacionamiento de Vélos",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_parking_velo_small",
+			"textureResource": "mtr:mtr_france_sign/logo_parking_velo.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_bus",
+			"textureResource": "mtr:mtr_france_sign/logo_bus.png",
+			"isSmall": false,
+			"customText": "Bus",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_bus_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_bus.png",
+			"isSmall": false,
+			"customText": "Bus",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_bus_small",
+			"textureResource": "mtr:mtr_france_sign/logo_bus.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_airport",
+			"textureResource": "mtr:mtr_france_sign/logo_airport.png",
+			"isSmall": false,
+			"customText": "Aéroport|Airport|Aeropuerto",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_airport_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_airport.png",
+			"isSmall": false,
+			"customText": "Aéroport|Airport|Aeropuerto",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_airport_small",
+			"textureResource": "mtr:mtr_france_sign/logo_airport.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_assenseur_small",
+			"textureResource": "mtr:mtr_france_sign/assenseur.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "escalier_small",
+			"textureResource": "mtr:mtr_france_sign/escalier.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "escalier_small_reverse",
+			"textureResource": "mtr:mtr_france_sign/escalier.png",
+			"isSmall": false,
+			"flipTexture": true,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "escalator_small",
+			"textureResource": "mtr:mtr_france_sign/escalator.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "escalator_small_reverse",
+			"textureResource": "mtr:mtr_france_sign/escalator.png",
+			"isSmall": false,
+			"flipTexture": true,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "escalator_bas_small",
+			"textureResource": "mtr:mtr_france_sign/escalator_bas.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "escalator_bas_small_reverse",
+			"textureResource": "mtr:mtr_france_sign/escalator_bas.png",
+			"isSmall": false,
+			"flipTexture": true,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "handicap_small",
+			"textureResource": "mtr:mtr_france_sign/handicap.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "handicap_reverse",
+			"textureResource": "mtr:mtr_france_sign/handicap.png",
+			"isSmall": false,
+			"flipTexture": true,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "grande_pente_small",
+			"textureResource": "mtr:mtr_france_sign/grande_pente.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "grande_pente_small_reverse",
+			"textureResource": "mtr:mtr_france_sign/grande_pente.png",
+			"isSmall": false,
+			"flipTexture": true,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "assitance_voyageur_handicape",
+			"textureResource": "mtr:mtr_france_sign/assitance_voyageur_handicape.png",
+			"isSmall": false,
+			"customText": "Assistance voyageur handicapé|Disabled traveler assistance|Asistencia para viajeros discapacitados",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "assitance_voyageur_handicape_reverse",
+			"textureResource": "mtr:mtr_france_sign/assitance_voyageur_handicape.png",
+			"isSmall": false,
+			"customText": "Assistance voyageur handicapé|Disabled traveler assistance|Asistencia para viajeros discapacitados",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "assitance_voyageur_handicape_small",
+			"textureResource": "mtr:mtr_france_sign/assitance_voyageur_handicape.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "conversion",
+			"textureResource": "mtr:mtr_france_sign/conversion.png",
+			"isSmall": false,
+			"customText": "Conversion d'argent|Money conversion|Conversión de dinero",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "conversion_reverse",
+			"textureResource": "mtr:mtr_france_sign/conversion.png",
+			"isSmall": false,
+			"customText": "Conversion d'argent|Money conversion|Conversión de dinero",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "conversion_small",
+			"textureResource": "mtr:mtr_france_sign/conversion.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "information",
+			"textureResource": "mtr:mtr_france_sign/information.png",
+			"isSmall": false,
+			"customText": "Information|Información",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "information_reverse",
+			"textureResource": "mtr:mtr_france_sign/information.png",
+			"isSmall": false,
+			"customText": "Information|Información",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "information_small",
+			"textureResource": "mtr:mtr_france_sign/information.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "information_trafic",
+			"textureResource": "mtr:mtr_france_sign/information_trafic.png",
+			"isSmall": false,
+			"customText": "Information trafic|Información de tráfico",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "information_trafic_reverse",
+			"textureResource": "mtr:mtr_france_sign/information_trafic.png",
+			"isSmall": false,
+			"customText": "Information trafic|Información de tráfico",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "information_trafic_small",
+			"textureResource": "mtr:mtr_france_sign/information_trafic.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "devibrliateur",
+			"textureResource": "mtr:mtr_france_sign/devibrliateur.png",
+			"isSmall": false,
+			"customText": "Défibrillateur|Defibrillator|Desfibrilador",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "devibrliateur_reverse",
+			"textureResource": "mtr:mtr_france_sign/devibrliateur.png",
+			"isSmall": false,
+			"customText": "Défibrillateur|Defibrillator|Desfibrilador",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "devibrliateur_small",
+			"textureResource": "mtr:mtr_france_sign/devibrliateur.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_wc",
+			"textureResource": "mtr:mtr_france_sign/logo_wc.png",
+			"isSmall": false,
+			"customText": "Toilettes|Bathroom|Baño",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_wc_reverse",
+			"textureResource": "mtr:mtr_france_sign/logo_wc.png",
+			"isSmall": false,
+			"customText": "Toilettes|Bathroom|Baño",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_wc_small",
+			"textureResource": "mtr:mtr_france_sign/logo_wc.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_wc_handicape",
+			"textureResource": "mtr:mtr_france_sign/logo_wc_handicape.png",
+			"isSmall": false,
+			"customText": "Toilettes Handicapé|Disabled Toilets|Baños Para Discapacitados",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_wc_reverse_handicape",
+			"textureResource": "mtr:mtr_france_sign/logo_wc_handicape.png",
+			"isSmall": false,
+			"customText": "Toilettes Handicapé|Disabled Toilets|Baños Para Discapacitados",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_wc_small_handicape",
+			"textureResource": "mtr:mtr_france_sign/logo_wc_handicape.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_objet_trouve",
+			"textureResource": "mtr:mtr_france_sign/objet_trouve.png",
+			"isSmall": false,
+			"customText": "Objet Trouvé|Lost and Found|Bperdido y Encontrado",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_objet_trouve_reverse",
+			"textureResource": "mtr:mtr_france_sign/objet_trouve.png",
+			"isSmall": false,
+			"customText": "Objet Trouvé|Lost and Found|Bperdido y Encontrado",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "logo_objet_trouve_small",
+			"textureResource": "mtr:mtr_france_sign/objet_trouve.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "point_de_rasenblement",
+			"textureResource": "mtr:mtr_france_sign/point_de_rasenblement.png",
+			"isSmall": false,
+			"customText": "Point de Rassemblement|Assembly Point|Punto de reunión",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "point_de_rasenblement_reverse",
+			"textureResource": "mtr:mtr_france_sign/point_de_rasenblement.png",
+			"isSmall": false,
+			"customText": "Point de Rassemblement|Assembly Point|Punto de reunión",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "point_de_rasenblement_small",
+			"textureResource": "mtr:mtr_france_sign/point_de_rasenblement.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "point_de_rencontre",
+			"textureResource": "mtr:mtr_france_sign/point_de_rencontre.png",
+			"isSmall": false,
+			"customText": "Point de Rencontre|Meeting point|Punto de encuentro",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "point_de_rencontre_reverse",
+			"textureResource": "mtr:mtr_france_sign/point_de_rencontre.png",
+			"isSmall": false,
+			"customText": "Point de Rencontre|Meeting point|Punto de encuentro",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "point_de_rencontre_small",
+			"textureResource": "mtr:mtr_france_sign/point_de_rencontre.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "salle_attente",
+			"textureResource": "mtr:mtr_france_sign/salle_attente.png",
+			"isSmall": false,
+			"customText": "Salle d'Attente|Waiting Room|Sala de espera",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "salle_attente_reverse",
+			"textureResource": "mtr:mtr_france_sign/salle_attente.png",
+			"isSmall": false,
+			"customText": "Salle d'Attente|Waiting Room|Sala de espera",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "salle_attente_small",
+			"textureResource": "mtr:mtr_france_sign/salle_attente.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "consigne",
+			"textureResource": "mtr:mtr_france_sign/consigne.png",
+			"isSmall": false,
+			"customText": "Consigne|Baggage Room|Almacenamiento",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "consigne_reverse",
+			"textureResource": "mtr:mtr_france_sign/consigne.png",
+			"isSmall": false,
+			"customText": "Consigne|Baggage Room|Almacenamiento",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "consigne_small",
+			"textureResource": "mtr:mtr_france_sign/consigne.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "wifi_gratuit",
+			"textureResource": "mtr:mtr_france_sign/wifi_gratuit.png",
+			"isSmall": false,
+			"customText": "Wifi Gratuit|Free Wifi|Wifi Gratis",
+			"flipCustomText": false,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "wifi_gratuit_reverse",
+			"textureResource": "mtr:mtr_france_sign/wifi_gratuit.png",
+			"isSmall": false,
+			"customText": "Wifi Gratuit|Free Wifi|Wifi Gratis",
+			"flipCustomText": true,
+			"flipTexture": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "wifi_gratuit_small",
+			"textureResource": "mtr:mtr_france_sign/wifi_gratuit.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_a",
+			"textureResource": "mtr:mtr_france_sign/voie_a.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_b",
+			"textureResource": "mtr:mtr_france_sign/voie_b.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_c",
+			"textureResource": "mtr:mtr_france_sign/voie_c.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_d",
+			"textureResource": "mtr:mtr_france_sign/voie_d.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_e",
+			"textureResource": "mtr:mtr_france_sign/voie_e.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_f",
+			"textureResource": "mtr:mtr_france_sign/voie_f.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_g",
+			"textureResource": "mtr:mtr_france_sign/voie_g.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_h",
+			"textureResource": "mtr:mtr_france_sign/voie_h.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_i",
+			"textureResource": "mtr:mtr_france_sign/voie_i.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_j",
+			"textureResource": "mtr:mtr_france_sign/voie_j.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_k",
+			"textureResource": "mtr:mtr_france_sign/voie_k.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_l",
+			"textureResource": "mtr:mtr_france_sign/voie_l.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_m",
+			"textureResource": "mtr:mtr_france_sign/voie_m.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_n",
+			"textureResource": "mtr:mtr_france_sign/voie_n.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_o",
+			"textureResource": "mtr:mtr_france_sign/voie_o.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_p",
+			"textureResource": "mtr:mtr_france_sign/voie_p.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_q",
+			"textureResource": "mtr:mtr_france_sign/voie_q.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_r",
+			"textureResource": "mtr:mtr_france_sign/voie_r.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_s",
+			"textureResource": "mtr:mtr_france_sign/voie_s.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_t",
+			"textureResource": "mtr:mtr_france_sign/voie_t.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_u",
+			"textureResource": "mtr:mtr_france_sign/voie_u.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_v",
+			"textureResource": "mtr:mtr_france_sign/voie_v.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_w",
+			"textureResource": "mtr:mtr_france_sign/voie_w.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_x",
+			"textureResource": "mtr:mtr_france_sign/voie_x.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_y",
+			"textureResource": "mtr:mtr_france_sign/voie_y.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_z",
+			"textureResource": "mtr:mtr_france_sign/voie_z.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_0",
+			"textureResource": "mtr:mtr_france_sign/voie_0.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_1",
+			"textureResource": "mtr:mtr_france_sign/voie_1.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_2",
+			"textureResource": "mtr:mtr_france_sign/voie_2.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_3",
+			"textureResource": "mtr:mtr_france_sign/voie_3.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_4",
+			"textureResource": "mtr:mtr_france_sign/voie_4.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_5",
+			"textureResource": "mtr:mtr_france_sign/voie_5.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_6",
+			"textureResource": "mtr:mtr_france_sign/voie_6.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_7",
+			"textureResource": "mtr:mtr_france_sign/voie_7.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_8",
+			"textureResource": "mtr:mtr_france_sign/voie_8.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_9",
+			"textureResource": "mtr:mtr_france_sign/voie_9.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_10",
+			"textureResource": "mtr:mtr_france_sign/voie_10.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_11",
+			"textureResource": "mtr:mtr_france_sign/voie_11.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_12",
+			"textureResource": "mtr:mtr_france_sign/voie_12.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_13",
+			"textureResource": "mtr:mtr_france_sign/voie_13.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_14",
+			"textureResource": "mtr:mtr_france_sign/voie_14.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_15",
+			"textureResource": "mtr:mtr_france_sign/voie_15.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_16",
+			"textureResource": "mtr:mtr_france_sign/voie_16.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_17",
+			"textureResource": "mtr:mtr_france_sign/voie_17.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_18",
+			"textureResource": "mtr:mtr_france_sign/voie_18.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_19",
+			"textureResource": "mtr:mtr_france_sign/voie_19.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_20",
+			"textureResource": "mtr:mtr_france_sign/voie_20.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_21",
+			"textureResource": "mtr:mtr_france_sign/voie_21.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_22",
+			"textureResource": "mtr:mtr_france_sign/voie_22.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_23",
+			"textureResource": "mtr:mtr_france_sign/voie_23.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_24",
+			"textureResource": "mtr:mtr_france_sign/voie_24.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_25",
+			"textureResource": "mtr:mtr_france_sign/voie_25.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_26",
+			"textureResource": "mtr:mtr_france_sign/voie_26.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_52",
+			"textureResource": "mtr:mtr_france_sign/voie_52.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_53",
+			"textureResource": "mtr:mtr_france_sign/voie_53.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_54",
+			"textureResource": "mtr:mtr_france_sign/voie_54.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "voie_55",
+			"textureResource": "mtr:mtr_france_sign/voie_55.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "a_to",
+			"textureResource": "mtr:mtr_france_sign/a_to.png",
+			"isSmall": false,
+			"backgroundColor": "181d30"
+		},
+		{
+			"id": "c1_small",
+			"textureResource": "mtr:mtr_france_sign/c1.png",
+			"small": true
+		},
+		{
+			"id": "c1",
+			"textureResource": "mtr:mtr_france_sign/c1.png",
+			"customText": "Créteil|Villeneuve-Saint-Georges",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "c1_reverse",
+			"textureResource": "mtr:mtr_france_sign/c1.png",
+			"customText": "Créteil|Villeneuve-Saint-Georges",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m1_small",
+			"textureResource": "mtr:mtr_france_sign/m1.png",
+			"small": true
+		},
+		{
+			"id": "m1",
+			"textureResource": "mtr:mtr_france_sign/m1.png",
+			"customText": "La Défense|Château de Vincennes",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m1_reverse",
+			"textureResource": "mtr:mtr_france_sign/m1.png",
+			"customText": "La Défense|Château de Vincennes",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m2_small",
+			"textureResource": "mtr:mtr_france_sign/m2.png",
+			"small": true
+		},
+		{
+			"id": "m2",
+			"textureResource": "mtr:mtr_france_sign/m2.png",
+			"customText": "Porte Dauphine|Nation",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m2_reverse",
+			"textureResource": "mtr:mtr_france_sign/m2.png",
+			"customText": "Porte Dauphine|Nation",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m3_small",
+			"textureResource": "mtr:mtr_france_sign/m3.png",
+			"small": true
+		},
+		{
+			"id": "m3",
+			"textureResource": "mtr:mtr_france_sign/m3.png",
+			"customText": "Pont de Levallois – Becon|Gallieni",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m3_reverse",
+			"textureResource": "mtr:mtr_france_sign/m3.png",
+			"customText": "Pont de Levallois – Becon|Gallieni",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m3b_small",
+			"textureResource": "mtr:mtr_france_sign/m3b.png",
+			"small": true
+		},
+		{
+			"id": "m3b",
+			"textureResource": "mtr:mtr_france_sign/m3b.png",
+			"customText": "Gambetta|Porte des Lilas",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m3b_reverse",
+			"textureResource": "mtr:mtr_france_sign/m3b.png",
+			"customText": "Gambetta|Porte des Lilas",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m4_small",
+			"textureResource": "mtr:mtr_france_sign/m4.png",
+			"small": true
+		},
+		{
+			"id": "m4",
+			"textureResource": "mtr:mtr_france_sign/m4.png",
+			"customText": "Bagneux-Lucie Aubrac|Porte de Clignancourt",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m4_reverse",
+			"textureResource": "mtr:mtr_france_sign/m4.png",
+			"customText": "Bagneux-Lucie Aubrac|Porte de Clignancourt",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m5_small",
+			"textureResource": "mtr:mtr_france_sign/m5.png",
+			"small": true
+		},
+		{
+			"id": "m5",
+			"textureResource": "mtr:mtr_france_sign/m5.png",
+			"customText": "Place d'Italie|Bobigny – Pablo Picasso",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m5_reverse",
+			"textureResource": "mtr:mtr_france_sign/m5.png",
+			"customText": "Place d'Italie|Bobigny – Pablo Picasso",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m6_small",
+			"textureResource": "mtr:mtr_france_sign/m6.png",
+			"small": true
+		},
+		{
+			"id": "m6",
+			"textureResource": "mtr:mtr_france_sign/m6.png",
+			"customText": "Charles de Gaulle – Etoile|Nation",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m6_reverse",
+			"textureResource": "mtr:mtr_france_sign/m6.png",
+			"customText": "Charles de Gaulle – Etoile|Nation",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m7_small",
+			"textureResource": "mtr:mtr_france_sign/m7.png",
+			"small": true
+		},
+		{
+			"id": "m7",
+			"textureResource": "mtr:mtr_france_sign/m7.png",
+			"customText": "Villejuif Louis Aragon • Mairie d'Ivry|La Courneuve – 8 Mai 1945",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m7_reverse",
+			"textureResource": "mtr:mtr_france_sign/m7.png",
+			"customText": "Villejuif Louis Aragon • Mairie d'Ivry|La Courneuve – 8 Mai 1945",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m7b_small",
+			"textureResource": "mtr:mtr_france_sign/m7b.png",
+			"small": true
+		},
+		{
+			"id": "m7b",
+			"textureResource": "mtr:mtr_france_sign/m7b.png",
+			"customText": "Louis Blanc|Pré-Saint-Gervais",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m7b_reverse",
+			"textureResource": "mtr:mtr_france_sign/m7b.png",
+			"customText": "Louis Blanc|Pré-Saint-Gervais",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m8_small",
+			"textureResource": "mtr:mtr_france_sign/m8.png",
+			"small": true
+		},
+		{
+			"id": "m8",
+			"textureResource": "mtr:mtr_france_sign/m8.png",
+			"customText": "Balard|Créteil-Pointe du Lac",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m8_reverse",
+			"textureResource": "mtr:mtr_france_sign/m8.png",
+			"customText": "Balard|Créteil-Pointe du Lac",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m9_small",
+			"textureResource": "mtr:mtr_france_sign/m9.png",
+			"small": true
+		},
+		{
+			"id": "m9",
+			"textureResource": "mtr:mtr_france_sign/m9.png",
+			"customText": "Mairie de Montreuil|Pont de Sèvres",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m9_reverse",
+			"textureResource": "mtr:mtr_france_sign/m9.png",
+			"customText": "Mairie de Montreuil|Pont de Sèvres",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m10_small",
+			"textureResource": "mtr:mtr_france_sign/m10.png",
+			"small": true
+		},
+		{
+			"id": "m10",
+			"textureResource": "mtr:mtr_france_sign/m10.png",
+			"customText": "Gare d'Austerlitz|Boulogne – Pont de Saint Cloud",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m10_reverse",
+			"textureResource": "mtr:mtr_france_sign/m10.png",
+			"customText": "Gare d'Austerlitz|Boulogne – Pont de Saint Cloud",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m11_small",
+			"textureResource": "mtr:mtr_france_sign/m11.png",
+			"small": true
+		},
+		{
+			"id": "m11",
+			"textureResource": "mtr:mtr_france_sign/m11.png",
+			"customText": "Châtelet|Rosny-sous-Bois",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m11_reverse",
+			"textureResource": "mtr:mtr_france_sign/m11.png",
+			"customText": "Châtelet|Rosny-sous-Bois",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m12_small",
+			"textureResource": "mtr:mtr_france_sign/m12.png",
+			"small": true
+		},
+		{
+			"id": "m12",
+			"textureResource": "mtr:mtr_france_sign/m12.png",
+			"customText": "Mairie d'Aubervilliers|Mairie d'Issy",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m12_reverse",
+			"textureResource": "mtr:mtr_france_sign/m12.png",
+			"customText": "Mairie d'Aubervilliers|Mairie d'Issy",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m13_small",
+			"textureResource": "mtr:mtr_france_sign/m13.png",
+			"small": true
+		},
+		{
+			"id": "m13",
+			"textureResource": "mtr:mtr_france_sign/m13.png",
+			"customText": "St-Denis-Université • Les Courtilles|Chatillon – Montrouge",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m13_reverse",
+			"textureResource": "mtr:mtr_france_sign/m13.png",
+			"customText": "St-Denis-Université • Les Courtilles|Chatillon – Montrouge",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m14_small",
+			"textureResource": "mtr:mtr_france_sign/m14.png",
+			"small": true
+		},
+		{
+			"id": "m14",
+			"textureResource": "mtr:mtr_france_sign/m14.png",
+			"customText": "Aéroport d'Orly|Saint-Denis - Pleyel",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m14_reverse",
+			"textureResource": "mtr:mtr_france_sign/m14.png",
+			"customText": "Aéroport d'Orly|Saint-Denis - Pleyel",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m15_small",
+			"textureResource": "mtr:mtr_france_sign/m15.png",
+			"small": true
+		},
+		{
+			"id": "m15",
+			"textureResource": "mtr:mtr_france_sign/m15.png",
+			"customText": "Saint-Denis Pleyel|Noisy – Champs",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m15_reverse",
+			"textureResource": "mtr:mtr_france_sign/m15.png",
+			"customText": "Saint-Denis Pleyel|Noisy – Champs",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m16_small",
+			"textureResource": "mtr:mtr_france_sign/m16.png",
+			"small": true
+		},
+		{
+			"id": "m16",
+			"textureResource": "mtr:mtr_france_sign/m16.png",
+			"customText": "Noisy-Champs|Saint-Denis Pleyel",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m16_reverse",
+			"textureResource": "mtr:mtr_france_sign/m16.png",
+			"customText": "La Défense|Château de Vincennes",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m17_small",
+			"textureResource": "mtr:mtr_france_sign/m17.png",
+			"small": true
+		},
+		{
+			"id": "m17",
+			"textureResource": "mtr:mtr_france_sign/m17.png",
+			"customText": "Saint-Denis Pleyel|Le Mesnil-Amelot",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m17_reverse",
+			"textureResource": "mtr:mtr_france_sign/m17.png",
+			"customText": "Saint-Denis Pleyel|Le Mesnil-Amelot",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "m18_small",
+			"textureResource": "mtr:mtr_france_sign/m18.png",
+			"small": true
+		},
+		{
+			"id": "m18",
+			"textureResource": "mtr:mtr_france_sign/m18.png",
+			"customText": "Aéroport d'Orly|Versailles Chantiers",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "m18_reverse",
+			"textureResource": "mtr:mtr_france_sign/m18.png",
+			"customText": "Aéroport d'Orly|Versailles Chantiers",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "metro_small",
+			"textureResource": "mtr:mtr_france_sign/metro.png",
+			"small": true
+		},
+		{
+			"id": "rer_small",
+			"textureResource": "mtr:mtr_france_sign/rer.png",
+			"small": true
+		},
+		{
+			"id": "nord_small",
+			"textureResource": "mtr:mtr_france_sign/nord.png",
+			"isSmall": false
+		},
+		{
+			"id": "ouest_small",
+			"textureResource": "mtr:mtr_france_sign/ouest.png",
+			"isSmall": false
+		},
+		{
+			"id": "sud_small",
+			"textureResource": "mtr:mtr_france_sign/sud.png",
+			"isSmall": false
+		},
+		{
+			"id": "tram_small",
+			"textureResource": "mtr:mtr_france_sign/tram.png",
+			"small": true
+		},
+		{
+			"id": "cable_small",
+			"textureResource": "mtr:mtr_france_sign/cable.png",
+			"small": true
+		},
+		{
+			"id": "est_small",
+			"textureResource": "mtr:mtr_france_sign/est.png",
+			"isSmall": false
+		},
+		{
+			"id": "transilien_small",
+			"textureResource": "mtr:mtr_france_sign/transilien.png",
+			"small": true
+		},
+		{
+			"id": "rer_a_small",
+			"textureResource": "mtr:mtr_france_sign/rer_a.png",
+			"small": true
+		},
+		{
+			"id": "rer_a",
+			"textureResource": "mtr:mtr_france_sign/rer_a.png",
+			"customText": "St-Germain-en-Laye • Poissy • Cergy|Boissy-St-Léger • Marne la Vallée",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "rer_a_reverse",
+			"textureResource": "mtr:mtr_france_sign/rer_a.png",
+			"customText": "St-Germain-en-Laye • Poissy • Cergy|Boissy-St-Léger • Marne la Vallée",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "rer_b_small",
+			"textureResource": "mtr:mtr_france_sign/rer_b.png",
+			"small": true
+		},
+		{
+			"id": "rer_b",
+			"textureResource": "mtr:mtr_france_sign/rer_b.png",
+			"customText": "Aéroport Ch. de Gaulle • Mitry–Claye|Boissy-St-Léger • Marne la Vallée",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "rer_b_reverse",
+			"textureResource": "mtr:mtr_france_sign/rer_b.png",
+			"customText": "Aéroport Ch. de Gaulle • Mitry–Claye|Boissy-St-Léger • Marne la Vallée",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "rer_c_small",
+			"textureResource": "mtr:mtr_france_sign/rer_c.png",
+			"small": true
+		},
+		{
+			"id": "rer_c",
+			"textureResource": "mtr:mtr_france_sign/rer_c.png",
+			"customText": "Pontoise • Versailles Chateau-Rive Gauche • Saint Quentin en Yvelines|Saint Martin d'Etampes • Dourdan la Forêt • Massy Palaiseau • Versailles Chantiers",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "rer_c_reverse",
+			"textureResource": "mtr:mtr_france_sign/rer_c.png",
+			"customText": "Pontoise • Versailles Chateau-Rive Gauche • Saint Quentin en Yvelines|Saint Martin d'Etampes • Dourdan la Forêt • Massy Palaiseau • Versailles Chantiers",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "rer_d_small",
+			"textureResource": "mtr:mtr_france_sign/rer_d.png",
+			"small": true
+		},
+		{
+			"id": "rer_d",
+			"textureResource": "mtr:mtr_france_sign/rer_d.png",
+			"customText": "Creil|Melun • Malesherbes • Corbeil-Essonnes",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "rer_d_reverse",
+			"textureResource": "mtr:mtr_france_sign/rer_d.png",
+			"customText": "Creil|Melun • Malesherbes • Corbeil-Essonnes",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "rer_e_small",
+			"textureResource": "mtr:mtr_france_sign/rer_e.png",
+			"small": true
+		},
+		{
+			"id": "rer_e",
+			"textureResource": "mtr:mtr_france_sign/rer_e.png",
+			"customText": "Creil|Melun • Malesherbes • Corbeil-Essonnes",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "rer_e_reverse",
+			"textureResource": "mtr:mtr_france_sign/rer_e.png",
+			"customText": "Nanterre La Folie|Melun • Malesherbes • Corbeil-Essonnes",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t1_small",
+			"textureResource": "mtr:mtr_france_sign/t1.png",
+			"small": true
+		},
+		{
+			"id": "t1",
+			"textureResource": "mtr:mtr_france_sign/t1.png",
+			"customText": "Asnières-sur-Seine – Quatre Routes|Noisy-Le-Sec RER",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t1_reverse",
+			"textureResource": "mtr:mtr_france_sign/t1.png",
+			"customText": "Asnières-sur-Seine – Quatre Routes|Noisy-Le-Sec RER",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t2_small",
+			"textureResource": "mtr:mtr_france_sign/t2.png",
+			"small": true
+		},
+		{
+			"id": "t2",
+			"textureResource": "mtr:mtr_france_sign/t2.png",
+			"customText": "Porte de Versailles|Pont de Bezons",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t2_reverse",
+			"textureResource": "mtr:mtr_france_sign/t2.png",
+			"customText": "Porte de Versailles|Pont de Bezons",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t3a_small",
+			"textureResource": "mtr:mtr_france_sign/t3a.png",
+			"small": true
+		},
+		{
+			"id": "t3a",
+			"textureResource": "mtr:mtr_france_sign/t3a.png",
+			"customText": "Porte de Vincennes|Pont Du Garigliano",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t3a_reverse",
+			"textureResource": "mtr:mtr_france_sign/t3a.png",
+			"customText": "Porte de Vincennes|Pont Du Garigliano",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t3b_small",
+			"textureResource": "mtr:mtr_france_sign/t3b.png",
+			"small": true
+		},
+		{
+			"id": "t3b",
+			"textureResource": "mtr:mtr_france_sign/t3b.png",
+			"customText": "Porte Dauphine|Porte de Vincennes",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t3b_reverse",
+			"textureResource": "mtr:mtr_france_sign/t3b.png",
+			"customText": "Porte Dauphine|Porte de Vincennes",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t4_small",
+			"textureResource": "mtr:mtr_france_sign/t4.png",
+			"small": true
+		},
+		{
+			"id": "t4",
+			"textureResource": "mtr:mtr_france_sign/t4.png",
+			"customText": "Gare de Bondy|Gare d'Aulnay Sous Bois • Hôpital de Montfermeil",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t4_reverse",
+			"textureResource": "mtr:mtr_france_sign/t4.png",
+			"customText": "Gare de Bondy|Gare d'Aulnay Sous Bois • Hôpital de Montfermeil",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t5_small",
+			"textureResource": "mtr:mtr_france_sign/t5.png",
+			"small": true
+		},
+		{
+			"id": "t5",
+			"textureResource": "mtr:mtr_france_sign/t5.png",
+			"customText": "Marche de Saint-Denis|Garges – Sarcelles RER",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t5_reverse",
+			"textureResource": "mtr:mtr_france_sign/t5.png",
+			"customText": "Marche de Saint-Denis|Garges – Sarcelles RER",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t6_small",
+			"textureResource": "mtr:mtr_france_sign/t6.png",
+			"small": true
+		},
+		{
+			"id": "t6",
+			"textureResource": "mtr:mtr_france_sign/t6.png",
+			"customText": "Viroflay - Rive Droite|Chatillon – Montrouge",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t6_reverse",
+			"textureResource": "mtr:mtr_france_sign/t6.png",
+			"customText": "Viroflay - Rive Droite|Chatillon – Montrouge",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t7_small",
+			"textureResource": "mtr:mtr_france_sign/t7.png",
+			"small": true
+		},
+		{
+			"id": "t7",
+			"textureResource": "mtr:mtr_france_sign/t7.png",
+			"customText": "Villejuif – Louis Aragon|Porte de l'Essonnes",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t7_reverse",
+			"textureResource": "mtr:mtr_france_sign/t7.png",
+			"customText": "Villejuif – Louis Aragon|Porte de l'Essonnes",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t8_small",
+			"textureResource": "mtr:mtr_france_sign/t8.png",
+			"small": true
+		},
+		{
+			"id": "t8",
+			"textureResource": "mtr:mtr_france_sign/t8.png",
+			"customText": "Epinay – Orgemont • Villetaneuse-Universite|Saint-Denis - Porte de Paris",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t8_reverse",
+			"textureResource": "mtr:mtr_france_sign/t8.png",
+			"customText": "Epinay – Orgemont • Villetaneuse-Universite|Saint-Denis - Porte de Paris",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t9_small",
+			"textureResource": "mtr:mtr_france_sign/t9.png",
+			"small": true
+		},
+		{
+			"id": "t9",
+			"textureResource": "mtr:mtr_france_sign/t9.png",
+			"customText": "Porte de Choisy|Orly - Gaston Viens",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t9_reverse",
+			"textureResource": "mtr:mtr_france_sign/t9.png",
+			"customText": "Porte de Choisy|Orly - Gaston Viens",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t10_small",
+			"textureResource": "mtr:mtr_france_sign/t10.png",
+			"small": true
+		},
+		{
+			"id": "t10",
+			"textureResource": "mtr:mtr_france_sign/t10.png",
+			"customText": "Jardin Parisien|La croix de Berny",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t10_reverse",
+			"textureResource": "mtr:mtr_france_sign/t10.png",
+			"customText": "Jardin Parisien|La croix de Berny",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t11_small",
+			"textureResource": "mtr:mtr_france_sign/t11.png",
+			"small": true
+		},
+		{
+			"id": "t11",
+			"textureResource": "mtr:mtr_france_sign/t11.png",
+			"customText": "Le Bourget|Epinay Sur Seine",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t11_reverse",
+			"textureResource": "mtr:mtr_france_sign/t11.png",
+			"customText": "Le Bourget|Epinay Sur Seine",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t12_small",
+			"textureResource": "mtr:mtr_france_sign/t12.png",
+			"small": true
+		},
+		{
+			"id": "t12",
+			"textureResource": "mtr:mtr_france_sign/t12.png",
+			"customText": "Massy-Palaiseau|Évry - Courcouronnes",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t12_reverse",
+			"textureResource": "mtr:mtr_france_sign/t12.png",
+			"customText": "Massy-Palaiseau|Évry - Courcouronnes",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t13_small",
+			"textureResource": "mtr:mtr_france_sign/t13.png",
+			"small": true
+		},
+		{
+			"id": "t13",
+			"textureResource": "mtr:mtr_france_sign/t13.png",
+			"customText": "Saint-Cyr|Saint-Germain-en-Laye",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t13_reverse",
+			"textureResource": "mtr:mtr_france_sign/t13.png",
+			"customText": "Saint-Cyr|Saint-Germain-en-Laye",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t14_small",
+			"textureResource": "mtr:mtr_france_sign/t14.png",
+			"small": true
+		},
+		{
+			"id": "t14",
+			"textureResource": "mtr:mtr_france_sign/t14.png",
+			"customText": "Esbly|Crécy-la-Chapelle",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t14_reverse",
+			"textureResource": "mtr:mtr_france_sign/t14.png",
+			"customText": "Esbly|Crécy-la-Chapelle",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_h_small",
+			"textureResource": "mtr:mtr_france_sign/trans_h.png",
+			"small": true
+		},
+		{
+			"id": "trans_h",
+			"textureResource": "mtr:mtr_france_sign/trans_h.png",
+			"customText": "Paris – Gare du Nord|Creil • Luzarches • Persan Beaumont • Pontoise",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_h_reverse",
+			"textureResource": "mtr:mtr_france_sign/trans_h.png",
+			"customText": "Paris – Gare du Nord|Creil • Luzarches • Persan Beaumont • Pontoise",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_j_small",
+			"textureResource": "mtr:mtr_france_sign/trans_j.png",
+			"small": true
+		},
+		{
+			"id": "trans_j",
+			"textureResource": "mtr:mtr_france_sign/trans_j.png",
+			"customText": "Paris – Saint-Lazare|Vernon • Mantes la Jolie • Gisors • Ermont – Eaubonne",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_j_reverse",
+			"textureResource": "mtr:mtr_france_sign/trans_j.png",
+			"customText": "Paris – Saint-Lazare|Vernon • Mantes la Jolie • Gisors • Ermont – Eaubonne",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_k_small",
+			"textureResource": "mtr:mtr_france_sign/trans_k.png",
+			"small": true
+		},
+		{
+			"id": "trans_k",
+			"textureResource": "mtr:mtr_france_sign/trans_k.png",
+			"customText": "Paris – Gare du Nord|Crépy en Valois",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_k_reverse",
+			"textureResource": "mtr:mtr_france_sign/trans_k.png",
+			"customText": "Paris – Gare du Nord|Crépy en Valois",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_l_small",
+			"textureResource": "mtr:mtr_france_sign/trans_l.png",
+			"small": true
+		},
+		{
+			"id": "trans_l",
+			"textureResource": "mtr:mtr_france_sign/trans_l.png",
+			"customText": "Paris – Saint-Lazare|Versailles Rive Droite • St-Nom La Bretèche – Forêt de Marly • Cergy Le Haut",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_l_reverse",
+			"textureResource": "mtr:mtr_france_sign/trans_l.png",
+			"customText": "Paris – Saint-Lazare|Versailles Rive Droite • St-Nom La Bretèche – Forêt de Marly • Cergy Le Haut",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_n_small",
+			"textureResource": "mtr:mtr_france_sign/trans_n.png",
+			"small": true
+		},
+		{
+			"id": "trans_n",
+			"textureResource": "mtr:mtr_france_sign/trans_n.png",
+			"customText": "Paris – Montparnasse|Rambouillet • Dreux • Mantes la Jolie",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_n_reverse",
+			"textureResource": "mtr:mtr_france_sign/trans_n.png",
+			"customText": "Paris – Montparnasse|Rambouillet • Dreux • Mantes la Jolie",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_r_small",
+			"textureResource": "mtr:mtr_france_sign/trans_r.png",
+			"small": true
+		},
+		{
+			"id": "trans_r",
+			"textureResource": "mtr:mtr_france_sign/trans_r.png",
+			"customText": "Paris – Gare de Lyon|Melun • Montereau • Montargis",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_r_reverse",
+			"textureResource": "mtr:mtr_france_sign/trans_r.png",
+			"customText": "Paris – Gare de Lyon|Melun • Montereau • Montargis",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_u_small",
+			"textureResource": "mtr:mtr_france_sign/trans_u.png",
+			"small": true
+		},
+		{
+			"id": "trans_u",
+			"textureResource": "mtr:mtr_france_sign/trans_u.png",
+			"customText": "La Défense – Grande Arche|La Vérrière",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_u_reverse",
+			"textureResource": "mtr:mtr_france_sign/trans_u.png",
+			"customText": "La Défense – Grande Arche|La Vérrière",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_v_small",
+			"textureResource": "mtr:mtr_france_sign/trans_v.png",
+			"small": true
+		},
+		{
+			"id": "trans_v",
+			"textureResource": "mtr:mtr_france_sign/trans_v.png",
+			"customText": "Massy - Palaiseau|Versailles Chantier",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_v_reverse",
+			"textureResource": "mtr:mtr_france_sign/trans_v.png",
+			"customText": "Massy - Palaiseau|Versailles Chantier",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "ratp_transilien_small",
+			"textureResource": "mtr:mtr_france_sign/ratp_transilien.png",
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "ratp_tram_small",
+			"textureResource": "mtr:mtr_france_sign/ratp_tram.png",
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "ratp_cable_small",
+			"textureResource": "mtr:mtr_france_sign/ratp_cable.png",
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "ratp_metro_small",
+			"textureResource": "mtr:mtr_france_sign/ratp_metro.png",
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "ratp_rer_small",
+			"textureResource": "mtr:mtr_france_sign/ratp_rer.png",
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "ratp_bus_small",
+			"textureResource": "mtr:mtr_france_sign/ratp_bus.png",
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "arrow_ratp",
+			"textureResource": "mtr:mtr_france_sign/arrow.png",
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "arrow_reverse_ratp",
+			"textureResource": "mtr:mtr_france_sign/arrow.png",
+			"flipTexture": true,
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "arrow_up_ratp",
+			"textureResource": "mtr:mtr_france_sign/arrow_up.png",
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "arrow_down_ratp",
+			"textureResource": "mtr:mtr_france_sign/arrow_down.png",
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "arrow_down_left_ratp",
+			"textureResource": "mtr:mtr_france_sign/arrow_down_left.png",
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "arrow_down_left_ratp_reverse",
+			"textureResource": "mtr:mtr_france_sign/arrow_down_left.png",
+			"flipTexture": true,
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "arrow_up_left_ratp",
+			"textureResource": "mtr:mtr_france_sign/arrow_up_left.png",
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "arrow_up_left_ratp_reverse",
+			"textureResource": "mtr:mtr_france_sign/arrow_up_left.png",
+			"flipTexture": true,
+			"backgroundColor": "f4f3ed",
+			"small": true
+		},
+		{
+			"id": "trans_h_small_old",
+			"textureResource": "mtr:mtr_france_sign/trans_h_old.png",
+			"small": true
+		},
+		{
+			"id": "trans_h_old",
+			"textureResource": "mtr:mtr_france_sign/trans_h_old.png",
+			"customText": "Paris – Gare du Nord|Creil • Luzarches • Persan Beaumont • Pontoise",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_h_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/trans_h_old.png",
+			"customText": "Paris – Gare du Nord|Creil • Luzarches • Persan Beaumont • Pontoise",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_j_small_old",
+			"textureResource": "mtr:mtr_france_sign/trans_j_old.png",
+			"small": true
+		},
+		{
+			"id": "trans_j_old",
+			"textureResource": "mtr:mtr_france_sign/trans_j_old.png",
+			"customText": "Paris – Saint-Lazare|Vernon • Mantes la Jolie • Gisors • Ermont – Eaubonne",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_j_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/trans_j_old.png",
+			"customText": "Paris – Saint-Lazare|Vernon • Mantes la Jolie • Gisors • Ermont – Eaubonne",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_k_small_old",
+			"textureResource": "mtr:mtr_france_sign/trans_k_old.png",
+			"small": true
+		},
+		{
+			"id": "trans_k_old",
+			"textureResource": "mtr:mtr_france_sign/trans_k_old.png",
+			"customText": "Paris – Gare du Nord|Crépy en Valois",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_k_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/trans_k_old.png",
+			"customText": "Paris – Gare du Nord|Crépy en Valois",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_l_small_old",
+			"textureResource": "mtr:mtr_france_sign/trans_l_old.png",
+			"small": true
+		},
+		{
+			"id": "trans_l_old",
+			"textureResource": "mtr:mtr_france_sign/trans_l_old.png",
+			"customText": "Paris – Saint-Lazare|Versailles Rive Droite • St-Nom La Bretèche – Forêt de Marly • Cergy Le Haut",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_l_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/trans_l_old.png",
+			"customText": "Paris – Saint-Lazare|Versailles Rive Droite • St-Nom La Bretèche – Forêt de Marly • Cergy Le Haut",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_n_small_old",
+			"textureResource": "mtr:mtr_france_sign/trans_n_old.png",
+			"small": true
+		},
+		{
+			"id": "trans_n_old",
+			"textureResource": "mtr:mtr_france_sign/trans_n_old.png",
+			"customText": "Paris – Montparnasse|Rambouillet • Dreux • Mantes la Jolie",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_n_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/trans_n_old.png",
+			"customText": "Paris – Montparnasse|Rambouillet • Dreux • Mantes la Jolie",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_r_small_old",
+			"textureResource": "mtr:mtr_france_sign/trans_r_old.png",
+			"small": true
+		},
+		{
+			"id": "trans_r_old",
+			"textureResource": "mtr:mtr_france_sign/trans_r_old.png",
+			"customText": "Paris – Gare de Lyon|Melun • Montereau • Montargis",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_r_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/trans_r_old.png",
+			"customText": "Paris – Gare de Lyon|Melun • Montereau • Montargis",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "trans_u_small_old",
+			"textureResource": "mtr:mtr_france_sign/trans_u_old.png",
+			"small": true
+		},
+		{
+			"id": "trans_u_old",
+			"textureResource": "mtr:mtr_france_sign/trans_u_old.png",
+			"customText": "La Défense – Grande Arche|La Vérrière",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "trans_u_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/trans_u_old.png",
+			"customText": "La Défense – Grande Arche|La Vérrière",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "rer_a_old",
+			"textureResource": "mtr:mtr_france_sign/rer_a_old.png",
+			"customText": "St-Germain-en-Laye • Poissy • Cergy|Boissy-St-Léger • Marne la Vallée",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "rer_a_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/rer_a_old.png",
+			"customText": "St-Germain-en-Laye • Poissy • Cergy|Boissy-St-Léger • Marne la Vallée",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "rer_b_small_old",
+			"textureResource": "mtr:mtr_france_sign/rer_b_old.png",
+			"small": true
+		},
+		{
+			"id": "rer_b_old",
+			"textureResource": "mtr:mtr_france_sign/rer_b_old.png",
+			"customText": "Aéroport Ch. de Gaulle • Mitry–Claye|Boissy-St-Léger • Marne la Vallée",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "rer_b_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/rer_b_old.png",
+			"customText": "Aéroport Ch. de Gaulle • Mitry–Claye|Boissy-St-Léger • Marne la Vallée",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "rer_c_small_old",
+			"textureResource": "mtr:mtr_france_sign/rer_c_old.png",
+			"small": true
+		},
+		{
+			"id": "rer_c_old",
+			"textureResource": "mtr:mtr_france_sign/rer_c_old.png",
+			"customText": "Pontoise • Versailles Chateau-Rive Gauche • Saint Quentin en Yvelines|Saint Martin d'Etampes • Dourdan la Forêt • Massy Palaiseau • Versailles Chantiers",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "rer_c_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/rer_c_old.png",
+			"customText": "Pontoise • Versailles Chateau-Rive Gauche • Saint Quentin en Yvelines|Saint Martin d'Etampes • Dourdan la Forêt • Massy Palaiseau • Versailles Chantiers",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "rer_d_small_old",
+			"textureResource": "mtr:mtr_france_sign/rer_d_old.png",
+			"small": true
+		},
+		{
+			"id": "rer_d_old",
+			"textureResource": "mtr:mtr_france_sign/rer_d.png_old",
+			"customText": "Creil|Melun • Malesherbes • Corbeil-Essonnes",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "rer_d_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/rer_d_old.png",
+			"customText": "Creil|Melun • Malesherbes • Corbeil-Essonnes",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "rer_e_small_old",
+			"textureResource": "mtr:mtr_france_sign/rer_e_old.png",
+			"small": true
+		},
+		{
+			"id": "rer_e_old",
+			"textureResource": "mtr:mtr_france_sign/rer_e_old.png",
+			"customText": "Creil|Melun • Malesherbes • Corbeil-Essonnes",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "rer_e_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/rer_e_old.png",
+			"customText": "Nanterre La Folie|Melun • Malesherbes • Corbeil-Essonnes",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t1_small_old",
+			"textureResource": "mtr:mtr_france_sign/t1_old.png",
+			"small": true
+		},
+		{
+			"id": "t1_old",
+			"textureResource": "mtr:mtr_france_sign/t1_old.png",
+			"customText": "Asnières-sur-Seine – Quatre Routes|Noisy-Le-Sec RER",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t1_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/t1_old.png",
+			"customText": "Asnières-sur-Seine – Quatre Routes|Noisy-Le-Sec RER",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t2_small_old",
+			"textureResource": "mtr:mtr_france_sign/t2_old.png",
+			"small": true
+		},
+		{
+			"id": "t2_old",
+			"textureResource": "mtr:mtr_france_sign/t2_old.png",
+			"customText": "Porte de Versailles|Pont de Bezons",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t2_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/t2_old.png",
+			"customText": "Porte de Versailles|Pont de Bezons",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t3a_small_old",
+			"textureResource": "mtr:mtr_france_sign/t3a_old.png",
+			"small": true
+		},
+		{
+			"id": "t3a_old",
+			"textureResource": "mtr:mtr_france_sign/t3a_old.png",
+			"customText": "Porte de Vincennes|Pont Du Garigliano",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t3a_old_reverse",
+			"textureResource": "mtr:mtr_france_sign/t3a_old.png",
+			"customText": "Porte de Vincennes|Pont Du Garigliano",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t3b_old_small",
+			"textureResource": "mtr:mtr_france_sign/t3b_old.png",
+			"small": true
+		},
+		{
+			"id": "t3b_old",
+			"textureResource": "mtr:mtr_france_sign/t3b_old.png",
+			"customText": "Porte Dauphine|Porte de Vincennes",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t3b_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/t3b_old.png",
+			"customText": "Porte Dauphine|Porte de Vincennes",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t4_small_old",
+			"textureResource": "mtr:mtr_france_sign/t4_old.png",
+			"small": true
+		},
+		{
+			"id": "t4_old",
+			"textureResource": "mtr:mtr_france_sign/t4_old.png",
+			"customText": "Gare de Bondy|Gare d'Aulnay Sous Bois • Hôpital de Montfermeil",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t4_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/t4_old.png",
+			"customText": "Gare de Bondy|Gare d'Aulnay Sous Bois • Hôpital de Montfermeil",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t5_small_old",
+			"textureResource": "mtr:mtr_france_sign/t5_old.png",
+			"small": true
+		},
+		{
+			"id": "t5_old",
+			"textureResource": "mtr:mtr_france_sign/t5_old.png",
+			"customText": "Marche de Saint-Denis|Garges – Sarcelles RER",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t5_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/t5_old.png",
+			"customText": "Marche de Saint-Denis|Garges – Sarcelles RER",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t6_small_old",
+			"textureResource": "mtr:mtr_france_sign/t6_old.png",
+			"small": true
+		},
+		{
+			"id": "t6_old",
+			"textureResource": "mtr:mtr_france_sign/t6_old.png",
+			"customText": "Viroflay - Rive Droite|Chatillon – Montrouge",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t6_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/t6_old.png",
+			"customText": "Viroflay - Rive Droite|Chatillon – Montrouge",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t7_small_old",
+			"textureResource": "mtr:mtr_france_sign/t7_old.png",
+			"small": true
+		},
+		{
+			"id": "t7_old",
+			"textureResource": "mtr:mtr_france_sign/t7_old.png",
+			"customText": "Villejuif – Louis Aragon|Porte de l'Essonnes",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t7_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/t7_old.png",
+			"customText": "Villejuif – Louis Aragon|Porte de l'Essonnes",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t8_small_old",
+			"textureResource": "mtr:mtr_france_sign/t8_old.png",
+			"small": true
+		},
+		{
+			"id": "t8_old",
+			"textureResource": "mtr:mtr_france_sign/t8_old.png",
+			"customText": "Epinay – Orgemont • Villetaneuse-Universite|Saint-Denis - Porte de Paris",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t8_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/t8_old.png",
+			"customText": "Epinay – Orgemont • Villetaneuse-Universite|Saint-Denis - Porte de Paris",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t9_small_old",
+			"textureResource": "mtr:mtr_france_sign/t9_old.png",
+			"small": true
+		},
+		{
+			"id": "t9_old",
+			"textureResource": "mtr:mtr_france_sign/t9_old.png",
+			"customText": "Porte de Choisy|Orly - Gaston Viens",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t9_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/t9_old.png",
+			"customText": "Porte de Choisy|Orly - Gaston Viens",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t10_small_old",
+			"textureResource": "mtr:mtr_france_sign/t10_old.png",
+			"small": true
+		},
+		{
+			"id": "t10_old",
+			"textureResource": "mtr:mtr_france_sign/t10_old.png",
+			"customText": "Jardin Parisien|La croix de Berny",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t10_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/t10_old.png",
+			"customText": "Jardin Parisien|La croix de Berny",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t11_small_old",
+			"textureResource": "mtr:mtr_france_sign/t11_old.png",
+			"small": true
+		},
+		{
+			"id": "t11_old",
+			"textureResource": "mtr:mtr_france_sign/t11_old.png",
+			"customText": "Le Bourget|Epinay Sur Seine",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t11_reverse_old",
+			"textureResource": "mtr:mtr_france_sign/t11_old.png",
+			"customText": "Le Bourget|Epinay Sur Seine",
+			"flipCustomText": true,
+			"small": true
+		},
+		{
+			"id": "t11_express_old_small",
+			"textureResource": "mtr:mtr_france_sign/t11_express_old.png",
+			"small": true
+		},
+		{
+			"id": "t11_express_old",
+			"textureResource": "mtr:mtr_france_sign/t11_express_old.png",
+			"customText": "Le Bourget|Epinay Sur Seine",
+			"flipCustomText": false,
+			"small": true
+		},
+		{
+			"id": "t11_express_old_reverse",
+			"textureResource": "mtr:mtr_france_sign/t11_express_old.png",
+			"customText": "Le Bourget|Epinay Sur Seine",
+			"flipCustomText": true,
+			"small": true
+		}
+	]
+}
