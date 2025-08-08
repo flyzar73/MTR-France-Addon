@@ -1,0 +1,39 @@
+{
+  "pids_images": [
+    {
+      "id": "siel",
+      "name": "[IDF] SIEL Arrivées",
+      "scriptFiles": ["jsblock:scripts/siel.js"]
+    },
+    {
+      "id": "siel_depart",
+      "name": "[IDF] SIEL Départs",
+      "scriptFiles": ["jsblock:scripts/siel_depart.js"]
+    },
+    {
+      "id": "infogare",
+      "name": "[IDF] Infogare",
+      "scriptFiles": ["jsblock:scripts/infogare.js"]
+    },
+    {
+      "id": "iena1",
+      "name": "[IDF] IENA Temps Restant",
+      "scriptFiles": ["jsblock:scripts/iena1.js"]
+    },
+    {
+      "id": "iena2",
+      "name": "[IDF] IENA Horaires",
+      "scriptFiles": ["jsblock:scripts/iena2.js"]
+    },
+    {
+      "id": "iena3",
+      "name": "[IDF] IENA Desserte (temps arrivée)",
+      "scriptFiles": ["jsblock:scripts/iena3.js"]
+    },
+    {
+      "id": "iena3_depart",
+      "name": "[IDF] IENA Desserte (temps départ)",
+      "scriptFiles": ["jsblock:scripts/iena3_depart.js"]
+    }
+  ]
+}
