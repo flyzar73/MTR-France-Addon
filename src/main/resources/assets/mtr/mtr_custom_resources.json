@@ -1,4 +1,18 @@
 {
+  "custom_trains": {
+    "tgv_inoui": {
+      "name": "TGV Inoui mono étage",
+      "color": "#eeeeee",
+      "base_train_type": "class_802_gwr",
+      "texture_id": "mtr:tgv_395/tgv_inoui.png"
+    },
+    "tgv_ouigo": {
+      "name": "TGV Ouigo mono étage",
+      "color": "#f1c232",
+      "base_train_type": "class_802_gwr",
+      "texture_id": "mtr:tgv_395/tgv_ouigo.png"
+    }
+  },
   "vehicles": [
     {
       "id": "tgv_pse_bogie",
