@@ -1761,18 +1761,6 @@
       "legacyDoorCloseSoundTime": 0.0
     }
   ],
-	"signs": [
-		{
-			"textureResource": "mtr:mtr_france_sign/sncf_logo.png",
-			"isSmall": false,
-			"customText": "Bienvenue|Welcome|Bienvenida",
-			"flipCustomText": false,
-			"flipTexture": false,
-			"backgroundColor": "181d30"
-		},
-		},
-			"id": "train_logo",
-			"id": "train_logo_reverse",
   "signs": [
     {
       "id": "sncf_logo",
