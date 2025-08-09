@@ -1759,6 +1759,2791 @@
       "legacyConstantPlaybackSpeed": false,
       "legacyDoorSoundBaseResource": "",
       "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "mi79_m_train_stif",
+      "name": "MI 79 STIF Trailer (Normal)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi79_m_train_stif_small",
+      "name": "MI 79 STIF Trailer (Small)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi79_m_train_stif_mini",
+      "name": "MI 79 STIF Trailer (Mini)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -5.0,
+      "bogie2Position": 5.0
+    },
+    {
+      "id": "m_train_mi79_stif_cab_1",
+      "name": "MI 79 STIF (Forwards, Normal)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "m_train_mi79_stif_small_cab_1",
+      "name": "MI 79 STIF Cab (Forwards, Small)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "m_train_mi79_stif_mini_cab_1",
+      "name": "MI 79 STIF Cab (Forwards, Mini)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -1.0,
+      "bogie2Position": 5.0
+    },
+    {
+      "id": "m_train_mi79_stif_cab_2",
+      "name": "MI 79 STIF Cab (Backwards, Normal)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "m_train_mi79_stif_small_cab_2",
+      "name": "MI 79 STIF Cab (Backwards, Small)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "m_train_mi79_stif_mini_cab_2",
+      "name": "MI 79 STIF Cab (Backwards, Mini)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -5.0,
+      "bogie2Position": 1.0
+    },
+    {
+      "id": "m_train_mi79_stif_cab_3",
+      "name": "MI 79 STIF Cab (Double, Normal)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "m_train_mi79_stif_small_cab_3",
+      "name": "MI 79 STIF Cab (Double, Small)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "m_train_mi79_stif_mini_cab_3",
+      "name": "MI 79 STIF Cab (Double, Mini)",
+      "color": "#00AA91",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": ["family:m_train", "iso_3166:HK", "doors:2", "type:cab_3"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_stif_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": 0,
+      "bogie2Position": 0
+    },
+    {
+      "id": "mi79_m_train_idfm",
+      "name": "MI 79 IDFM Trailer (Normal)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi79_m_train_idfm_small",
+      "name": "MI 79 IDFM Trailer (Small)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi79_m_train_idfm_mini",
+      "name": "MI 79 IDFM Trailer (Mini)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -5.0,
+      "bogie2Position": 5.0
+    },
+    {
+      "id": "mi79_idfm_cab_1",
+      "name": "MI 79 IDFM (Forwards, Normal)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi79_idfm_small_cab_1",
+      "name": "MI 79 IDFM Cab (Forwards, Small)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi79_idfm_mini_cab_1",
+      "name": "MI 79 IDFM Cab (Forwards, Mini)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -1.0,
+      "bogie2Position": 5.0
+    },
+    {
+      "id": "mi79_idfm_cab_2",
+      "name": "MI 79 IDFM Cab (Backwards, Normal)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi79_idfm_small_cab_2",
+      "name": "MI 79 IDFM Cab (Backwards, Small)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi79_idfm_mini_cab_2",
+      "name": "MI 79 IDFM Cab (Backwards, Mini)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -5.0,
+      "bogie2Position": 1.0
+    },
+    {
+      "id": "mi79_idfm_cab_3",
+      "name": "MI 79 IDFM Cab (Double, Normal)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi79_idfm_small_cab_3",
+      "name": "MI 79 IDFM Cab (Double, Small)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi79_idfm_mini_cab_3",
+      "name": "MI 79 IDFM Cab (Double, Mini)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": ["family:m_train", "iso_3166:HK", "doors:2", "type:cab_3"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi79_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": 0,
+      "bogie2Position": 0
+    },
+
+    {
+      "id": "mi84_m_train_idfm",
+      "name": "MI 84 IDFM Trailer (Normal)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi84_m_train_idfm_small",
+      "name": "MI 84 IDFM Trailer (Small)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi84_m_train_idfm_mini",
+      "name": "MI 84 IDFM Trailer (Mini)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -5.0,
+      "bogie2Position": 5.0
+    },
+    {
+      "id": "mi84_m_train_idfm_cab_1",
+      "name": "MI 84 IDFM (Forwards, Normal)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi84_m_train_idfm_small_cab_1",
+      "name": "MI 84 IDFM Cab (Forwards, Small)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi84_m_train_idfm_mini_cab_1",
+      "name": "MI 84 IDFM Cab (Forwards, Mini)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -1.0,
+      "bogie2Position": 5.0
+    },
+    {
+      "id": "mi84_m_train_idfm_cab_2",
+      "name": "MI 84 IDFM Cab (Backwards, Normal)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi84_m_train_idfm_small_cab_2",
+      "name": "MI 84 IDFM Cab (Backwards, Small)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi84_m_train_idfm_mini_cab_2",
+      "name": "MI 84 IDFM Cab (Backwards, Mini)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -5.0,
+      "bogie2Position": 1.0
+    },
+    {
+      "id": "mi84_m_train_idfm_cab_3",
+      "name": "MI 84 IDFM Cab (Double, Normal)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi84_m_train_idfm_small_cab_3",
+      "name": "MI 84 IDFM Cab (Double, Small)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi84_m_train_idfm_mini_cab_3",
+      "name": "MI 84 IDFM Cab (Double, Mini)",
+      "color": "#65b6e4",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": ["family:m_train", "iso_3166:HK", "doors:2", "type:cab_3"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idfm_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": 0,
+      "bogie2Position": 0
+    },
+    {
+      "id": "mi84_m_train_idf",
+      "name": "MI 84 IDF Trailer (Normal)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi84_m_train_idf_small",
+      "name": "MI 84 IDF Trailer (Small)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi84_m_train_idf_mini",
+      "name": "MI 84 IDF Trailer (Mini)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -5.0,
+      "bogie2Position": 5.0
+    },
+    {
+      "id": "mi84_m_train_idf_cab_1",
+      "name": "MI 84 IDF (Forwards, Normal)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi84_m_train_idf_small_cab_1",
+      "name": "MI 84 IDF Cab (Forwards, Small)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi84_m_train_idf_mini_cab_1",
+      "name": "MI 84 IDF Cab (Forwards, Mini)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -1.0,
+      "bogie2Position": 5.0
+    },
+    {
+      "id": "mi84_m_train_idf_cab_2",
+      "name": "MI 84 IDF Cab (Backwards, Normal)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi84_m_train_idf_small_cab_2",
+      "name": "MI 84 IDF Cab (Backwards, Small)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi84_m_train_idf_mini_cab_2",
+      "name": "MI 84 IDF Cab (Backwards, Mini)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": -5.0,
+      "bogie2Position": 1.0
+    },
+    {
+      "id": "mi84_m_train_idf_cab_3",
+      "name": "MI 84 IDF Cab (Double, Normal)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "mi84_m_train_idf_small_cab_3",
+      "name": "MI 84 IDF Cab (Double, Small)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_small_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 20.0,
+      "bogie1Position": -6.0,
+      "bogie2Position": 6.0
+    },
+    {
+      "id": "mi84_m_train_idf_mini_cab_3",
+      "name": "MI 84 IDF Cab (Double, Mini)",
+      "color": "#870707",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "MI_79",
+      "tags": ["family:m_train", "iso_3166:HK", "doors:2", "type:cab_3"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/m_train.bbmodel",
+          "textureResource": "mtr:mi79-mi84/mi84_idf_mtrain.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_left.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_left_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/door_overlay.bbmodel",
+          "textureResource": "mtr:textures/overlay/door_overlay_m_train_right.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/m_train_door_right_overlay.json",
+          "positionDefinitionsResource": "mtr:properties/definition/urban_line_mini_base.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "m_train",
+      "legacySpeedSoundCount": 90,
+      "legacyDoorSoundBaseResource": "m_train",
+      "legacyDoorCloseSoundTime": 0.5,
+      "length": 10.0,
+      "bogie1Position": 0,
+      "bogie2Position": 0
     }
   ],
   "signs": [
