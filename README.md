@@ -1,6 +1,6 @@
 # MTR France Addon
 
-![Minecraft]([https://img.shields.io/badge/Minecraft-1.20.4-green.svg)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.20.4-green.svg)
 ![MTR](https://img.shields.io/badge/MTR-4.0.0-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
