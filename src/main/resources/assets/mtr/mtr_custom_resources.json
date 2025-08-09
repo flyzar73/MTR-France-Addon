@@ -4544,6 +4544,918 @@
       "length": 10.0,
       "bogie1Position": 0,
       "bogie2Position": 0
+    },
+    {
+      "id": "tgv_inoui_trailer",
+      "name": "TGV Trailer (INOUI, Normal)",
+      "color": "#eeeeee",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:trailer"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_default.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": true,
+      "hasBarrier2": true,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "tgv_inoui_mini_trailer",
+      "name": "TGV Trailer (INOUI, Mini)",
+      "color": "#eeeeee",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:trailer"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_default.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": true,
+      "hasBarrier2": true,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 19.0,
+      "bogie1Position": -5.5,
+      "bogie2Position": 5.5
+    },
+    {
+      "id": "tgv_ouigo_trailer",
+      "name": "TGV Trailer (OUIGO, Normal)",
+      "color": "#f1c232",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:trailer"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_default.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": true,
+      "hasBarrier2": true,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "tgv_ouigo_mini_trailer",
+      "name": "TGV Trailer (OUIGO, Mini)",
+      "color": "#f1c232",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:trailer"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_default.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": true,
+      "hasBarrier2": true,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 19.0,
+      "bogie1Position": -5.5,
+      "bogie2Position": 5.5
+    },
+    {
+      "id": "tgv_inoui_cab_1",
+      "name": "TGV Cab (INOUI, Forwards, Normal)",
+      "color": "#eeeeee",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_1"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1b.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": true,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "tgv_inoui_mini_cab_1",
+      "name": "TGV Cab (INOUI, Forwards, Mini)",
+      "color": "#eeeeee",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_1"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1b.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": true,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 19.0,
+      "bogie1Position": -5.5,
+      "bogie2Position": 5.5
+    },
+    {
+      "id": "tgv_ouigo_cab_1",
+      "name": "TGV Cab (OUIGO, Forwards, Normal)",
+      "color": "#f1c232",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_1"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1b.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": true,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "tgv_ouigo_mini_cab_1",
+      "name": "TGV Cab (OUIGO, Forwards, Mini)",
+      "color": "#f1c232",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_1"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1b.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": true,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 19.0,
+      "bogie1Position": -5.5,
+      "bogie2Position": 5.5
+    },
+    {
+      "id": "tgv_inoui_cab_2",
+      "name": "TGV Cab (INOUI, Backwards, Normal)",
+      "color": "#eeeeee",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_2"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_2a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_2b.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": true,
+      "hasBarrier2": false,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "tgv_inoui_mini_cab_2",
+      "name": "TGV Cab (INOUI, Backwards, Mini)",
+      "color": "#eeeeee",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_2"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_2a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_2b.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": true,
+      "hasBarrier2": false,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 19.0,
+      "bogie1Position": -5.5,
+      "bogie2Position": 5.5
+    },
+    {
+      "id": "tgv_ouigo_cab_2",
+      "name": "TGV Cab (OUIGO, Backwards, Normal)",
+      "color": "#f1c232",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_2"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_2a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_2b.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": true,
+      "hasBarrier2": false,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "tgv_ouigo_mini_cab_2",
+      "name": "TGV Cab (OUIGO, Backwards, Mini)",
+      "color": "#f1c232",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_2"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_2a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_2b.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_end_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": true,
+      "hasBarrier2": false,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 19.0,
+      "bogie1Position": -5.5,
+      "bogie2Position": 5.5
+    },
+    {
+      "id": "tgv_inoui_cab_3",
+      "name": "TGV Cab (INOUI, Double, Normal)",
+      "color": "#eeeeee",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_3"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "tgv_inoui_mini_cab_3",
+      "name": "TGV Cab (INOUI, Double, Mini)",
+      "color": "#eeeeee",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_3"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_inoui.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 19.0,
+      "bogie1Position": -5.5,
+      "bogie2Position": 5.5
+    },
+    {
+      "id": "tgv_ouigo_cab_3",
+      "name": "TGV Cab (OUIGO, Double, Normal)",
+      "color": "#f1c232",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_3"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 25.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5
+    },
+    {
+      "id": "tgv_ouigo_mini_cab_3",
+      "name": "TGV Cab (OUIGO, Double, Mini)",
+      "color": "#f1c232",
+      "transportMode": "TRAIN",
+      "width": 2,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "British_Rail_Class_395",
+      "tags": ["family:class_802", "iso_3166:FR", "doors:2", "type:cab_3"],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_common.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_window_1a.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        },
+        {
+          "modelResource": "mtr:models/vehicle/class_802.bbmodel",
+          "textureResource": "mtr:tgv_395/tgv_ouigo.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/class_802_head_2.json",
+          "positionDefinitionsResource": "mtr:properties/definition/class_802_mini.json"
+        }
+      ],
+      "bogie1Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:tgv_395/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacySpeedSoundBaseResource": "class_802",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "class_802",
+      "legacyDoorCloseSoundTime": 1,
+      "length": 19.0,
+      "bogie1Position": -5.5,
+      "bogie2Position": 5.5
     }
   ],
   "signs": [
