@@ -2,5 +2,8 @@
   "block.mtrfranceaddon.mtrfranceaddon_logo_block": "MTR France Addon Logo",
   "itemGroup.mtrfranceaddon.mtrfranceaddon_group": "MTR France Addon",
 
-  "block.mtrfranceaddon.test_platform": "Test Platform"
+  "block.mtrfranceaddon.test_platform": "Test Platform",
+
+  "item.mtrfranceaddon.rail_connector_base": "Rail Connector (%s km/h)",
+  "item.mtrfranceaddon.rail_connector_oneway": "Rail Connector (%s km/h) (One-Way)"
 }
