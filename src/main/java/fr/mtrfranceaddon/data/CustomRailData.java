@@ -20,16 +20,16 @@ public final class CustomRailData {
     }
 
     public static final List<RailInfo> CUSTOM_RAILS = Arrays.asList(
-            new RailInfo("RAIL_30", 30, MapColor.getStoneGrayMapped()),
-            new RailInfo("RAIL_50", 50, MapColor.getStoneGrayMapped()),
-            new RailInfo("RAIL_70", 70, MapColor.getStoneGrayMapped()),
-            new RailInfo("RAIL_90", 90, MapColor.getStoneGrayMapped()),
-            new RailInfo("RAIL_110", 110, MapColor.getStoneGrayMapped()),
-            new RailInfo("RAIL_130", 130, MapColor.getStoneGrayMapped()),
-            new RailInfo("RAIL_150", 150, MapColor.getStoneGrayMapped()),
-            new RailInfo("RAIL_220", 220, MapColor.getStoneGrayMapped()),
-            new RailInfo("RAIL_270", 270, MapColor.getStoneGrayMapped()),
-            new RailInfo("RAIL_320", 320, MapColor.getStoneGrayMapped()),
+            new RailInfo("RAIL_30", 30, MapColor.getSpruceBrownMapped()),
+            new RailInfo("RAIL_50", 50, MapColor.getDarkGreenMapped()),
+            new RailInfo("RAIL_70", 70, MapColor.getDarkRedMapped()),
+            new RailInfo("RAIL_90", 90, MapColor.getLightBlueGrayMapped()),
+            new RailInfo("RAIL_110", 110, MapColor.getTerracottaOrangeMapped()),
+            new RailInfo("RAIL_130", 130, MapColor.getLimeMapped()),
+            new RailInfo("RAIL_150", 150, MapColor.getBlueMapped()),
+            new RailInfo("RAIL_220", 220, MapColor.getGoldMapped()),
+            new RailInfo("RAIL_270", 270, MapColor.getOrangeMapped()),
+            new RailInfo("RAIL_320", 320, MapColor.getPinkMapped()),
             new RailInfo("RAIL_350", 350, MapColor.getStoneGrayMapped())
     );
 
