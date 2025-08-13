@@ -65,6 +65,26 @@ public final class ModBlocks {
             () -> new Block(new LogoBlock(new BlockSettings(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)))),
             ItemGroups.MTRFranceAddonGroup
     );
+    public static final BlockRegistryObject RATP_1951TO1960_LOGO = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_logo_1951-1960_block",
+            () -> new Block(new LogoBlock(new BlockSettings(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)))),
+            ItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject RATP_1960TO1976_LOGO = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_logo_1960-1976_block",
+            () -> new Block(new LogoBlock(new BlockSettings(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)))),
+            ItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject RATP_1976TO1992_LOGO = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_logo_1976-1992_block",
+            () -> new Block(new LogoBlock(new BlockSettings(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)))),
+            ItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject RATP_ACTUAL_LOGO = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_logo_actuel_block",
+            () -> new Block(new LogoBlock(new BlockSettings(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)))),
+            ItemGroups.MTRFranceAddonGroup
+    );
 
 
     public static void register() {
