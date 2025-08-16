@@ -30,7 +30,8 @@ public final class CustomRailData {
             new RailInfo("RAIL_220", 220, MapColor.getGoldMapped()),
             new RailInfo("RAIL_270", 270, MapColor.getOrangeMapped()),
             new RailInfo("RAIL_320", 320, MapColor.getPinkMapped()),
-            new RailInfo("RAIL_350", 350, MapColor.getStoneGrayMapped())
+            new RailInfo("RAIL_350", 350, MapColor.getStoneGrayMapped()),
+            new RailInfo("RAIL_999", 999, MapColor.getWhiteMapped())
     );
 
 }
