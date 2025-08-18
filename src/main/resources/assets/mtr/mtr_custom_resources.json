@@ -1803,10 +1803,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -1861,10 +1871,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -1919,10 +1939,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -1977,10 +2007,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -2035,10 +2075,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -2093,10 +2143,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -2151,10 +2211,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -2209,10 +2279,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -2267,10 +2347,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -2325,10 +2415,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -2383,10 +2483,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -2441,10 +2551,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -2499,10 +2619,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -2557,10 +2687,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -2615,10 +2755,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -2673,10 +2823,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -2731,10 +2891,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -2789,10 +2959,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -2847,10 +3027,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -2905,10 +3095,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -2963,10 +3163,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -3021,10 +3231,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -3079,10 +3299,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -3137,10 +3367,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -3196,10 +3436,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -3254,10 +3504,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -3312,10 +3572,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -3370,10 +3640,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -3428,10 +3708,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -3486,10 +3776,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -3544,10 +3844,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -3602,10 +3912,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -3660,10 +3980,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -3718,10 +4048,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -3776,10 +4116,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -3834,10 +4184,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -3892,10 +4252,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -3950,10 +4320,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -4008,10 +4388,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -4066,10 +4456,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -4124,10 +4524,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -4182,10 +4592,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -4240,10 +4660,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -4298,10 +4728,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -4356,10 +4796,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -4414,10 +4864,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -4472,10 +4932,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -4530,10 +5000,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -4582,10 +5062,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -4636,10 +5126,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -4690,10 +5190,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -4744,10 +5254,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": true,
@@ -4804,10 +5324,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -4864,10 +5394,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -4924,10 +5464,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -4984,10 +5534,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": true,
@@ -5044,10 +5604,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -5104,10 +5674,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -5164,10 +5744,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -5224,10 +5814,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": true,
       "hasGangway2": false,
@@ -5278,10 +5878,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -5332,10 +5942,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -5386,10 +6006,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -5440,10 +6070,20 @@
         }
       ],
       "bogie1Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "bogie2Models": [
-        { "modelResource": "mtr:models/vehicle/bogie_1.bbmodel", "textureResource": "mtr:textures/vehicle/bogie_1.png", "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json", "positionDefinitionsResource": "mtr:properties/definition/origin.json" }
+        {
+          "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+          "textureResource": "mtr:textures/vehicle/bogie_1.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+          "positionDefinitionsResource": "mtr:properties/definition/origin.json"
+        }
       ],
       "hasGangway1": false,
       "hasGangway2": false,
@@ -5456,6 +6096,503 @@
       "length": 19.0,
       "bogie1Position": -5.5,
       "bogie2Position": 5.5
+    },
+    {
+      "id": "s_train_mp14",
+      "name": "MP14 [M]",
+      "color": "72a8ee",
+      "transportMode": "TRAIN",
+      "length": 15,
+      "width": 2,
+      "bogie1Position": -5.45,
+      "bogie2Position": 5.45,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "",
+      "tags": ["iso_3166:HK", "doors:3", "type:car"],
+      "models": [
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_common.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_end_1.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_end_2.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_motor_invert.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_motor.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "mp14",
+      "legacySpeedSoundCount": 42,
+      "legacyDoorSoundBaseResource": "mp14",
+      "legacyDoorCloseSoundTime": 0.5
+    },
+    {
+      "id": "s_train_mp14_ca_f",
+      "name": "MP14 CA(Forwards)[T]",
+      "color": "72a8ee",
+      "transportMode": "TRAIN",
+      "length": 15,
+      "width": 2,
+      "bogie1Position": -5.45,
+      "bogie2Position": 5.45,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "",
+      "tags": ["iso_3166:HK", "doors:3", "type:cab_1"],
+      "models": [
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_common.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_head_ca_1.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_end_2.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_front_ca_standar.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_standar.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacyDoorSoundBaseResource": "mp14",
+      "legacyDoorCloseSoundTime": 0.5
+    },
+    {
+      "id": "s_train_mp14_ca_b",
+      "name": "MP14 CA(Backwards)[T]",
+      "color": "72a8ee",
+      "transportMode": "TRAIN",
+      "length": 15,
+      "width": 2,
+      "bogie1Position": -5.45,
+      "bogie2Position": 5.45,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "",
+      "tags": ["iso_3166:HK", "doors:3", "type:cab_2"],
+      "models": [
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_common_inv.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_end_3.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_head_ca_2.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_standar_invert",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_back_ca_standar.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacyDoorSoundBaseResource": "mp14",
+      "legacyDoorCloseSoundTime": 0.5
+    },
+
+    {
+      "id": "s_train_mp14_ca_f_m",
+      "name": "MP14 CA(Forwards)[M]",
+      "color": "72a8ee",
+      "transportMode": "TRAIN",
+      "length": 15,
+      "width": 2,
+      "bogie1Position": -5.45,
+      "bogie2Position": 5.45,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "",
+      "tags": ["iso_3166:HK", "doors:3", "type:cab_1"],
+      "models": [
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_common.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_head_ca_1.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_end_2.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_front_ca_double.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_motor.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacySpeedSoundBaseResource": "mp14",
+      "legacySpeedSoundCount": 42,
+      "legacyDoorSoundBaseResource": "mp14",
+      "legacyDoorCloseSoundTime": 0.5
+    },
+    {
+      "id": "s_train_mp14_ca_b_m",
+      "name": "MP14 CA(Backwards)[M]",
+      "color": "72a8ee",
+      "transportMode": "TRAIN",
+      "length": 15,
+      "width": 2,
+      "bogie1Position": -5.45,
+      "bogie2Position": 5.45,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "",
+      "tags": ["iso_3166:HK", "doors:3", "type:cab_2"],
+      "models": [
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_common_inv.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_end_3.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_head_ca_2.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_motor_invert.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_back_ca_double.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "mp14",
+      "legacySpeedSoundCount": 42,
+      "legacyDoorSoundBaseResource": "mp14",
+      "legacyDoorCloseSoundTime": 0.5
+    },
+    {
+      "id": "s_train_mp14_ca_d",
+      "name": "MP14 CA(Double)[M]",
+      "color": "72a8ee",
+      "transportMode": "TRAIN",
+      "length": 15,
+      "width": 2,
+      "bogie1Position": -5.45,
+      "bogie2Position": 5.45,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "",
+      "tags": ["iso_3166:HK", "doors:3", "type:cab_3"],
+      "models": [
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_common.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_head_ca_1.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_head_ca_2.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_front_ca_double.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_back_ca_double.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "mp14",
+      "legacySpeedSoundCount": 42,
+      "legacyDoorSoundBaseResource": "mp14",
+      "legacyDoorCloseSoundTime": 0.5
+    },
+    {
+      "id": "s_train_mp14_cc_f",
+      "name": "MP14 CC(Forwards)[T]",
+      "color": "72a8ee",
+      "transportMode": "TRAIN",
+      "length": 15,
+      "width": 2,
+      "bogie1Position": -5.45,
+      "bogie2Position": 5.45,
+      "couplingPadding1": 1,
+      "couplingPadding2": 0,
+      "wikipediaArticle": "",
+      "tags": ["iso_3166:HK", "doors:3", "type:cab_1"],
+      "models": [
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_common.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_head_cc_1.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_end_2.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_front_cc_standar.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_standar.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "legacyDoorSoundBaseResource": "mp14",
+      "legacyDoorCloseSoundTime": 0.5
+    },
+    {
+      "id": "s_train_mp14_cc_b",
+      "name": "MP14 CC(Backwards)[T]",
+      "color": "72a8ee",
+      "transportMode": "TRAIN",
+      "length": 15,
+      "width": 2,
+      "bogie1Position": -5.45,
+      "bogie2Position": 5.45,
+      "couplingPadding1": 0,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "",
+      "tags": ["iso_3166:HK", "doors:3", "type:cab_2"],
+      "models": [
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_common_inv.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_end_3.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_head_cc_2.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_standar_invert.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_back_cc_standar.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "legacyDoorSoundBaseResource": "mp14",
+      "legacyDoorCloseSoundTime": 0.5
+    },
+    {
+      "id": "s_train_mp14_cc_d",
+      "name": "MP14 CC(Double)[M]",
+      "color": "72a8ee",
+      "transportMode": "TRAIN",
+      "length": 15,
+      "width": 2,
+      "bogie1Position": -5.45,
+      "bogie2Position": 5.45,
+      "couplingPadding1": 1,
+      "couplingPadding2": 1,
+      "wikipediaArticle": "",
+      "tags": ["iso_3166:HK", "doors:3", "type:cab_3"],
+      "models": [
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_common.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_head_cc_1.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        },
+        {
+          "modelResource": "mtr:mp14/models/s_train_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/s_train_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/s_train_mp14_head_cc_2.json",
+          "positionDefinitionsResource": "mtr:mp14/urban_line_15m_base.json"
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_front_cc_double.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp14/models/bogie_mp14.bbmodel",
+          "textureResource": "mtr:mp14/textures/bogie_mp14.png",
+          "modelPropertiesResource": "mtr:mp14/bogie_mp14_back_cc_double.json",
+          "positionDefinitionsResource": "mtr:mp14/origin.json"
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "legacySpeedSoundBaseResource": "mp14",
+      "legacySpeedSoundCount": 42,
+      "legacyDoorSoundBaseResource": "mp14",
+      "legacyDoorCloseSoundTime": 0.5
     }
   ],
   "signs": [
