@@ -9219,6 +9219,316 @@
       "customText": "Le Bourget|Epinay Sur Seine",
       "flipCustomText": true,
       "small": true
+    },
+    {
+      "id": "tcl_metro_full",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-full.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_funi_full",
+      "textureResource": "mtr:mtr_france_sign/tcl/funi-full.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_tram_full",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-full.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_cbus_full",
+      "textureResource": "mtr:mtr_france_sign/tcl/cbus-full.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_bus_full",
+      "textureResource": "mtr:mtr_france_sign/tcl/bus-full.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_metro",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_funi",
+      "textureResource": "mtr:mtr_france_sign/tcl/funi.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_tram",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_cbus",
+      "textureResource": "mtr:mtr_france_sign/tcl/cbus.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_bus",
+      "textureResource": "mtr:mtr_france_sign/tcl/bus.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_metro_a_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-a.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_metro_a",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-a.png",
+      "isSmall": true,
+      "customText": "Perrache|Vaulx-en-Velin - La Soie"
+    },
+    {
+      "id": "tcl_metro_a_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-a.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "Perrache|Vaulx-en-Velin - La Soie"
+    },
+    {
+      "id": "tcl_metro_b_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-b.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_metro_b",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-b.png",
+      "isSmall": true,
+      "customText": "Charpennes - Charles Hernu|Saint-Genis-Laval Hôpitaux Sud"
+    },
+    {
+      "id": "tcl_metro_b_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-b.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "Charpennes - Charles Hernu|Saint-Genis-Laval Hôpitaux Sud"
+    },
+    {
+      "id": "tcl_metro_c_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-c.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_metro_c",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-c.png",
+      "isSmall": true,
+      "customText": "Hôtel de Ville - Louis Pradel|Cuire"
+    },
+    {
+      "id": "tcl_metro_c_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-c.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "Hôtel de Ville - Louis Pradel|Cuire"
+    },
+    {
+      "id": "tcl_metro_d_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-d.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_metro_d",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-d.png",
+      "isSmall": true,
+      "customText": "Gare de Vaise|Gare de Vénissieux"
+    },
+    {
+      "id": "tcl_metro_d_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/metro-d.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "Gare de Vaise|Gare de Vénissieux"
+    },
+    {
+      "id": "tcl_funi_1_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/funi-1.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_funi_1",
+      "textureResource": "mtr:mtr_france_sign/tcl/funi-1.png",
+      "isSmall": true,
+      "customText": "Vieux Lyon|Saint-Just"
+    },
+    {
+      "id": "tcl_funi_1_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/funi-1.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "Vieux Lyon|Saint-Just"
+    },
+    {
+      "id": "tcl_funi_2_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/funi-2.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_funi_2",
+      "textureResource": "mtr:mtr_france_sign/tcl/funi-2.png",
+      "isSmall": true,
+      "customText": "Vieux Lyon|Fourvière"
+    },
+    {
+      "id": "tcl_funi_2_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/funi-2.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "Vieux Lyon|Fourvière"
+    },
+    {
+      "id": "tcl_tram_1_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-1.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_tram_1",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-1.png",
+      "isSmall": true,
+      "customText": "IUT - Feyssine|Debourg"
+    },
+    {
+      "id": "tcl_tram_1_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-1.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "IUT - Feyssine|Debourg"
+    },
+    {
+      "id": "tcl_tram_2_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-2.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_tram_2",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-2.png",
+      "isSmall": true,
+      "customText": "Hôtel de Région - Montrochet|Saint-Priest Bel Air"
+    },
+    {
+      "id": "tcl_tram_2_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-2.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "Hôtel de Région - Montrochet|Saint-Priest Bel Air"
+    },
+    {
+      "id": "tcl_tram_3_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-3.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_tram_3",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-3.png",
+      "isSmall": true,
+      "customText": "Gare Part-Dieu|Meyzieu Les Panettes"
+    },
+    {
+      "id": "tcl_tram_3_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-3.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "Gare Part-Dieu|Meyzieu Les Panettes"
+    },
+    {
+      "id": "tcl_tram_4_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-4.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_tram_4",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-4.png",
+      "isSmall": true,
+      "customText": "La Doua - Gaston Berger|Hôpital Feyzin Vénissieux"
+    },
+    {
+      "id": "tcl_tram_4_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-4.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "La Doua - Gaston Berger|Hôpital Feyzin Vénissieux"
+    },
+    {
+      "id": "tcl_tram_5_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-5.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_tram_5",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-5.png",
+      "isSmall": true,
+      "customText": "Grange Blanche|Eurexpo"
+    },
+    {
+      "id": "tcl_tram_5_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-5.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "Grange Blanche|Eurexpo"
+    },
+    {
+      "id": "tcl_tram_6_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-6.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_tram_6",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-6.png",
+      "isSmall": true,
+      "customText": "La Doua - Gaston Berger|Debourg"
+    },
+    {
+      "id": "tcl_tram_6_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-6.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "La Doua - Gaston Berger|Debourg"
+    },
+    {
+      "id": "tcl_tram_7_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-7.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_tram_7",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-7.png",
+      "isSmall": true,
+      "customText": "Vaulx-en-Velin - La Soie|Décines OL Vallée"
+    },
+    {
+      "id": "tcl_tram_7_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/tram-7.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "Vaulx-en-Velin - La Soie|Décines OL Vallée"
+    },
+    {
+      "id": "tcl_rx_small",
+      "textureResource": "mtr:mtr_france_sign/tcl/rhonexpress.png",
+      "isSmall": true
+    },
+    {
+      "id": "tcl_rx",
+      "textureResource": "mtr:mtr_france_sign/tcl/rhonexpress.png",
+      "isSmall": true,
+      "customText": "Gare Part-Dieu|Aéroport"
+    },
+    {
+      "id": "tcl_rx_reverse",
+      "textureResource": "mtr:mtr_france_sign/tcl/rhonexpress.png",
+      "isSmall": true,
+      "flipCustomText": true,
+      "customText": "Gare Part-Dieu|Aéroport"
     }
-  ]
+  ],
+  "tactile_map_music": {
+    "sounds": [
+      {
+        "name": "mtr:tactile_map_music",
+        "pitch": 1
+      }
+    ]
+  }
 }
