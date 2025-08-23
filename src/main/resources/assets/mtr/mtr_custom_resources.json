@@ -1,6 +1,190 @@
 {
   "vehicles": [
     {
+      "id": "telecab_les_gets_lht",
+      "name": "Les Gets (LHT)",
+      "color": "FF0000",
+      "transportMode": "CABLE_CAR",
+      "length": 2,
+      "width": 2,
+      "bogie1Position": 0,
+      "bogie2Position": 0,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "description": "Histoire de la cabine des tÃ©lÃ©cabines des Gets\nLa premiÃ¨re tÃ©lÃ©cabine aux Gets voit le jour en 1973 sur le versant des Chavannes (systÃ¨me Ã  attache dÃ©brayable, capacitÃ© 6 places) .\n\nLa cabine moderne des Gets est une petite nacelle fermÃ©e, offrant une immersion panoramique et sÃ©curisÃ©e dans le massif alpin. DerriÃ¨re ce confort se cache une Ã©volution technique : les cabines sont montÃ©es sur un cÃ¢ble en continu, mais lors de lâ€™arrivÃ©e en gare, la pince se dÃ©tache grÃ¢ce Ã  un systÃ¨me dÃ©brayable. Cela permet Ã  la cabine de ralentir pour un embarquement/dÃ©barquement tout en laissant le cÃ¢ble fil continuer Ã  pleine vitesse\n\n\nThe first gondola at Les Gets was installed in 1973 on the Chavannes side (a detachable 6-seater cabin).\n\n\nThe current gondola cabin is a compact, enclosed pod offering panoramic, secure alpine views. Technically, while cabins are carried continuously by the cable, they detach via a detachable grip system on arrival at the station. This allows the cabin to slow down for safe boarding and unloading, while the cable itself keeps its constant speed.",
+      "wikipediaArticle": "https://fr.wikipedia.org/wiki/Les_Gets",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/ngong_ping_360.bbmodel",
+          "textureResource": "mtr:cabine_custom/v1_les_gets.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/ngong_ping_360_lht.json",
+          "positionDefinitionsResource": "mtr:properties/definition/ngong_ping_360.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:models/vehicle/cable_car_grip.bbmodel",
+          "textureResource": "mtr:textures/vehicle/cable_car_grip.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/cable_car_grip_lht.json",
+          "positionDefinitionsResource": "mtr:properties/definition/ngong_ping_360.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": true,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "door_close_1",
+      "legacyDoorCloseSoundTime": 0.5
+    },
+    {
+      "id": "telecab_les_gets_rht",
+      "name": "Les Gets (RHT)",
+      "color": "FF0000",
+      "transportMode": "CABLE_CAR",
+      "length": 2,
+      "width": 2,
+      "bogie1Position": 0,
+      "bogie2Position": 0,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "description": "Histoire de la cabine des tÃ©lÃ©cabines des Gets\nLa premiÃ¨re tÃ©lÃ©cabine aux Gets voit le jour en 1973 sur le versant des Chavannes (systÃ¨me Ã  attache dÃ©brayable, capacitÃ© 6 places) .\n\nLa cabine moderne des Gets est une petite nacelle fermÃ©e, offrant une immersion panoramique et sÃ©curisÃ©e dans le massif alpin. DerriÃ¨re ce confort se cache une Ã©volution technique : les cabines sont montÃ©es sur un cÃ¢ble en continu, mais lors de lâ€™arrivÃ©e en gare, la pince se dÃ©tache grÃ¢ce Ã  un systÃ¨me dÃ©brayable. Cela permet Ã  la cabine de ralentir pour un embarquement/dÃ©barquement tout en laissant le cÃ¢ble fil continuer Ã  pleine vitesse\n\n\nThe first gondola at Les Gets was installed in 1973 on the Chavannes side (a detachable 6-seater cabin).\n\n\nThe current gondola cabin is a compact, enclosed pod offering panoramic, secure alpine views. Technically, while cabins are carried continuously by the cable, they detach via a detachable grip system on arrival at the station. This allows the cabin to slow down for safe boarding and unloading, while the cable itself keeps its constant speed.",
+      "wikipediaArticle": "https://fr.wikipedia.org/wiki/Les_Gets",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/ngong_ping_360.bbmodel",
+          "textureResource": "mtr:cabine_custom/v1_les_gets.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/ngong_ping_360_rht.json",
+          "positionDefinitionsResource": "mtr:properties/definition/ngong_ping_360.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:models/vehicle/cable_car_grip.bbmodel",
+          "textureResource": "mtr:textures/vehicle/cable_car_grip.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/cable_car_grip_rht.json",
+          "positionDefinitionsResource": "mtr:properties/definition/ngong_ping_360.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0
+    },
+    {
+      "id": "idf_telecab_rht",
+      "name": "IDF télécabine (RHT)",
+      "color": "00B3FF",
+      "transportMode": "CABLE_CAR",
+      "length": 2,
+      "width": 2,
+      "bogie1Position": 0,
+      "bogie2Position": 0,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "description": "Le 1er téléphérique d’Île-de-France viendra compléter l’offre de transport du réseau francilien à l’horizon 2025. À sa mise en service, le Câble C1 reliera directement les villes de Villeneuve-Saint-Georges, Limeil-Brévannes et Valenton au Métro 8 Créteil – Pointe du Lac. Ce mode de transport attractif et innovant apportera une réponse concrète aux difficultés quotidiennes de déplacement des habitants de ces villes du Val-de-Marne.\n\n",
+      "wikipediaArticle": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9ph%C3%A9rique_d%27%C3%8Ele-de-France",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/ngong_ping_360.bbmodel",
+          "textureResource": "mtr:cabine_custom/b_22.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/ngong_ping_360_rht.json",
+          "positionDefinitionsResource": "mtr:properties/definition/ngong_ping_360.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:models/vehicle/cable_car_grip.bbmodel",
+          "textureResource": "mtr:textures/vehicle/cable_car_grip.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/cable_car_grip_rht.json",
+          "positionDefinitionsResource": "mtr:properties/definition/ngong_ping_360.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0,
+      "bveSoundBaseResource": "0",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0
+    },
+    {
+      "id": "idf_telecab_lht",
+      "name": "IDF télécabine (LHT)",
+      "color": "009DFF",
+      "transportMode": "CABLE_CAR",
+      "length": 2,
+      "width": 2,
+      "bogie1Position": 0,
+      "bogie2Position": 0,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "description": "Le 1er téléphérique d’Île-de-France viendra compléter l’offre de transport du réseau francilien à l’horizon 2025. À sa mise en service, le Câble C1 reliera directement les villes de Villeneuve-Saint-Georges, Limeil-Brévannes et Valenton au Métro 8 Créteil – Pointe du Lac. Ce mode de transport attractif et innovant apportera une réponse concrète aux difficultés quotidiennes de déplacement des habitants de ces villes du Val-de-Marne.",
+      "wikipediaArticle": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9ph%C3%A9rique_d%27%C3%8Ele-de-France",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:models/vehicle/ngong_ping_360.bbmodel",
+          "textureResource": "mtr:cabine_custom/b_22.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/ngong_ping_360_lht.json",
+          "positionDefinitionsResource": "mtr:properties/definition/ngong_ping_360.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:models/vehicle/cable_car_grip.bbmodel",
+          "textureResource": "mtr:textures/vehicle/cable_car_grip.png",
+          "modelPropertiesResource": "mtr:properties/vehicle/cable_car_grip_lht.json",
+          "positionDefinitionsResource": "mtr:properties/definition/ngong_ping_360.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0,
+      "bveSoundBaseResource": "0",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0
+    },
+    {
       "id": "tgv_pse_bogie",
       "name": "TGV PSE Bogie",
       "color": "000000",
