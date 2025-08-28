@@ -13966,6 +13966,11 @@
       "small": true
     },
     {
+      "id": "rer_a_small_old",
+      "textureResource": "mtr:mtr_france_sign/rer_a_old.png",
+      "small": true
+    },
+    {
       "id": "rer_a_reverse_old",
       "textureResource": "mtr:mtr_france_sign/rer_a_old.png",
       "customText": "St-Germain-en-Laye • Poissy • Cergy|Boissy-St-Léger • Marne la Vallée",
