@@ -797,6 +797,542 @@
       "legacyDoorCloseSoundTime": 0.0
     },
     {
+      "id": "tgv_pse_mtrfranceaddon_car1-forwards-panto5",
+      "name": "TGV PSE MTR France Addon Cab (F) (P5)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -6.6,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing forwards, with the pantograph up to 5 blocks height.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_1a99de4a.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_44389b83.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_bogie.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_bogie.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_6b27cee4.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_76e56b94.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_bogie.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_bogie.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_9427f6d0.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_40e1957a.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse__mtrfranceaddon_car1-forwards-panto6",
+      "name": "TGV PSE MTR France Addon Cab (F) (P6)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -6.6,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing forwards, with the pantograph up to 6 blocks height.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_303849b8.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_23ba428b.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_bogie.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_bogie.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_a24c9588.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_b92ed7cf.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_bogie.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_bogie.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_be3277ff.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_4e124bff.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_mtrfranceaddon_car2_class1-forwards",
+      "name": "TGV PSE MTR France Addon End Car (F) (1st class)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 10.0,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class end passenger car facing forwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_3f57fa4d.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_c4f5a2f6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_bogie.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_bogie.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_73f14bfa.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_2da13757.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_mtrfranceaddon_car2_class2-forwards",
+      "name": "TGV PSE MTR France Addon End Car (F) (2nd class)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 10.0,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class end passenger car facing forwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_cd8b3724.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_509fcd39.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_bogie.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_bogie.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_ff94c4e.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_7938e9b4.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_mtrfranceaddon_car3_class1-forwards",
+      "name": "TGV PSE MTR France Addon Car (F) (1st class)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class standard passenger car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_8d039487.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_7fbacab8.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_mtrfranceaddon_car3_class2-forwards",
+      "name": "TGV PSE MTR France Addon Car (F) (2nd class)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class standard passenger car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_449570b1.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_9a4182e1.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_mtrfranceaddon_car-bar-forwards",
+      "name": "TGV PSE MTR France Addon Bar Car (F)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Bar car facing forwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_fe5fafda.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_5afbcc0.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_mtrfranceaddon_car3_class1-backwards",
+      "name": "TGV PSE MTR France Addon Car (B) (1st class)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class standard passenger car facing backwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_822b8d60.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_ba35f8be.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_mtrfranceaddon_car3_class2-backwards",
+      "name": "TGV PSE MTR France Addon Car (B) (2nd class)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 18.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class standard passenger car facing backwards.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_7efbec7c.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_ba9929a6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_mtrfranceaddon_car2_class1-backwards",
+      "name": "TGV PSE MTR France Addon End Car (B) (1st class)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -10.0,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "1st class end passenger car facing backwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_59880682.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_98adc63c.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_bogie.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_bogie.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_9874ef96.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_8c1e641.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_mtrfranceaddon_car2_class2-backwards",
+      "name": "TGV PSE MTR France Addon End Car (B) (2nd class)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 21.5,
+      "width": 2.0,
+      "bogie1Position": -10.0,
+      "bogie2Position": 8.1,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "2nd class end passenger car facing backwards. Should go right after the power car.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_724e518.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_bc49239f.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_bogie.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_bogie.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_29364d10.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_6ee1ba43.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "tgv_pse_mtrfranceaddon_car1-backwards-nopanto",
+      "name": "TGV PSE MTR France Addon Cab (B) (PX)",
+      "color": "001482",
+      "transportMode": "TRAIN",
+      "length": 23.5,
+      "width": 2.0,
+      "bogie1Position": -8.1,
+      "bogie2Position": 6.6,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "Power car facing backwards, with the pantograph retracted.\n\nFrance's original high-speed train, the TGV PSE, hit the rails in 1981. With its orange paint job and aerodynamic design, it changed rail travel by reaching speeds up to 300 km/h. Built specifically for the LGV Sud-Est route, the train features a streamlined nose, connected cars, and powerful electric motors that were quite revolutionary for their time.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_pse.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_pse_mtrfranceaddon.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_9e2b79a2.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_c39a6a04.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_bogie.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_bogie.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_9d3203e1.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_318113f8.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:tgv_pse/tgv_bogie.bbmodel",
+          "textureResource": "mtr:tgv_pse/tgv_bogie.png",
+          "modelPropertiesResource": "mtr:tgv_pse/properties_87c6afc8.json",
+          "positionDefinitionsResource": "mtr:tgv_pse/definition_bf864a8c.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
       "id": "tgv_pse_bogie",
       "name": "TGV PSE Orange Bogie",
       "color": "000000",
@@ -13427,6 +13963,11 @@
       "textureResource": "mtr:mtr_france_sign/rer_a_old.png",
       "customText": "St-Germain-en-Laye • Poissy • Cergy|Boissy-St-Léger • Marne la Vallée",
       "flipCustomText": false,
+      "small": true
+    },
+    {
+      "id": "rer_a_small_old",
+      "textureResource": "mtr:mtr_france_sign/rer_a_old.png",
       "small": true
     },
     {
