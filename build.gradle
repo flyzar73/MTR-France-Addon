@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.10.5'
+    id 'fabric-loom' version '1.11-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -28,6 +28,8 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.minecraft_version}+build.3:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    implementation 'org.slf4j:slf4j-api:1.7.28'
+    implementation 'org.slf4j:slf4j-simple:1.7.28'
 
     modCompileOnly "maven.modrinth:minecraft-transit-railway:${project.mtr_version}"
     modRuntimeOnly "maven.modrinth:minecraft-transit-railway:${project.mtr_version}"
