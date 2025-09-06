@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mtrfranceaddon:block/test_platform" }
+  }
+}
