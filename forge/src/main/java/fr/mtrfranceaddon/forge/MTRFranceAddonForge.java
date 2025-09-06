@@ -1,6 +1,6 @@
 package fr.mtrfranceaddon.forge;
 
-import fr.mtrfranceaddon.mod.common.Constants;
+import fr.mtrfranceaddon.mod.common.util.Constants;
 import fr.mtrfranceaddon.mod.common.Init;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.DistExecutor;
