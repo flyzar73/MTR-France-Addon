@@ -17,7 +17,7 @@ public class Constants {
     /**
      * Version of the mod.
      */
-    public static final String MOD_VERSION = "1.0.0";
+    public static final String MOD_VERSION = "1.0.1";
 
     /**
      * Method to create an Identifier based on the MOD_ID.

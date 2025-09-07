@@ -1,0 +1,19 @@
+{
+	"positionDefinitions": [
+		{
+			"name": "origin",
+			"positions": [
+				{}
+			]
+		},
+		{
+			"name": "origin_two_side",
+			"positions": [
+				{}
+			],
+			"positionsFlipped": [
+				{}
+			]
+		}
+	]
+}
