@@ -16,7 +16,7 @@ configure(subprojects) {
     }
 
     base {
-        archivesName = "MTRFRA-${project.properties.loader_name}"
+        archivesName = "${rootProject.archives_base_name}-${project.properties.loader_name}"
     }
 
     dependencies {
