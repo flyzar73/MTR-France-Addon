@@ -6,6 +6,7 @@ set -e
 
 VERSIONS=("1.20.4" "1.20.1" "1.19.4" "1.19.2" "1.18.2" "1.17.1" "1.16.5")
 ORIGINAL_VERSION=$(grep "minecraft_version=" gradle.properties | cut -d'=' -f2)
+MOD_VERSION=$(grep "mod_version=" gradle.properties | cut -d'=' -f2)
 
 # Créer le dossier de sortie HORS du dossier "build"
 RELEASE_DIR="releases"
@@ -29,17 +30,33 @@ for VERSION in "${VERSIONS[@]}"; do
     ./gradlew build
 
     # Chercher les JARs principaux à copier
-    FABRIC_JAR=$(find build -name "MTRFranceAddon-fabric-*.jar" ! -name "*-sources.jar" ! -name "*-javadoc.jar")
-    FORGE_JAR=$(find build -name "MTRFranceAddon-forge-*.jar" ! -name "*-sources.jar" ! -name "*-javadoc.jar")
+    FABRIC_JAR=$(find build -name "MTRFranceAddon-fabric-${MOD_VERSION}+${VERSION}.jar" ! -name "*-sources.jar" ! -name "*-javadoc.jar")
+    FORGE_JAR=$(find build -name "MTRFranceAddon-forge-${MOD_VERSION}+${VERSION}.jar" ! -name "*-sources.jar" ! -name "*-javadoc.jar")
 
     # Copier les JARs s'ils existent
     if [ -f "$FABRIC_JAR" ]; then
         echo "Copying Fabric JAR..."
-        cp "$FABRIC_JAR" "${RELEASE_DIR}/MTRFranceAddon-fabric-${VERSION}.jar"
+        cp "$FABRIC_JAR" "${RELEASE_DIR}/MTRFRA-fabric-${MOD_VERSION}+${VERSION}.jar"
+    else
+        FABRIC_JAR=$(find ./fabric/build/libs -name "MTRFRA-fabric-${MOD_VERSION}+${VERSION}.jar" ! -name "*-sources.jar" ! -name "*-javadoc.jar")
+        if [ -f "$FABRIC_JAR" ]; then
+                echo "Copying Fabric JAR..."
+                cp "$FABRIC_JAR" "${RELEASE_DIR}/MTRFRA-fabric-${MOD_VERSION}+${VERSION}.jar"
+        else
+          echo "Could not copy Fabric JAR."
+        fi
     fi
     if [ -f "$FORGE_JAR" ]; then
         echo "Copying Forge JAR..."
-        cp "$FORGE_JAR" "${RELEASE_DIR}/MTRFranceAddon-forge-${VERSION}.jar"
+        cp "$FORGE_JAR" "${RELEASE_DIR}/MTRFRA-forge-${MOD_VERSION}+${VERSION}.jar"
+    else
+        FORGE_JAR=$(find ./forge/build/libs -name "MTRFRA-forge-${MOD_VERSION}+${VERSION}.jar" ! -name "*-sources.jar" ! -name "*-javadoc.jar")
+        if [ -f "$FORGE_JAR" ]; then
+                echo "Copying Forge JAR..."
+                cp "$FORGE_JAR" "${RELEASE_DIR}/MTRFRA-forge-${MOD_VERSION}+${VERSION}.jar"
+        else
+          echo "Could not copy Forge JAR."
+        fi
     fi
 
     echo "Build for $VERSION complete!"
