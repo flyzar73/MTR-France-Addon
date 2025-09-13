@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
+loaderVersion = "[36,)"
 license = "MIT"
 
 [[mods]]
@@ -12,7 +12,7 @@ authors = "Team MTR France"
 [[dependencies.mtrfranceaddon]]
 modId = "forge"
 mandatory = true
-versionRange = "[47,)"
+versionRange = "[36,)"
 ordering = "NONE"
 side = "BOTH"
 
