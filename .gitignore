@@ -9,6 +9,7 @@ classes/
 *.bak
 releases/
 run/
+src/
 
 # eclipse
 
