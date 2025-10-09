@@ -22051,9 +22051,25 @@
   ],
   "rails": [
     {
-      "id": "curved_plat_sncf",
+      "id": "mtrfra-platform-ratp",
+      "name": "Platform RATP",
+      "modelResource": "mtr:rails/platform/platform/ratp/platform_ratp.obj",
+      "modelYOffset": 0,
+      "flipTextureV": true,
+      "repeatInterval": 0.9
+    },
+    {
+      "id": "mtrfra-platform-sncf",
       "name": "Platform SNCF",
-      "modelResource": "mtr:rails/platform/platform.obj",
+      "modelResource": "mtr:rails/platform/platform/sncf/platform_sncf.obj",
+      "modelYOffset": 0,
+      "flipTextureV": true,
+      "repeatInterval": 0.9
+    },
+    {
+      "id": "mtrfra-platform-sncf2",
+      "name": "Platform SNCF 2",
+      "modelResource": "mtr:rails/platform/platform/sncf2/platform_sncf_2.obj",
       "modelYOffset": 0,
       "flipTextureV": true,
       "repeatInterval": 0.9

@@ -1,0 +1,6 @@
+# Made in Blockbench 4.12.6
+newmtl m_4e949a33-8389-555c-e479-13918df53f01
+map_Kd smooth_stone.png
+newmtl m_ca31ffcb-5e03-e232-4a86-7e49270a7b5e
+map_Kd platform_sncf.png
+newmtl none
