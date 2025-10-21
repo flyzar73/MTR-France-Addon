@@ -1,4 +1,4 @@
-# Made in Blockbench 4.12.6
+# Made in Blockbench 5.0.2
 mtllib ratp_platform.mtl
 
 o cube
@@ -74,10 +74,10 @@ vt 0 1
 vt 0.125 1
 vt 0.125 0.96875
 vt 0 0.96875
-vt 1 1
-vt 1 0
 vt 0 0
 vt 0 1
+vt 1 1
+vt 1 0
 vt 0 1
 vt 1 1
 vt 1 0
@@ -123,10 +123,10 @@ vt 0 1
 vt 1 1
 vt 1 0
 vt 0 0
+vt 0 0
 vt 0 1
 vt 1 1
-vt 1 0.53125
-vt 0 0.53125
+vt 1 0
 vt 0 1
 vt 1 1
 vt 1 0
@@ -137,14 +137,12 @@ vn 0 0 1
 vn -1 0 0
 vn 0 1 0
 vn 0 -1 0
-usemtl m_4e949a33-8389-555c-e479-13918df53f01
+usemtl m_3bfcfacb-bc12-d2f2-f67b-8433d1941a53
 f 20/52/13 23/51/13 21/50/13 18/49/13
 usemtl none
 f 19/56/14 20/55/14 18/54/14 17/53/14
-usemtl m_4e949a33-8389-555c-e479-13918df53f01
+usemtl m_3bfcfacb-bc12-d2f2-f67b-8433d1941a53
 f 24/60/15 19/59/15 17/58/15 22/57/15
 f 23/64/16 24/63/16 22/62/16 21/61/16
-usemtl m_d2c30089-436e-64fe-940e-3c553cb4f0f3
 f 22/68/17 17/67/17 18/66/17 21/65/17
-usemtl m_4e949a33-8389-555c-e479-13918df53f01
 f 23/72/18 20/71/18 19/70/18 24/69/18

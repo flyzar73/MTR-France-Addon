@@ -1,5 +1,8 @@
 plugins {
-    id "net.minecraftforge.gradle" version "6.0.36"
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
     id "org.spongepowered.mixin" version "+"
 }
 
@@ -10,12 +13,29 @@ minecraft {
             property "forge.logging.markers", "REGISTRIES"
             property "forge.logging.console.level", "debug"
         }
-        client {}
+        client {
+            property 'forge.enabledGameTestNamespaces', archives_base_name
+        }
         server { args "--nogui" }
     }
 }
 
 sourceSets.main.resources { srcDir "src/generated/resources" }
+
+repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        forRepositories(fg.repository)
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
+}
 
 dependencies {
     minecraft "net.minecraftforge:forge:${rootProject.minecraft_version}-${project.properties["forge_version_$rootProject.minecraft_version"]}"
@@ -69,21 +89,6 @@ afterEvaluate {
     for (def task in it.tasks) {
         if (task == tasks.build) {
             task.finalizedBy tasks.moveBuild
-        }
-    }
-}
-
-repositories {
-    exclusiveContent {
-        forRepository {
-            maven {
-                name = "Modrinth"
-                url = "https://api.modrinth.com/maven"
-            }
-        }
-        forRepositories(fg.repository)
-        filter {
-            includeGroup "maven.modrinth"
         }
     }
 }

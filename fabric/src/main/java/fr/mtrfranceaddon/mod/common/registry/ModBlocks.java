@@ -1,8 +1,11 @@
 package fr.mtrfranceaddon.mod.common.registry;
 
 import fr.mtrfranceaddon.mod.common.Init;
+import fr.mtrfranceaddon.mod.common.block.BlockInvisiblePlatform;
 import fr.mtrfranceaddon.mod.common.block.LogoBlock;
+import fr.mtrfranceaddon.mod.common.util.Constants;
 import org.mtr.mapping.holder.Block;
+import org.mtr.mapping.holder.Identifier;
 import org.mtr.mapping.registry.BlockRegistryObject;
 import org.mtr.mod.block.BlockPlatform;
 
@@ -13,12 +16,6 @@ public final class ModBlocks {
     public static final BlockRegistryObject MTRFRANCEADDON_LOGO = MTRFranceAddonRegistry.registerBlockWithItem(
             "mtrfranceaddon_logo_block",
             () -> new Block(new LogoBlock(createDefaultBlockSettings(false).strength(0.2f))),
-            ModItemGroups.MTRFranceAddonGroup
-    );
-
-    public static final BlockRegistryObject TEST_PLATFORM = MTRFranceAddonRegistry.registerBlockWithItem(
-            "test_platform",
-            () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)),
             ModItemGroups.MTRFranceAddonGroup
     );
     public static final BlockRegistryObject SNCF_ACTUAL_LOGO = MTRFranceAddonRegistry.registerBlockWithItem(
@@ -79,6 +76,43 @@ public final class ModBlocks {
     public static final BlockRegistryObject RATP_ACTUAL_LOGO = MTRFranceAddonRegistry.registerBlockWithItem(
             "ratp_logo_actuel_block",
             () -> new Block(new LogoBlock(createDefaultBlockSettings(false).strength(0.2f))),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+
+    //platforms
+    public static final BlockRegistryObject INVISIBLE_PLATFORM = MTRFranceAddonRegistry.registerBlockWithItem(
+            "invisible_platform",
+            () -> new Block(new BlockInvisiblePlatform(createDefaultBlockSettings(false).strength(-1.0F, 3600000.0F).dropsNothing(), false)), ModItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject RATP_PLATFORM = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_platform",
+            () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject SNCF_PLATFORM = MTRFranceAddonRegistry.registerBlockWithItem(
+            "sncf_platform",
+            () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject SNCF2_PLATFORM = MTRFranceAddonRegistry.registerBlockWithItem(
+            "sncf2_platform",
+            () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+    //platforms Indented
+    public static final BlockRegistryObject RATP_PLATFORM_INDENTED = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_platform_indented",
+            () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject SNCF_PLATFORM_INDENTED = MTRFranceAddonRegistry.registerBlockWithItem(
+            "sncf_platform_indented",
+            () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject SNCF2_PLATFORM_INDENTED = MTRFranceAddonRegistry.registerBlockWithItem(
+            "sncf2_platform_indented",
+            () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)),
             ModItemGroups.MTRFranceAddonGroup
     );
 
