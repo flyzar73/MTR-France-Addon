@@ -13,7 +13,13 @@
   "block.mtrfranceaddon.ratp_logo_1960-1976_block": "RATP 2nd logo from 1960 to 1976",
   "block.mtrfranceaddon.ratp_logo_1976-1992_block": "RATP 3rd logo from 1976 to 1992",
   "itemGroup.mtrfranceaddon.mtrfranceaddon_group": "MTR France Addon",
-  "block.mtrfranceaddon.test_platform": "Test Platform",
+  "block.mtrfranceaddon.invisible_platform": "Barrier platform",
+  "block.mtrfranceaddon.ratp_platform": "RATP platform",
+  "block.mtrfranceaddon.sncf_platform": "White SNCF platform",
+  "block.mtrfranceaddon.sncf2_platform": "Gray SNCF platform",
+  "block.mtrfranceaddon.ratp_platform_indented": "RATP platform",
+  "block.mtrfranceaddon.sncf_platform_indented": "White SNCF platform",
+  "block.mtrfranceaddon.sncf2_platform_indented": "Gray SNCF platform",
   "item.mtrfranceaddon.rail_connector_base": "Rail connector (%s km/h)",
-  "item.mtrfranceaddon.rail_connector_oneway": "Rail connector (%s km/h) (One-Way)"
+  "item.mtrfranceaddon.rail_connector_oneway": "Eisenbahnverbinder (%s km/h) (Eine Richtung)"
 }
