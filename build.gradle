@@ -89,7 +89,7 @@ tasks.register("setupFiles") {
     var sourceModloader = "fabric"
 
     doLast {
-        for(var targetModloader : ["forge"]) {
+        for(targetModloader in ["forge"]) {
             // Supprime les anciens fichiers
             delete fileTree("${targetModloader}/src/main/java/fr/mtrfranceaddon/mod")
             delete fileTree("${targetModloader}/src/main/resources/assets")

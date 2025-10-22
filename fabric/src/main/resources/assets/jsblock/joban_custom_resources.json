@@ -45,43 +45,43 @@
     {
       "id": "IDF_SIEL_ARRIVALS",
       "name": "[IDF] SIEL Arrivées",
-      "thumbnail": "jsblock:idf/images/thumbnails/siel.png",
+      "thumbnail": "jsblock:idf/images/backgrounds/siel.png",
       "scriptFiles": ["jsblock:idf/scripts/siel.js"]
     },
     {
       "id": "IDF_SIEL_DEPARTURES",
       "name": "[IDF] SIEL Départs",
-      "thumbnail": "jsblock:idf/images/thumbnails/siel_depart.png",
+      "thumbnail": "jsblock:idf/images/backgrounds/siel.png",
       "scriptFiles": ["jsblock:idf/scripts/siel_depart.js"]
     },
     {
       "id": "IDF_INFOGARE",
       "name": "[IDF] Infogare",
-      "thumbnail": "jsblock:idf/images/thumbnails/infogare.png",
+      "thumbnail": "jsblock:idf/images/backgrounds/infogare.png",
       "scriptFiles": ["jsblock:idf/scripts/infogare.js"]
     },
     {
       "id": "IDF_IENA1",
       "name": "[IDF] IENA Temps Restant",
-      "thumbnail": "jsblock:idf/images/thumbnails/iena1.png",
+      "thumbnail": "jsblock:idf/images/backgrounds/iena1.png",
       "scriptFiles": ["jsblock:idf/scripts/iena1.js"]
     },
     {
       "id": "IDF_IENA2",
       "name": "[IDF] IENA Horaires",
-      "thumbnail": "jsblock:idf/images/thumbnails/iena2.png",
+      "thumbnail": "jsblock:idf/images/backgrounds/iena2.png",
       "scriptFiles": ["jsblock:idf/scripts/iena2.js"]
     },
     {
       "id": "IDF_IENA3_ARRIVALS",
       "name": "[IDF] IENA Desserte (temps arrivée)",
-      "thumbnail": "jsblock:idf/images/thumbnails/iena3.png",
+      "thumbnail": "jsblock:idf/images/backgrounds/iena3.png",
       "scriptFiles": ["jsblock:idf/scripts/iena3.js"]
     },
     {
       "id": "IDF_IENA3_DEPARTURES",
       "name": "[IDF] IENA Desserte (temps départ)",
-      "thumbnail": "jsblock:idf/images/thumbnails/iena3_depart.png",
+      "thumbnail": "jsblock:idf/images/backgrounds/iena3.png",
       "scriptFiles": ["jsblock:idf/scripts/iena3_depart.js"]
     }
   ]
