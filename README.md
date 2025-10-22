@@ -63,8 +63,8 @@ Cette méthode permet de compiler le mod pour une version spécifique de Minecra
 5. **Récupérer les JARs**
 
    Les fichiers compilés se trouvent dans :
-    - `build/MTRFranceAddon-fabric-[version].jar`
-    - `build/MTRFranceAddon-forge-[version].jar`
+    - `fabric/build/libs/MTRFRA-fabric-[version].jar`
+    - `fabric/build/libs/MTRFRA-forge-[version].jar`
 
 ### Méthode 2 : Compilation Automatique (Toutes les Versions)
 
@@ -93,17 +93,17 @@ Cette méthode utilise le script `buildAll.sh` pour compiler automatiquement le 
    sh buildAll.sh
    ```
 
-4. **Récupérer les JARs**
+   4. **Récupérer les JARs**
 
-   Tous les fichiers compilés sont automatiquement copiés dans le dossier `releases/` :
-   ```
-   releases/
-   ├── MTRFranceAddon-fabric-1.20.4.jar
-   ├── MTRFranceAddon-forge-1.20.4.jar
-   ├── MTRFranceAddon-fabric-1.20.1.jar
-   ├── MTRFranceAddon-forge-1.20.1.jar
-   └── ...
-   ```
+      Tous les fichiers compilés sont automatiquement copiés dans le dossier `releases/` :
+      ```
+      releases/
+      ├── MTRFRA-fabric-1.20.4.jar
+      ├── MTRFRA-forge-1.20.4.jar
+      ├── MTRFRA-fabric-1.20.1.jar
+      ├── MTRFRA-forge-1.20.1.jar
+      └── ...
+      ```
 
 ---
 
