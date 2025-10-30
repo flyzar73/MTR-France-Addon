@@ -1,11 +1,9 @@
 package fr.mtrfranceaddon.mod.common.registry;
 
 import fr.mtrfranceaddon.mod.common.Init;
-import fr.mtrfranceaddon.mod.common.block.BlockInvisiblePlatform;
+import fr.mtrfranceaddon.mod.common.block.InvisiblePlatform;
 import fr.mtrfranceaddon.mod.common.block.LogoBlock;
-import fr.mtrfranceaddon.mod.common.util.Constants;
 import org.mtr.mapping.holder.Block;
-import org.mtr.mapping.holder.Identifier;
 import org.mtr.mapping.registry.BlockRegistryObject;
 import org.mtr.mod.block.BlockPlatform;
 
@@ -82,7 +80,7 @@ public final class ModBlocks {
     //platforms
     public static final BlockRegistryObject INVISIBLE_PLATFORM = MTRFranceAddonRegistry.registerBlockWithItem(
             "invisible_platform",
-            () -> new Block(new BlockInvisiblePlatform(createDefaultBlockSettings(false).strength(-1.0F, 3600000.0F).dropsNothing(), false)), ModItemGroups.MTRFranceAddonGroup
+            () -> new Block(new InvisiblePlatform(createDefaultBlockSettings(false).strength(-1.0F, 3600000.0F).dropsNothing())), ModItemGroups.MTRFranceAddonGroup
     );
     public static final BlockRegistryObject RATP_PLATFORM = MTRFranceAddonRegistry.registerBlockWithItem(
             "ratp_platform",
