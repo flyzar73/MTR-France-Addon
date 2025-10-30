@@ -1,6 +1,6 @@
 # MTR France Addon
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.16.5--1.20.4-green.svg)](https://minecraft.net/)
+[Version](https://img.shields.io/badge/dynamic/json?label=Available%20for&color=4bab62&query=version&url=https://api.blueish.dev/api/minecraft/version?id=YJct9p8I)
 [![MTR](https://img.shields.io/badge/MTR-4.0.0+-blue.svg)](https://minecrafttransitrailway.com/)
 ![Fabric](https://img.shields.io/badge/Fabric-Supported-blue.svg)
 ![Forge](https://img.shields.io/badge/Forge-Supported-orange.svg)
