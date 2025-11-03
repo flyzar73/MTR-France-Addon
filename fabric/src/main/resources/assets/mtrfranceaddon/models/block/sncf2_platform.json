@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_top",
+  "textures": {
+    "top": "mtrfranceaddon:block/platform_sncf_2",
+    "side": "minecraft:block/smooth_stone"
+  }
+}
+

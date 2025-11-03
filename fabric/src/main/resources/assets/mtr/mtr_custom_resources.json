@@ -19114,6 +19114,654 @@
       "legacySpeedSoundCount": 42,
       "legacyDoorSoundBaseResource": "mp14",
       "legacyDoorCloseSoundTime": 0.5
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_noir_motrice_trailer",
+      "name": "MF67 RATP motrice N / NA (CL121)",
+      "color": "000000",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.46,
+      "bogie2Position": 6.46,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice",
+          "modelPropertiesResource": "mtr:mf67/properties_305342cd.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_bf0a8f3e.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_ff24a1e6.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_b1701b88.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_51529dcd.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_a02b7523.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_noir_motrice_cab_1",
+      "name": "MF67 RATP motrice M (avant)",
+      "color": "000000",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.46,
+      "bogie2Position": 6.46,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice",
+          "modelPropertiesResource": "mtr:mf67/properties_8fcfcb60.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_ea1023f4.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_682664bd.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_31251627.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_ff99290d.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_59b89632.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_noir_motrice_cab_2",
+      "name": "MF67 RATP motrice M (arrière)",
+      "color": "000000",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.46,
+      "bogie2Position": 6.46,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 1.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice",
+          "modelPropertiesResource": "mtr:mf67/properties_91097e24.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_82a18d42.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_9a45a42b.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_71579fbb.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_motrice/mf67_ratp_noir_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_82e4a557.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_ae6d1f8.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_noir_remorque_trailer",
+      "name": "MF67 RATP remorques A /B",
+      "color": "000000",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.460000000000001,
+      "bogie2Position": 6.460000000000001,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque/mf67_ratp_noir_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_remorque/mf67_ratp_noir_remorque.png",
+          "modelPropertiesResource": "mtr:mf67/properties_eba36fb7.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_3b71d42f.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque/mf67_ratp_noir_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_remorque/mf67_ratp_noir_remorque.png",
+          "modelPropertiesResource": "mtr:mf67/properties_fa530031.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_52f0fc3e.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque/mf67_ratp_noir_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_remorque/mf67_ratp_noir_remorque.png",
+          "modelPropertiesResource": "mtr:mf67/properties_a1b5b90f.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_6db5a84a.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_noir_remorque_cab_1",
+      "name": "MF67 RATP remorque S (avant)",
+      "color": "000000",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.460000000000001,
+      "bogie2Position": 6.460000000000001,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque/mf67_ratp_noir_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_4d44fdb6.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_19f91e30.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_ed4ef805.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_d5b2270.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_e939e462.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_d1dc08df.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_noir_remorque_cab_2",
+      "name": "MF67 RATP remorque S (arrière)",
+      "color": "000000",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.460000000000001,
+      "bogie2Position": 6.460000000000001,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 1.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque/mf67_ratp_noir_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_57d646db.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_f268dbfb.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_d4af03d7.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_5f1ee96d.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_52e309c6.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_81f3513c.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_fv_remorque_trailer",
+      "name": "MF67 RATP remorque A / B",
+      "color": "35E2C5",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.460000000000001,
+      "bogie2Position": 6.460000000000001,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque",
+          "modelPropertiesResource": "mtr:mf67/properties_b39d4f6d.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_60a57ec1.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.png",
+          "modelPropertiesResource": "mtr:mf67/properties_82ef0b67.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_6838ff6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.png",
+          "modelPropertiesResource": "mtr:mf67/properties_b73ea78f.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_2a8e3e4a.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_fv_remorque_cab_1",
+      "name": "MF67 RATP remorque S (avant)",
+      "color": "35E2C5",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.460000000000001,
+      "bogie2Position": 6.460000000000001,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_c36020b3.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_3aa2d992.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_b331458c.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_e4387d90.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_7f32651.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_e45ac526.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_fv_remorque_cab_2",
+      "name": "MF67 RATP remorque S (arriere)",
+      "color": "35E2C5",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.460000000000001,
+      "bogie2Position": 6.460000000000001,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 1.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_401a72ec.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_df8462f8.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_7c007104.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_225e673f.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_eca387d9.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_1817c081.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_fv_motrice_trailer",
+      "name": "MF67 RATP motrice N / NA (ANF)",
+      "color": "35E2C5",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.46,
+      "bogie2Position": 6.46,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_aef887a2.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_681efebc.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_7e6eae45.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_b0d98b0d.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_85a07a41.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_b3c0b407.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_fv_motrice_cab_1",
+      "name": "MF67 RATP motrice M (avant)",
+      "color": "35E2C5",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.46,
+      "bogie2Position": 6.46,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_12e86ca1.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_79192873.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_8f8790e.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_6d1311e8.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_2caff400.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_cf3d3791.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_ratp_fv_motrice_cab_2",
+      "name": "MF67 RATP motrice M (arrière)",
+      "color": "35E2C5",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.800000000000001,
+      "bogie2Position": 6.800000000000001,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 1.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_642ef927.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_812ca9b.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_5961d089.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_b2ecb65b.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_606bd7c1.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_6e293254.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
     }
   ],
   "signs": [
@@ -22052,7 +22700,7 @@
   "rails": [
     {
       "id": "mtrfra-platform-ratp",
-      "name": "Platform RATP",
+      "name": "RATP platform",
       "modelResource": "mtr:rails/platform/ratp/ratp_platform.obj",
       "modelYOffset": 0,
       "flipTextureV": true,
@@ -22060,7 +22708,7 @@
     },
     {
       "id": "mtrfra-platform-sncf",
-      "name": "Platform SNCF",
+      "name": "White SNCF platform",
       "modelResource": "mtr:rails/platform/sncf/sncf_platform.obj",
       "modelYOffset": 0,
       "flipTextureV": true,
@@ -22068,7 +22716,7 @@
     },
     {
       "id": "mtrfra-platform-sncf2",
-      "name": "Platform SNCF 2",
+      "name": "Gray SNCF platform",
       "modelResource": "mtr:rails/platform/sncf2/sncf_platform_2.obj",
       "modelYOffset": 0,
       "flipTextureV": true,
