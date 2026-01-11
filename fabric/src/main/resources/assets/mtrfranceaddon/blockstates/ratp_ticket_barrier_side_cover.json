@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mtrfranceaddon:block/ratp_ticket_barrier_side_cover"
+    },
+    "facing=east": {
+      "model": "mtrfranceaddon:block/ratp_ticket_barrier_side_cover",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mtrfranceaddon:block/ratp_ticket_barrier_side_cover",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mtrfranceaddon:block/ratp_ticket_barrier_side_cover",
+      "y": 270
+    }
+  }
+}

@@ -3,6 +3,8 @@ package fr.mtrfranceaddon.mod.common.registry;
 import fr.mtrfranceaddon.mod.common.Init;
 import fr.mtrfranceaddon.mod.common.block.InvisiblePlatform;
 import fr.mtrfranceaddon.mod.common.block.LogoBlock;
+import fr.mtrfranceaddon.mod.common.block.RATPTicketBarrierBlock;
+import fr.mtrfranceaddon.mod.common.block.RATPTicketBarrierSideCoverBlock;
 import org.mtr.mapping.holder.Block;
 import org.mtr.mapping.registry.BlockRegistryObject;
 import org.mtr.mod.block.BlockPlatform;
@@ -116,6 +118,23 @@ public final class ModBlocks {
     public static final BlockRegistryObject SNCF2_PLATFORM_INDENTED = MTRFranceAddonRegistry.registerBlockWithItem(
             "sncf2_platform_indented",
             () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+
+    //Ticket Barrier Block
+    public static final BlockRegistryObject RATP_TICKET_BARRIER_ENTRANCE = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_ticket_barrier_entrance",
+            () -> new Block(new RATPTicketBarrierBlock(true)),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject RATP_TICKET_BARRIER_EXIT = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_ticket_barrier_exit",
+            () -> new Block(new RATPTicketBarrierBlock(false)),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject RATP_TICKET_BARRIER_SIDE_COVER = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_ticket_barrier_side_cover",
+            () -> new Block(new RATPTicketBarrierSideCoverBlock()),
             ModItemGroups.MTRFranceAddonGroup
     );
 
