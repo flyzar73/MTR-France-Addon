@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mtrfranceaddon:lock/hundredsixtygroundsignblock"
+    },
+    "facing=south": {
+      "model": "mtrfranceaddon:lock/hundredsixtygroundsignblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mtrfranceaddon:lock/hundredsixtygroundsignblock",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "mtrfranceaddon:lock/hundredsixtygroundsignblock",
+      "y": 90
+    }
+  }
+}

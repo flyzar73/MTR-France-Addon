@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mtrfranceaddonblock/hundredtwentygallows"
+    },
+    "facing=south": {
+      "model": "mtrfranceaddonblock/hundredtwentygallows",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mtrfranceaddonblock/hundredtwentygallows",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "mtrfranceaddonblock/hundredtwentygallows",
+      "y": 90
+    }
+  }
+}

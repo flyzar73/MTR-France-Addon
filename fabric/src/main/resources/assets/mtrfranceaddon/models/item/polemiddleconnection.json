@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddonon:block/polemiddleconnection",
+  "textures": {
+    "layer0": "mtrfranceaddonon:item/polemiddleconnection"
+  }
+}

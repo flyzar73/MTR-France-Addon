@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddonon:block/threehundredgallows",
+  "textures": {
+    "layer0": "mtrfranceaddonon:item/threehundredgallows"
+  }
+}

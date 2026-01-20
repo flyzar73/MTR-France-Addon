@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddonon:block/switchthhgroundsignblock",
+  "textures": {
+    "layer0": "mtrfranceaddonon:item/switchthhgroundsignblock"
+  }
+}

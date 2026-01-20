@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddonon:block/stationsignblock",
+  "textures": {
+    "layer0": "mtrfranceaddonon:item/stationsignblock"
+  }
+}

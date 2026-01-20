@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mtrfranceaddonblock/levelcrossingsignblock"
+    },
+    "facing=south": {
+      "model": "mtrfranceaddonblock/levelcrossingsignblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mtrfranceaddonblock/levelcrossingsignblock",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "mtrfranceaddonblock/levelcrossingsignblock",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddonon:block/noventsignblock",
+  "textures": {
+    "layer0": "mtrfranceaddonon:item/noventsignblock"
+  }
+}

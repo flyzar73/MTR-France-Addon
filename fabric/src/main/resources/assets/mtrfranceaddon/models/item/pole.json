@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddonon:block/pole",
+  "textures": {
+    "layer0": "mtrfranceaddonon:item/pole"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddonon:block/sixteencarsignblock",
+  "textures": {
+    "layer0": "mtrfranceaddonon:item/sixteencarsignblock"
+  }
+}

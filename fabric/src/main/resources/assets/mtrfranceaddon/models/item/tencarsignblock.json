@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddonon:block/tencarsignblock",
+  "textures": {
+    "layer0": "mtrfranceaddonon:item/tencarsignblock"
+  }
+}

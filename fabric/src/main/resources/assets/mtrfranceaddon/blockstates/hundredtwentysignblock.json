@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mtrfranceaddonblock/hundredtwentysignblock"
+    },
+    "facing=south": {
+      "model": "mtrfranceaddonblock/hundredtwentysignblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mtrfranceaddonblock/hundredtwentysignblock",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "mtrfranceaddonblock/hundredtwentysignblock",
+      "y": 90
+    }
+  }
+}
