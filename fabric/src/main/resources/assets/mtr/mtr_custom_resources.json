@@ -19347,7 +19347,7 @@
       "tags": [],
       "models": [
         {
-          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque/mf67_ratp_noir_remorque.bbmodel",
+          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.bbmodel",
           "textureResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.png",
           "modelPropertiesResource": "mtr:mf67/properties_4d44fdb6.json",
           "positionDefinitionsResource": "mtr:mf67/definition_19f91e30.json",
@@ -19387,7 +19387,7 @@
     },
     {
       "id": "mtr_custom_train_mf67_ratp_noir_remorque_cab_2",
-      "name": "MF67 RATP remorque S (arrière)",
+      "name": "MF67 RATP remorque S (arriere)",
       "color": "000000",
       "transportMode": "TRAIN",
       "length": 19.0,
@@ -19401,7 +19401,7 @@
       "tags": [],
       "models": [
         {
-          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque/mf67_ratp_noir_remorque.bbmodel",
+          "modelResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.bbmodel",
           "textureResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.png",
           "modelPropertiesResource": "mtr:mf67/properties_57d646db.json",
           "positionDefinitionsResource": "mtr:mf67/definition_f268dbfb.json",
@@ -19412,8 +19412,8 @@
         {
           "modelResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.bbmodel",
           "textureResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.png",
-          "modelPropertiesResource": "mtr:mf67/properties_d4af03d7.json",
-          "positionDefinitionsResource": "mtr:mf67/definition_5f1ee96d.json",
+          "modelPropertiesResource": "mtr:mf67/properties_52e309c6.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_81f3513c.json",
           "flipTextureV": false
         }
       ],
@@ -19421,8 +19421,8 @@
         {
           "modelResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.bbmodel",
           "textureResource": "mtr:mf67/mf67_ratp_noir_remorque_s/mf67_ratp_noir_remorque_s.png",
-          "modelPropertiesResource": "mtr:mf67/properties_52e309c6.json",
-          "positionDefinitionsResource": "mtr:mf67/definition_81f3513c.json",
+          "modelPropertiesResource": "mtr:mf67/properties_d4af03d7.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_5f1ee96d.json",
           "flipTextureV": false
         }
       ],
@@ -19727,6 +19727,438 @@
         {
           "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
           "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_642ef927.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_812ca9b.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_5961d089.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_b2ecb65b.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_606bd7c1.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_6e293254.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_bleuroi_remorque_b_trailer",
+      "name": "MF67 Bleu roi remorque B",
+      "color": "0411ce",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.460000000000001,
+      "bogie2Position": 6.460000000000001,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_bleuroi_remorque_b/mf67_bleuroi_remorque_b.bbmodel",
+          "textureResource": "mtr:mf67/mf67_bleuroi_remorque_b/mf67_bleuroi_remorque_b",
+          "modelPropertiesResource": "mtr:mf67/properties_b39d4f6d.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_60a57ec1.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.png",
+          "modelPropertiesResource": "mtr:mf67/properties_82ef0b67.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_6838ff6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.png",
+          "modelPropertiesResource": "mtr:mf67/properties_b73ea78f.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_2a8e3e4a.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_bleuroi_remorque_a_trailer",
+      "name": "MF67 Bleu roi remorque A",
+      "color": "0411ce",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.460000000000001,
+      "bogie2Position": 6.460000000000001,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_bleuroi_remorque_a/mf67_bleuroi_remorque_a.bbmodel",
+          "textureResource": "mtr:mf67/mf67_bleuroi_remorque_a/mf67_bleuroi_remorque_a",
+          "modelPropertiesResource": "mtr:mf67/properties_b39d4f6d.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_60a57ec1.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.png",
+          "modelPropertiesResource": "mtr:mf67/properties_82ef0b67.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_6838ff6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque/mf67_ratp_fv_remorque.png",
+          "modelPropertiesResource": "mtr:mf67/properties_b73ea78f.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_2a8e3e4a.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_bleuroi_remorque_s_cab_1",
+      "name": "MF67 Bleu roi remorque S (avant)",
+      "color": "0411ce",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.460000000000001,
+      "bogie2Position": 6.460000000000001,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_bleuroi_remorque_s/mf67_bleuroi_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_bleuroi_remorque_s/mf67_bleuroi_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_c36020b3.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_3aa2d992.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_b331458c.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_e4387d90.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_7f32651.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_e45ac526.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_bleuroi_remorque_s_cab_2",
+      "name": "MF67 Bleu roi remorque S (arriere)",
+      "color": "0411ce",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.460000000000001,
+      "bogie2Position": 6.460000000000001,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 1.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_bleuroi_remorque_s/mf67_bleuroi_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_bleuroi_remorque_s/mf67_bleuroi_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_401a72ec.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_df8462f8.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_7c007104.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_225e673f.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_remorque_s/mf67_ratp_fv_remorque_s.png",
+          "modelPropertiesResource": "mtr:mf67/properties_eca387d9.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_1817c081.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_bleuroi_motrice_n_trailer",
+      "name": "MF67 Bleu roi motrice N",
+      "color": "0411ce",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.46,
+      "bogie2Position": 6.46,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_bleuroi_motrice_n/mf67_bleuroi_motrice_n.bbmodel",
+          "textureResource": "mtr:mf67/mf67_bleuroi_motrice_n/mf67_bleuroi_motrice_n.png",
+          "modelPropertiesResource": "mtr:mf67/properties_aef887a2.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_681efebc.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_7e6eae45.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_b0d98b0d.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_85a07a41.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_b3c0b407.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_bleuroi_motrice_na_trailer",
+      "name": "MF67 Bleu roi motrice NA",
+      "color": "0411ce",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.46,
+      "bogie2Position": 6.46,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_bleuroi_motrice_na/mf67_bleuroi_motrice_na.bbmodel",
+          "textureResource": "mtr:mf67/mf67_bleuroi_motrice_na/mf67_bleuroi_motrice_na.png",
+          "modelPropertiesResource": "mtr:mf67/properties_aef887a2.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_681efebc.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_7e6eae45.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_b0d98b0d.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_85a07a41.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_b3c0b407.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_bleuroi_motrice_m_cab_1",
+      "name": "MF67 Bleu roi motrice M (avant)",
+      "color": "0411ce",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.46,
+      "bogie2Position": 6.46,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_bleuroi_motrice/mf67_bleuroi_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_bleuroi_motrice/mf67_bleuroi_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_12e86ca1.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_79192873.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_8f8790e.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_6d1311e8.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_ratp_fv_motrice/mf67_ratp_fv_motrice.png",
+          "modelPropertiesResource": "mtr:mf67/properties_2caff400.json",
+          "positionDefinitionsResource": "mtr:mf67/definition_cf3d3791.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mf67",
+      "legacySpeedSoundCount": 33,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mf67",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mf67_bleuroi_motrice_m_cab_2",
+      "name": "MF67 Bleu roi motrice M (arriere)",
+      "color": "0411ce",
+      "transportMode": "TRAIN",
+      "length": 19.0,
+      "width": 2.0,
+      "bogie1Position": -6.800000000000001,
+      "bogie2Position": 6.800000000000001,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 1.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mf67/mf67_bleuroi_motrice/mf67_bleuroi_motrice.bbmodel",
+          "textureResource": "mtr:mf67/mf67_bleuroi_motrice/mf67_bleuroi_motrice.png",
           "modelPropertiesResource": "mtr:mf67/properties_642ef927.json",
           "positionDefinitionsResource": "mtr:mf67/definition_812ca9b.json",
           "flipTextureV": false
@@ -20287,9 +20719,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_cabd1088.json", "positionDefinitionsResource": "mtr:/corail/definition_443dd924.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_67f22ff7.json", "positionDefinitionsResource": "mtr:/corail/definition_434b91c8.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_41ad3928.json", "positionDefinitionsResource": "mtr:/corail/definition_78c36102.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_cabd1088.json", "positionDefinitionsResource": "mtr:corail/definition_443dd924.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_67f22ff7.json", "positionDefinitionsResource": "mtr:corail/definition_434b91c8.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_41ad3928.json", "positionDefinitionsResource": "mtr:corail/definition_78c36102.json", "flipTextureV": true }],
       "hasGangway1": false,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -20317,9 +20749,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1ouigo.png", "modelPropertiesResource": "mtr:/corail/properties_cabd1088.json", "positionDefinitionsResource": "mtr:/corail/definition_443dd924.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_67f22ff7.json", "positionDefinitionsResource": "mtr:/corail/definition_434b91c8.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_41ad3928.json", "positionDefinitionsResource": "mtr:/corail/definition_78c36102.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1ouigo.png", "modelPropertiesResource": "mtr:corail/properties_cabd1088.json", "positionDefinitionsResource": "mtr:corail/definition_443dd924.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_67f22ff7.json", "positionDefinitionsResource": "mtr:corail/definition_434b91c8.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_41ad3928.json", "positionDefinitionsResource": "mtr:corail/definition_78c36102.json", "flipTextureV": true }],
       "hasGangway1": false,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -20347,9 +20779,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1orange.png", "modelPropertiesResource": "mtr:/corail/properties_c3679d7c.json", "positionDefinitionsResource": "mtr:/corail/definition_83ccb986.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_c8f421c1.json", "positionDefinitionsResource": "mtr:/corail/definition_3d4e8901.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_e32a4b60.json", "positionDefinitionsResource": "mtr:/corail/definition_84098d05.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1orange.png", "modelPropertiesResource": "mtr:corail/properties_c3679d7c.json", "positionDefinitionsResource": "mtr:corail/definition_83ccb986.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_c8f421c1.json", "positionDefinitionsResource": "mtr:corail/definition_3d4e8901.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_e32a4b60.json", "positionDefinitionsResource": "mtr:corail/definition_84098d05.json", "flipTextureV": true }],
       "hasGangway1": false,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -20377,9 +20809,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_ea7426c2.json", "positionDefinitionsResource": "mtr:/corail/definition_a8928a96.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_3c6684ca.json", "positionDefinitionsResource": "mtr:/corail/definition_36e9b787.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_659bcd96.json", "positionDefinitionsResource": "mtr:/corail/definition_7e4841a1.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_ea7426c2.json", "positionDefinitionsResource": "mtr:corail/definition_a8928a96.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_3c6684ca.json", "positionDefinitionsResource": "mtr:corail/definition_36e9b787.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_659bcd96.json", "positionDefinitionsResource": "mtr:corail/definition_7e4841a1.json", "flipTextureV": true }],
       "hasGangway1": true,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20407,9 +20839,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1ouigo.png", "modelPropertiesResource": "mtr:/corail/properties_ea7426c2.json", "positionDefinitionsResource": "mtr:/corail/definition_a8928a96.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_3c6684ca.json", "positionDefinitionsResource": "mtr:/corail/definition_36e9b787.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_659bcd96.json", "positionDefinitionsResource": "mtr:/corail/definition_7e4841a1.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1ouigo.png", "modelPropertiesResource": "mtr:corail/properties_ea7426c2.json", "positionDefinitionsResource": "mtr:corail/definition_a8928a96.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_3c6684ca.json", "positionDefinitionsResource": "mtr:corail/definition_36e9b787.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_659bcd96.json", "positionDefinitionsResource": "mtr:corail/definition_7e4841a1.json", "flipTextureV": true }],
       "hasGangway1": true,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20437,9 +20869,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1orange.png", "modelPropertiesResource": "mtr:/corail/properties_56992ca1.json", "positionDefinitionsResource": "mtr:/corail/definition_653d803.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_a6640cb6.json", "positionDefinitionsResource": "mtr:/corail/definition_86353483.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_23393ad.json", "positionDefinitionsResource": "mtr:/corail/definition_ff7df0d4.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1orange.png", "modelPropertiesResource": "mtr:corail/properties_56992ca1.json", "positionDefinitionsResource": "mtr:corail/definition_653d803.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_a6640cb6.json", "positionDefinitionsResource": "mtr:corail/definition_86353483.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_23393ad.json", "positionDefinitionsResource": "mtr:corail/definition_ff7df0d4.json", "flipTextureV": true }],
       "hasGangway1": true,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20467,9 +20899,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_fefb07f7.json", "positionDefinitionsResource": "mtr:/corail/definition_e40dd779.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_adc49a72.json", "positionDefinitionsResource": "mtr:/corail/definition_e619744b.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_1dbc1a53.json", "positionDefinitionsResource": "mtr:/corail/definition_1b562558.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_fefb07f7.json", "positionDefinitionsResource": "mtr:corail/definition_e40dd779.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_adc49a72.json", "positionDefinitionsResource": "mtr:corail/definition_e619744b.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_1dbc1a53.json", "positionDefinitionsResource": "mtr:corail/definition_1b562558.json", "flipTextureV": true }],
       "hasGangway1": true,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -20497,9 +20929,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1ouigo.png", "modelPropertiesResource": "mtr:/corail/properties_fefb07f7.json", "positionDefinitionsResource": "mtr:/corail/definition_e40dd779.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_adc49a72.json", "positionDefinitionsResource": "mtr:/corail/definition_e619744b.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_1dbc1a53.json", "positionDefinitionsResource": "mtr:/corail/definition_1b562558.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1ouigo.png", "modelPropertiesResource": "mtr:corail/properties_fefb07f7.json", "positionDefinitionsResource": "mtr:corail/definition_e40dd779.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_adc49a72.json", "positionDefinitionsResource": "mtr:corail/definition_e619744b.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_1dbc1a53.json", "positionDefinitionsResource": "mtr:corail/definition_1b562558.json", "flipTextureV": true }],
       "hasGangway1": true,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -20527,9 +20959,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1orange.png", "modelPropertiesResource": "mtr:/corail/properties_a18a3414.json", "positionDefinitionsResource": "mtr:/corail/definition_103d8a3e.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_852efcd4.json", "positionDefinitionsResource": "mtr:/corail/definition_9ba4b4d7.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:/corail/corail_car_v2.bbmodel", "textureResource": "mtr:/corail/corail1.png", "modelPropertiesResource": "mtr:/corail/properties_b88461c2.json", "positionDefinitionsResource": "mtr:/corail/definition_7ad8d1b6.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1orange.png", "modelPropertiesResource": "mtr:corail/properties_a18a3414.json", "positionDefinitionsResource": "mtr:corail/definition_103d8a3e.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_852efcd4.json", "positionDefinitionsResource": "mtr:corail/definition_9ba4b4d7.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_b88461c2.json", "positionDefinitionsResource": "mtr:corail/definition_7ad8d1b6.json", "flipTextureV": true }],
       "hasGangway1": true,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -22720,7 +23152,7 @@
       "legacyConstantPlaybackSpeed": false,
       "legacyDoorSoundBaseResource": "",
       "legacyDoorCloseSoundTime": 0.0
-    },
+    }
   ],
   "signs": [
     {
