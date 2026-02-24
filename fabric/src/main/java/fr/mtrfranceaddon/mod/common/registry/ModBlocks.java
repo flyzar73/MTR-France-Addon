@@ -5,6 +5,7 @@ import fr.mtrfranceaddon.mod.common.block.InvisiblePlatform;
 import fr.mtrfranceaddon.mod.common.block.LogoBlock;
 import fr.mtrfranceaddon.mod.common.block.RATPTicketBarrierBlock;
 import fr.mtrfranceaddon.mod.common.block.RATPTicketBarrierSideCoverBlock;
+import fr.mtrfranceaddon.mod.common.block.base.TicketMachineBlock;
 import fr.mtrfranceaddon.mod.common.block.sign.*;
 import org.mtr.mapping.holder.Block;
 import org.mtr.mapping.registry.BlockRegistryObject;
@@ -484,6 +485,12 @@ public final class ModBlocks {
             "squaregallows",
             () -> new Block(new gallowsSignBlock(createDefaultBlockSettings(false))),
             ModItemGroups.MTRSignAddonGroup
+    );
+    // Ticket Machine
+    public static final BlockRegistryObject TICKETMACHINEBLOCK = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ticket_vendor",
+            () -> new Block(new TicketMachineBlock()),
+            ModItemGroups.MTRFranceAddonGroup
     );
 
     public static void register() {

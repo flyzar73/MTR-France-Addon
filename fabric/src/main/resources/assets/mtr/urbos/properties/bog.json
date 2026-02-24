@@ -1,0 +1,14 @@
+{
+	"parts": [
+		{
+			"names": [
+				"lod_0_railbrake"
+			],
+			"positionDefinitions": [
+				"origin"
+			],
+			"renderStage": "EXTERIOR"
+		}
+	],
+	"modelYOffset": 0
+}

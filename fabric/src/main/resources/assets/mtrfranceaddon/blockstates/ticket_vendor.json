@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mtrfranceaddon:block/ticket_vendor",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mtrfranceaddon:block/ticket_vendor"
+    },
+    "facing=west": {
+      "model": "mtrfranceaddon:block/ticket_vendor",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "mtrfranceaddon:block/ticket_vendor",
+      "y": 270
+    }
+  }
+}
