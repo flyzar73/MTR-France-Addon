@@ -1,19 +1,22 @@
 {
   "variants": {
-    "facing=north": {
+    "facing=north,half=lower": {
       "model": "mtrfranceaddon:block/ticket_vendor",
       "y": 180
     },
-    "facing=south": {
+    "facing=south,half=lower": {
       "model": "mtrfranceaddon:block/ticket_vendor"
     },
-    "facing=west": {
+    "facing=west,half=lower": {
       "model": "mtrfranceaddon:block/ticket_vendor",
       "y": 90
     },
-    "facing=east": {
+    "facing=east,half=lower": {
       "model": "mtrfranceaddon:block/ticket_vendor",
       "y": 270
+    },
+    "half=upper": {
+      "model": "mtrfranceaddon:block/ticket_vendor_top"
     }
   }
 }
