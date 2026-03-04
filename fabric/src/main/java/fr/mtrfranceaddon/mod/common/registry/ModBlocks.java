@@ -1,11 +1,8 @@
 package fr.mtrfranceaddon.mod.common.registry;
 
 import fr.mtrfranceaddon.mod.common.Init;
-import fr.mtrfranceaddon.mod.common.block.InvisiblePlatform;
-import fr.mtrfranceaddon.mod.common.block.LogoBlock;
-import fr.mtrfranceaddon.mod.common.block.RATPTicketBarrierBlock;
-import fr.mtrfranceaddon.mod.common.block.RATPTicketBarrierSideCoverBlock;
-import fr.mtrfranceaddon.mod.common.block.base.TicketMachineBlock;
+import fr.mtrfranceaddon.mod.common.block.*;
+import fr.mtrfranceaddon.mod.common.block.base.SeatBlock;
 import fr.mtrfranceaddon.mod.common.block.sign.*;
 import org.mtr.mapping.holder.Block;
 import org.mtr.mapping.registry.BlockRegistryObject;
@@ -487,9 +484,26 @@ public final class ModBlocks {
             ModItemGroups.MTRSignAddonGroup
     );
     // Ticket Machine
-    public static final BlockRegistryObject TICKETMACHINEBLOCK = MTRFranceAddonRegistry.registerBlockWithItem(
-            "ticket_vendor",
-            () -> new Block(new TicketMachineBlock()),
+    public static final BlockRegistryObject IDFTICKETMACHINEBLOCK = MTRFranceAddonRegistry.registerBlockWithItem(
+            "idfm_ticket_machine",
+            () -> new Block(new IDFMTicketMachineBlock()),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject IDFTICKETMACHINE2BLOCK = MTRFranceAddonRegistry.registerBlockWithItem(
+            "idfm_ticket_machine_2",
+            () -> new Block(new IDFMTicketMachine2Block()),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+
+    // Seat
+    public static final BlockRegistryObject IDFMSEATWITHPOLE = MTRFranceAddonRegistry.registerBlockWithItem(
+            "idfm_seat_with_pole",
+            () -> new Block(new SeatBlock(createDefaultBlockSettings(false))),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject IDFMSEAT = MTRFranceAddonRegistry.registerBlockWithItem(
+            "idfm_seat",
+            () -> new Block(new SeatBlock(createDefaultBlockSettings(false))),
             ModItemGroups.MTRFranceAddonGroup
     );
 
