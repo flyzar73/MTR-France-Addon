@@ -20719,9 +20719,87 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_cabd1088.json", "positionDefinitionsResource": "mtr:corail/definition_443dd924.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_67f22ff7.json", "positionDefinitionsResource": "mtr:corail/definition_434b91c8.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_41ad3928.json", "positionDefinitionsResource": "mtr:corail/definition_78c36102.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_3e6fe710.json",
+          "positionDefinitionsResource": "mtr:corail/definition_ebb8b46e.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_17be2065.json",
+          "positionDefinitionsResource": "mtr:corail/definition_5ea3a4ac.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_8a975898.json",
+          "positionDefinitionsResource": "mtr:corail/definition_d8ee5aea.json",
+          "flipTextureV": true
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_orange_cmp_front",
+      "name": "Corail Car Orange (COMPART) (Front)",
+      "color": "FF6600",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
+          "textureResource": "mtr:corail/corail1cmd.png",
+          "modelPropertiesResource": "mtr:corail/properties_e4962b71.json",
+          "positionDefinitionsResource": "mtr:corail/definition_e9545552.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_b8dbf22f.json",
+          "positionDefinitionsResource": "mtr:corail/definition_f4ccbb6d.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_4aa48892.json",
+          "positionDefinitionsResource": "mtr:corail/definition_26906aba.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -20738,7 +20816,7 @@
     {
       "id": "corail_car_ouigo_front",
       "name": "Corail Car OUIGO (Front)",
-      "color": "FF00D0",
+      "color": "FF00DD",
       "transportMode": "TRAIN",
       "length": 26.0,
       "width": 2.0,
@@ -20749,9 +20827,87 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1ouigo.png", "modelPropertiesResource": "mtr:corail/properties_cabd1088.json", "positionDefinitionsResource": "mtr:corail/definition_443dd924.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_67f22ff7.json", "positionDefinitionsResource": "mtr:corail/definition_434b91c8.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_41ad3928.json", "positionDefinitionsResource": "mtr:corail/definition_78c36102.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1ouigo.png",
+          "modelPropertiesResource": "mtr:corail/properties_312c6c86.json",
+          "positionDefinitionsResource": "mtr:corail/definition_186477d8.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_b658f435.json",
+          "positionDefinitionsResource": "mtr:corail/definition_2b4b6738.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_93620cac.json",
+          "positionDefinitionsResource": "mtr:corail/definition_b1795d7b.json",
+          "flipTextureV": true
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_bourg_front",
+      "name": "Corail Car BOURGOGNE (Front)",
+      "color": "FF0000",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1bourgogne.png",
+          "modelPropertiesResource": "mtr:corail/properties_169840b8.json",
+          "positionDefinitionsResource": "mtr:corail/definition_1bbc132f.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_b01c73c2.json",
+          "positionDefinitionsResource": "mtr:corail/definition_c220be49.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_8469f6ea.json",
+          "positionDefinitionsResource": "mtr:corail/definition_10ffb7.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -20779,9 +20935,87 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1orange.png", "modelPropertiesResource": "mtr:corail/properties_c3679d7c.json", "positionDefinitionsResource": "mtr:corail/definition_83ccb986.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_c8f421c1.json", "positionDefinitionsResource": "mtr:corail/definition_3d4e8901.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_e32a4b60.json", "positionDefinitionsResource": "mtr:corail/definition_84098d05.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1orange.png",
+          "modelPropertiesResource": "mtr:corail/properties_49c70d79.json",
+          "positionDefinitionsResource": "mtr:corail/definition_235ea4a6.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_d1203440.json",
+          "positionDefinitionsResource": "mtr:corail/definition_ed1f34cf.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_87785af6.json",
+          "positionDefinitionsResource": "mtr:corail/definition_6bafc5.json",
+          "flipTextureV": true
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_green_comp_front",
+      "name": "Corail Car (COMPART) (Front)",
+      "color": "00D10E",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
+          "textureResource": "mtr:corail/corail1vertcmd.png",
+          "modelPropertiesResource": "mtr:corail/properties_f88cd5c1.json",
+          "positionDefinitionsResource": "mtr:corail/definition_72608095.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_1e78e573.json",
+          "positionDefinitionsResource": "mtr:corail/definition_b3a2b479.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_d47ec92d.json",
+          "positionDefinitionsResource": "mtr:corail/definition_82ee9894.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -20809,9 +21043,87 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_ea7426c2.json", "positionDefinitionsResource": "mtr:corail/definition_a8928a96.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_3c6684ca.json", "positionDefinitionsResource": "mtr:corail/definition_36e9b787.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_659bcd96.json", "positionDefinitionsResource": "mtr:corail/definition_7e4841a1.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_fd3e1d8f.json",
+          "positionDefinitionsResource": "mtr:corail/definition_174cda1d.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_2f10bd0a.json",
+          "positionDefinitionsResource": "mtr:corail/definition_408a3364.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_c44a977.json",
+          "positionDefinitionsResource": "mtr:corail/definition_f8a854bb.json",
+          "flipTextureV": true
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_orange_comp_back",
+      "name": "Corail Car Orange (COMPART) (Back)",
+      "color": "FF6600",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
+          "textureResource": "mtr:corail/corail1cmd.png",
+          "modelPropertiesResource": "mtr:corail/properties_1da5fbcd.json",
+          "positionDefinitionsResource": "mtr:corail/definition_135cf4e7.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_4c543ff1.json",
+          "positionDefinitionsResource": "mtr:corail/definition_588bfa2.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_8215c328.json",
+          "positionDefinitionsResource": "mtr:corail/definition_64b53731.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": true,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20828,7 +21140,7 @@
     {
       "id": "corail_car_ouigo_back",
       "name": "Corail Car OUIGO (Back)",
-      "color": "FF00D0",
+      "color": "FF00F7",
       "transportMode": "TRAIN",
       "length": 26.0,
       "width": 2.0,
@@ -20839,9 +21151,87 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1ouigo.png", "modelPropertiesResource": "mtr:corail/properties_ea7426c2.json", "positionDefinitionsResource": "mtr:corail/definition_a8928a96.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_3c6684ca.json", "positionDefinitionsResource": "mtr:corail/definition_36e9b787.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_659bcd96.json", "positionDefinitionsResource": "mtr:corail/definition_7e4841a1.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1ouigo.png",
+          "modelPropertiesResource": "mtr:corail/properties_1eb0dd98.json",
+          "positionDefinitionsResource": "mtr:corail/definition_72c34a16.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_a49cb673.json",
+          "positionDefinitionsResource": "mtr:corail/definition_5ce12fb6.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_9135d2c8.json",
+          "positionDefinitionsResource": "mtr:corail/definition_ab5f03d0.json",
+          "flipTextureV": true
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_bourg_back",
+      "name": "Corail Car BOURGOGNE (Back)",
+      "color": "FF0000",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1bourgogne.png",
+          "modelPropertiesResource": "mtr:corail/properties_3993c2cc.json",
+          "positionDefinitionsResource": "mtr:corail/definition_259982d2.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_c5f98dd8.json",
+          "positionDefinitionsResource": "mtr:corail/definition_df3e6e9c.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_5208a8c1.json",
+          "positionDefinitionsResource": "mtr:corail/definition_55012a2e.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": true,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20869,9 +21259,87 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1orange.png", "modelPropertiesResource": "mtr:corail/properties_56992ca1.json", "positionDefinitionsResource": "mtr:corail/definition_653d803.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_a6640cb6.json", "positionDefinitionsResource": "mtr:corail/definition_86353483.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_23393ad.json", "positionDefinitionsResource": "mtr:corail/definition_ff7df0d4.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1orange.png",
+          "modelPropertiesResource": "mtr:corail/properties_66ba765e.json",
+          "positionDefinitionsResource": "mtr:corail/definition_6870b669.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_59a5157b.json",
+          "positionDefinitionsResource": "mtr:corail/definition_a88a987c.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_16603811.json",
+          "positionDefinitionsResource": "mtr:corail/definition_8bbd425f.json",
+          "flipTextureV": true
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_green_comp_back",
+      "name": "Corail Car Green (COMPART) (Back)",
+      "color": "00D103",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
+          "textureResource": "mtr:corail/corail1vertcmd.png",
+          "modelPropertiesResource": "mtr:corail/properties_8407ef61.json",
+          "positionDefinitionsResource": "mtr:corail/definition_d1cf703a.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_1b6a9603.json",
+          "positionDefinitionsResource": "mtr:corail/definition_affb2f7f.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_b45e018f.json",
+          "positionDefinitionsResource": "mtr:corail/definition_bec60cad.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": true,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20899,9 +21367,87 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_fefb07f7.json", "positionDefinitionsResource": "mtr:corail/definition_e40dd779.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_adc49a72.json", "positionDefinitionsResource": "mtr:corail/definition_e619744b.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_1dbc1a53.json", "positionDefinitionsResource": "mtr:corail/definition_1b562558.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_a45af784.json",
+          "positionDefinitionsResource": "mtr:corail/definition_ea959c27.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_ba04ab6.json",
+          "positionDefinitionsResource": "mtr:corail/definition_1f0cc5a4.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_fd36cc51.json",
+          "positionDefinitionsResource": "mtr:corail/definition_4450a266.json",
+          "flipTextureV": true
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_orange_comp_midlle",
+      "name": "Corail Car Orange (COMPART) (Middle)",
+      "color": "FF6600",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
+          "textureResource": "mtr:corail/corail1cmd.png",
+          "modelPropertiesResource": "mtr:corail/properties_e493eebd.json",
+          "positionDefinitionsResource": "mtr:corail/definition_db486e66.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_98728f61.json",
+          "positionDefinitionsResource": "mtr:corail/definition_17adaca.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_5d5afc56.json",
+          "positionDefinitionsResource": "mtr:corail/definition_e20a5418.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": true,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -20918,7 +21464,7 @@
     {
       "id": "corail_car_ouigo_midlle",
       "name": "Corail Car OUIGO (Middle)",
-      "color": "FF00D0",
+      "color": "FF00DD",
       "transportMode": "TRAIN",
       "length": 26.0,
       "width": 2.0,
@@ -20929,9 +21475,87 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1ouigo.png", "modelPropertiesResource": "mtr:corail/properties_fefb07f7.json", "positionDefinitionsResource": "mtr:corail/definition_e40dd779.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_adc49a72.json", "positionDefinitionsResource": "mtr:corail/definition_e619744b.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_1dbc1a53.json", "positionDefinitionsResource": "mtr:corail/definition_1b562558.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1ouigo.png",
+          "modelPropertiesResource": "mtr:corail/properties_c2213d21.json",
+          "positionDefinitionsResource": "mtr:corail/definition_a7f7dded.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_34d5c5d4.json",
+          "positionDefinitionsResource": "mtr:corail/definition_2222e6ec.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_a4d4d1a4.json",
+          "positionDefinitionsResource": "mtr:corail/definition_d8df27e0.json",
+          "flipTextureV": true
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_bourg_midlle",
+      "name": "Corail Car BOURGOGNE (Middle)",
+      "color": "FF0000",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1bourgogne.png",
+          "modelPropertiesResource": "mtr:corail/properties_fb13a443.json",
+          "positionDefinitionsResource": "mtr:corail/definition_ba6d6850.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_8e089d49.json",
+          "positionDefinitionsResource": "mtr:corail/definition_7c627606.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_534cdec5.json",
+          "positionDefinitionsResource": "mtr:corail/definition_5b901cfa.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": true,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -20959,9 +21583,87 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1orange.png", "modelPropertiesResource": "mtr:corail/properties_a18a3414.json", "positionDefinitionsResource": "mtr:corail/definition_103d8a3e.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_852efcd4.json", "positionDefinitionsResource": "mtr:corail/definition_9ba4b4d7.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_b88461c2.json", "positionDefinitionsResource": "mtr:corail/definition_7ad8d1b6.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_af016c88.json",
+          "positionDefinitionsResource": "mtr:corail/definition_7beab495.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_11f53a11.json",
+          "positionDefinitionsResource": "mtr:corail/definition_baafbd7f.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_96ba056d.json",
+          "positionDefinitionsResource": "mtr:corail/definition_185993e6.json",
+          "flipTextureV": true
+        }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_green_comp_midlle",
+      "name": "Corail Car Green (COMPART) (Middle)",
+      "color": "00C203",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
+          "textureResource": "mtr:corail/corail1vertcmd.png",
+          "modelPropertiesResource": "mtr:corail/properties_3aa0fe5a.json",
+          "positionDefinitionsResource": "mtr:corail/definition_cdebde76.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_1ef648aa.json",
+          "positionDefinitionsResource": "mtr:corail/definition_b5939a12.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
+          "textureResource": "mtr:corail/corail1.png",
+          "modelPropertiesResource": "mtr:corail/properties_1d3686e6.json",
+          "positionDefinitionsResource": "mtr:corail/definition_900106bc.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": true,
       "hasGangway2": true,
       "hasBarrier1": false,

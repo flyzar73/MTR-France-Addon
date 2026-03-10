@@ -1,6 +1,6 @@
 {
-  "parent": "mtrfranceaddonon:block/threehundredsignblock",
+  "parent": "mtrfranceaddon:block/threehundredsignblock",
   "textures": {
-    "layer0": "mtrfranceaddonon:item/threehundredsignblock"
+    "layer0": "mtrfranceaddon:item/threehundredsignblock"
   }
 }

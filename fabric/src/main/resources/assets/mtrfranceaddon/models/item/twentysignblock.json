@@ -1,6 +1,6 @@
 {
-  "parent": "mtrfranceaddonon:block/twentysignblock",
+  "parent": "mtrfranceaddon:block/twentysignblock",
   "textures": {
-    "layer0": "mtrfranceaddonon:item/twentysignblock"
+    "layer0": "mtrfranceaddon:item/twentysignblock"
   }
 }

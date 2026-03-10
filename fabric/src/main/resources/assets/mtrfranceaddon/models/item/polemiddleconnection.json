@@ -1,6 +1,6 @@
 {
-  "parent": "mtrfranceaddonon:block/polemiddleconnection",
+  "parent": "mtrfranceaddon:block/polemiddleconnection",
   "textures": {
-    "layer0": "mtrfranceaddonon:item/polemiddleconnection"
+    "layer0": "mtrfranceaddon:item/polemiddleconnection"
   }
 }

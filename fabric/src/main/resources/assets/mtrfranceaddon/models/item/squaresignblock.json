@@ -1,6 +1,6 @@
 {
-  "parent": "mtrfranceaddonon:block/squaresignblock",
+  "parent": "mtrfranceaddon:block/squaresignblock",
   "textures": {
-    "layer0": "mtrfranceaddonon:item/squaresignblock"
+    "layer0": "mtrfranceaddon:item/squaresignblock"
   }
 }

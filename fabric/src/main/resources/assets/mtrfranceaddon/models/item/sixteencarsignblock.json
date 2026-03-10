@@ -1,6 +1,6 @@
 {
-  "parent": "mtrfranceaddonon:block/sixteencarsignblock",
+  "parent": "mtrfranceaddon:block/sixteencarsignblock",
   "textures": {
-    "layer0": "mtrfranceaddonon:item/sixteencarsignblock"
+    "layer0": "mtrfranceaddon:item/sixteencarsignblock"
   }
 }
