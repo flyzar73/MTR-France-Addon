@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddon:block/fourtygallows",
+  "textures": {
+    "layer0": "mtrfranceaddon:item/fourtygallows"
+  }
+}

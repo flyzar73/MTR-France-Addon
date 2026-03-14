@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddon:block/depotgroundsignblock",
+  "textures": {
+    "layer0": "mtrfranceaddon:item/depotgroundsignblock"
+  }
+}

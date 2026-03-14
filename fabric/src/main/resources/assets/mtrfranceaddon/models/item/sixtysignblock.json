@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddon:block/sixtysignblock",
+  "textures": {
+    "layer0": "mtrfranceaddon:item/sixtysignblock"
+  }
+}

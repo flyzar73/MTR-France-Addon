@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddon:block/squaregroundsignblock",
+  "textures": {
+    "layer0": "mtrfranceaddon:item/squaregroundsignblock"
+  }
+}

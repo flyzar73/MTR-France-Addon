@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddon:block/rightsgroundsignblock",
+  "textures": {
+    "layer0": "mtrfranceaddon:item/rightsgroundsignblock"
+  }
+}
