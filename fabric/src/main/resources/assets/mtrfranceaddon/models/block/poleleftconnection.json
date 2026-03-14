@@ -2,8 +2,8 @@
   "credit": "Made by MarcusIsLion",
   "texture_size": [32, 32],
   "textures": {
-    "2": "mtrfranceaddonn:block/pole",
-    "particle": "mtrfranceaddonn:block/pole"
+    "2": "mtrfranceaddon:block/pole",
+    "particle": "mtrfranceaddon:block/pole"
   },
   "elements": [
     {

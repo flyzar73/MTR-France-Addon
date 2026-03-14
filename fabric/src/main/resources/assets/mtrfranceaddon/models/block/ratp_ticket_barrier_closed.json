@@ -5,7 +5,7 @@
 	"textures": {
 		"0": "mtrfranceaddon:block/ratp_ticket_barrier_1b",
 		"1": "mtrfranceaddon:block/ratp_ticket_barrier_1a",
-		"particle": "minecraft:block/stone"
+		"particle": "block/stone"
 	},
 	"elements": [
 		{
@@ -269,6 +269,39 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -30, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -30, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"ground": {
+			"scale": [0.55469, 0.55469, 0.55469]
+		},
+		"gui": {
+			"rotation": [19, -20, 0],
+			"translation": [0, -2.75, 0],
+			"scale": [0.45508, 0.45508, 0.45508]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -3.5, 0],
+			"scale": [0.49219, 0.49219, 0.49219]
+		},
+		"on_shelf": {
+			"translation": [1, -2.25, 0],
+			"scale": [0.62305, 0.62305, 0.62305]
+		}
+	},
 	"groups": [
 		{
 			"name": "porte",

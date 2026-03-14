@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "mtrfranceaddonblock/noventgroundsignblock"
+      "model": "mtrfranceaddon:block/noventgroundsignblock"
     },
     "facing=south": {
-      "model": "mtrfranceaddonblock/noventgroundsignblock",
+      "model": "mtrfranceaddon:block/noventgroundsignblock",
       "y": 180
     },
     "facing=west": {
-      "model": "mtrfranceaddonblock/noventgroundsignblock",
+      "model": "mtrfranceaddon:block/noventgroundsignblock",
       "y": 270
     },
     "facing=east": {
-      "model": "mtrfranceaddonblock/noventgroundsignblock",
+      "model": "mtrfranceaddon:block/noventgroundsignblock",
       "y": 90
     }
   }

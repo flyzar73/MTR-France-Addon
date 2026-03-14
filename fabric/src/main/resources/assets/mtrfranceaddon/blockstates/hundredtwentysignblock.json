@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "mtrfranceaddonblock/hundredtwentysignblock"
+      "model": "mtrfranceaddon:block/hundredtwentysignblock"
     },
     "facing=south": {
-      "model": "mtrfranceaddonblock/hundredtwentysignblock",
+      "model": "mtrfranceaddon:block/hundredtwentysignblock",
       "y": 180
     },
     "facing=west": {
-      "model": "mtrfranceaddonblock/hundredtwentysignblock",
+      "model": "mtrfranceaddon:block/hundredtwentysignblock",
       "y": 270
     },
     "facing=east": {
-      "model": "mtrfranceaddonblock/hundredtwentysignblock",
+      "model": "mtrfranceaddon:block/hundredtwentysignblock",
       "y": 90
     }
   }

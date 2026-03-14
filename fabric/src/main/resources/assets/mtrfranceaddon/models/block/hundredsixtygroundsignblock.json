@@ -1,9 +1,9 @@
 {
   "credit": "Made by MarcusIsLion",
   "textures": {
-    "0": "mtrfranceadndon:block/hundredsixtysignblock",
-    "1": "mtrfranceadndon:block/pole",
-    "particle": "mtrfranceadndon:block/pole"
+    "0": "mtrfranceaddon:block/hundredsixtysignblock",
+    "1": "mtrfranceaddon:block/pole",
+    "particle": "mtrfranceaddon:block/pole"
   },
   "elements": [
     {

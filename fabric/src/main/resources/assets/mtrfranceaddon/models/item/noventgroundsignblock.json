@@ -1,6 +1,6 @@
 {
-  "parent": "mtrfranceaddonon:block/noventgroundsignblock",
+  "parent": "mtrfranceaddon:block/noventgroundsignblock",
   "textures": {
-    "layer0": "mtrfranceaddonon:item/noventgroundsignblock"
+    "layer0": "mtrfranceaddon:item/noventgroundsignblock"
   }
 }

@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "mtrfranceaddonblock/plateformelsignblock"
+      "model": "mtrfranceaddon:block/plateformelsignblock"
     },
     "facing=south": {
-      "model": "mtrfranceaddonblock/plateformelsignblock",
+      "model": "mtrfranceaddon:block/plateformelsignblock",
       "y": 180
     },
     "facing=west": {
-      "model": "mtrfranceaddonblock/plateformelsignblock",
+      "model": "mtrfranceaddon:block/plateformelsignblock",
       "y": 270
     },
     "facing=east": {
-      "model": "mtrfranceaddonblock/plateformelsignblock",
+      "model": "mtrfranceaddon:block/plateformelsignblock",
       "y": 90
     }
   }
