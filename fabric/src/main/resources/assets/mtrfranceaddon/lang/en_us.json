@@ -25,7 +25,7 @@
 
   "block.mtrfranceaddon.ratp_ticket_barrier_entrance": "Ticket barrier (entrance)",
   "block.mtrfranceaddon.ratp_ticket_barrier_exit": "Ticket barrier (exit)",
-  "block.mtrfranceaddon.idfm_ticket_machine": "IDFM Ticket Machine",,
+  "block.mtrfranceaddon.idfm_ticket_machine": "IDFM Ticket Machine",
   "block.mtrfranceaddon.idfm_ticket_machine_2": "IDFM Big Ticket Machine",
 
   "item.mtrfranceaddon.rail_connector_base": "Rail connector (%s km/h)",
