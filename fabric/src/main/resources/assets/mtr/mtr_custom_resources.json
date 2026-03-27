@@ -20719,33 +20719,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_3e6fe710.json",
-          "positionDefinitionsResource": "mtr:corail/definition_ebb8b46e.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_17be2065.json",
-          "positionDefinitionsResource": "mtr:corail/definition_5ea3a4ac.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_8a975898.json",
-          "positionDefinitionsResource": "mtr:corail/definition_d8ee5aea.json",
-          "flipTextureV": true
-        }
-      ],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_346829d3.json", "positionDefinitionsResource": "mtr:corail/definition_2755c8d.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_a20082f4.json", "positionDefinitionsResource": "mtr:corail/definition_139d552a.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_4d68c1a.json", "positionDefinitionsResource": "mtr:corail/definition_9245a1c1.json", "flipTextureV": true }],
       "hasGangway1": false,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -20773,575 +20749,11 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
-          "textureResource": "mtr:corail/corail1cmd.png",
-          "modelPropertiesResource": "mtr:corail/properties_e4962b71.json",
-          "positionDefinitionsResource": "mtr:corail/definition_e9545552.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_b8dbf22f.json",
-          "positionDefinitionsResource": "mtr:corail/definition_f4ccbb6d.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_4aa48892.json",
-          "positionDefinitionsResource": "mtr:corail/definition_26906aba.json",
-          "flipTextureV": true
-        }
-      ],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel", "textureResource": "mtr:corail/corail1cmd.png", "modelPropertiesResource": "mtr:corail/properties_4f021077.json", "positionDefinitionsResource": "mtr:corail/definition_c760d566.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_101ef0b6.json", "positionDefinitionsResource": "mtr:corail/definition_bdb0a744.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_ea5bc643.json", "positionDefinitionsResource": "mtr:corail/definition_b0d8a314.json", "flipTextureV": true }],
       "hasGangway1": false,
       "hasGangway2": true,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "corail_car_ouigo_front",
-      "name": "Corail Car OUIGO (Front)",
-      "color": "FF00DD",
-      "transportMode": "TRAIN",
-      "length": 26.0,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.2,
-      "couplingPadding2": 0.2,
-      "description": "",
-      "wikipediaArticle": "",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1ouigo.png",
-          "modelPropertiesResource": "mtr:corail/properties_312c6c86.json",
-          "positionDefinitionsResource": "mtr:corail/definition_186477d8.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_b658f435.json",
-          "positionDefinitionsResource": "mtr:corail/definition_2b4b6738.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_93620cac.json",
-          "positionDefinitionsResource": "mtr:corail/definition_b1795d7b.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": false,
-      "hasGangway2": true,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "corail_car_bourg_front",
-      "name": "Corail Car BOURGOGNE (Front)",
-      "color": "FF0000",
-      "transportMode": "TRAIN",
-      "length": 26.0,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.2,
-      "couplingPadding2": 0.2,
-      "description": "",
-      "wikipediaArticle": "",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1bourgogne.png",
-          "modelPropertiesResource": "mtr:corail/properties_169840b8.json",
-          "positionDefinitionsResource": "mtr:corail/definition_1bbc132f.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_b01c73c2.json",
-          "positionDefinitionsResource": "mtr:corail/definition_c220be49.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_8469f6ea.json",
-          "positionDefinitionsResource": "mtr:corail/definition_10ffb7.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": false,
-      "hasGangway2": true,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "corail_car_green_front",
-      "name": "Corail Car Green (Front)",
-      "color": "00D10E",
-      "transportMode": "TRAIN",
-      "length": 26.0,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.2,
-      "couplingPadding2": 0.2,
-      "description": "",
-      "wikipediaArticle": "",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1orange.png",
-          "modelPropertiesResource": "mtr:corail/properties_49c70d79.json",
-          "positionDefinitionsResource": "mtr:corail/definition_235ea4a6.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_d1203440.json",
-          "positionDefinitionsResource": "mtr:corail/definition_ed1f34cf.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_87785af6.json",
-          "positionDefinitionsResource": "mtr:corail/definition_6bafc5.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": false,
-      "hasGangway2": true,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "corail_car_green_comp_front",
-      "name": "Corail Car (COMPART) (Front)",
-      "color": "00D10E",
-      "transportMode": "TRAIN",
-      "length": 26.0,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.2,
-      "couplingPadding2": 0.2,
-      "description": "",
-      "wikipediaArticle": "",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
-          "textureResource": "mtr:corail/corail1vertcmd.png",
-          "modelPropertiesResource": "mtr:corail/properties_f88cd5c1.json",
-          "positionDefinitionsResource": "mtr:corail/definition_72608095.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_1e78e573.json",
-          "positionDefinitionsResource": "mtr:corail/definition_b3a2b479.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_d47ec92d.json",
-          "positionDefinitionsResource": "mtr:corail/definition_82ee9894.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": false,
-      "hasGangway2": true,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "corail_car_orange_back",
-      "name": "Corail Car Orange (Back)",
-      "color": "FF6600",
-      "transportMode": "TRAIN",
-      "length": 26.0,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.2,
-      "couplingPadding2": 0.2,
-      "description": "",
-      "wikipediaArticle": "",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_fd3e1d8f.json",
-          "positionDefinitionsResource": "mtr:corail/definition_174cda1d.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_2f10bd0a.json",
-          "positionDefinitionsResource": "mtr:corail/definition_408a3364.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_c44a977.json",
-          "positionDefinitionsResource": "mtr:corail/definition_f8a854bb.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": true,
-      "hasGangway2": false,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "corail_car_orange_comp_back",
-      "name": "Corail Car Orange (COMPART) (Back)",
-      "color": "FF6600",
-      "transportMode": "TRAIN",
-      "length": 26.0,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.2,
-      "couplingPadding2": 0.2,
-      "description": "",
-      "wikipediaArticle": "",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
-          "textureResource": "mtr:corail/corail1cmd.png",
-          "modelPropertiesResource": "mtr:corail/properties_1da5fbcd.json",
-          "positionDefinitionsResource": "mtr:corail/definition_135cf4e7.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_4c543ff1.json",
-          "positionDefinitionsResource": "mtr:corail/definition_588bfa2.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_8215c328.json",
-          "positionDefinitionsResource": "mtr:corail/definition_64b53731.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": true,
-      "hasGangway2": false,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "corail_car_ouigo_back",
-      "name": "Corail Car OUIGO (Back)",
-      "color": "FF00F7",
-      "transportMode": "TRAIN",
-      "length": 26.0,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.2,
-      "couplingPadding2": 0.2,
-      "description": "",
-      "wikipediaArticle": "",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1ouigo.png",
-          "modelPropertiesResource": "mtr:corail/properties_1eb0dd98.json",
-          "positionDefinitionsResource": "mtr:corail/definition_72c34a16.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_a49cb673.json",
-          "positionDefinitionsResource": "mtr:corail/definition_5ce12fb6.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_9135d2c8.json",
-          "positionDefinitionsResource": "mtr:corail/definition_ab5f03d0.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": true,
-      "hasGangway2": false,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "corail_car_bourg_back",
-      "name": "Corail Car BOURGOGNE (Back)",
-      "color": "FF0000",
-      "transportMode": "TRAIN",
-      "length": 26.0,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.2,
-      "couplingPadding2": 0.2,
-      "description": "",
-      "wikipediaArticle": "",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1bourgogne.png",
-          "modelPropertiesResource": "mtr:corail/properties_3993c2cc.json",
-          "positionDefinitionsResource": "mtr:corail/definition_259982d2.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_c5f98dd8.json",
-          "positionDefinitionsResource": "mtr:corail/definition_df3e6e9c.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_5208a8c1.json",
-          "positionDefinitionsResource": "mtr:corail/definition_55012a2e.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": true,
-      "hasGangway2": false,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "corail_car_green_back",
-      "name": "Corail Car Green (Back)",
-      "color": "00D103",
-      "transportMode": "TRAIN",
-      "length": 26.0,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.2,
-      "couplingPadding2": 0.2,
-      "description": "",
-      "wikipediaArticle": "",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1orange.png",
-          "modelPropertiesResource": "mtr:corail/properties_66ba765e.json",
-          "positionDefinitionsResource": "mtr:corail/definition_6870b669.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_59a5157b.json",
-          "positionDefinitionsResource": "mtr:corail/definition_a88a987c.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_16603811.json",
-          "positionDefinitionsResource": "mtr:corail/definition_8bbd425f.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": true,
-      "hasGangway2": false,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "corail_car_green_comp_back",
-      "name": "Corail Car Green (COMPART) (Back)",
-      "color": "00D103",
-      "transportMode": "TRAIN",
-      "length": 26.0,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.2,
-      "couplingPadding2": 0.2,
-      "description": "",
-      "wikipediaArticle": "",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
-          "textureResource": "mtr:corail/corail1vertcmd.png",
-          "modelPropertiesResource": "mtr:corail/properties_8407ef61.json",
-          "positionDefinitionsResource": "mtr:corail/definition_d1cf703a.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_1b6a9603.json",
-          "positionDefinitionsResource": "mtr:corail/definition_affb2f7f.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_b45e018f.json",
-          "positionDefinitionsResource": "mtr:corail/definition_bec60cad.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": true,
-      "hasGangway2": false,
       "hasBarrier1": false,
       "hasBarrier2": false,
       "legacyRiderOffset": 0.0,
@@ -21367,33 +20779,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_a45af784.json",
-          "positionDefinitionsResource": "mtr:corail/definition_ea959c27.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_ba04ab6.json",
-          "positionDefinitionsResource": "mtr:corail/definition_1f0cc5a4.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_fd36cc51.json",
-          "positionDefinitionsResource": "mtr:corail/definition_4450a266.json",
-          "flipTextureV": true
-        }
-      ],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_2be2332a.json", "positionDefinitionsResource": "mtr:corail/definition_ebf5a8ca.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_761b1028.json", "positionDefinitionsResource": "mtr:corail/definition_2c7c1c6f.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_c85279ed.json", "positionDefinitionsResource": "mtr:corail/definition_e8755167.json", "flipTextureV": true }],
       "hasGangway1": true,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -21421,33 +20809,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
-          "textureResource": "mtr:corail/corail1cmd.png",
-          "modelPropertiesResource": "mtr:corail/properties_e493eebd.json",
-          "positionDefinitionsResource": "mtr:corail/definition_db486e66.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_98728f61.json",
-          "positionDefinitionsResource": "mtr:corail/definition_17adaca.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_5d5afc56.json",
-          "positionDefinitionsResource": "mtr:corail/definition_e20a5418.json",
-          "flipTextureV": true
-        }
-      ],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel", "textureResource": "mtr:corail/corail1cmd.png", "modelPropertiesResource": "mtr:corail/properties_a4462fba.json", "positionDefinitionsResource": "mtr:corail/definition_917be648.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_27e8df39.json", "positionDefinitionsResource": "mtr:corail/definition_3e1620a.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_e72e75f3.json", "positionDefinitionsResource": "mtr:corail/definition_9fc9a37e.json", "flipTextureV": true }],
       "hasGangway1": true,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -21462,9 +20826,9 @@
       "legacyDoorCloseSoundTime": 0.0
     },
     {
-      "id": "corail_car_ouigo_midlle",
-      "name": "Corail Car OUIGO (Middle)",
-      "color": "FF00DD",
+      "id": "corail_car_orange_back",
+      "name": "Corail Car Orange (Back)",
+      "color": "FF6600",
       "transportMode": "TRAIN",
       "length": 26.0,
       "width": 2.0,
@@ -21475,34 +20839,70 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1ouigo.png",
-          "modelPropertiesResource": "mtr:corail/properties_c2213d21.json",
-          "positionDefinitionsResource": "mtr:corail/definition_a7f7dded.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_34d5c5d4.json",
-          "positionDefinitionsResource": "mtr:corail/definition_2222e6ec.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_a4d4d1a4.json",
-          "positionDefinitionsResource": "mtr:corail/definition_d8df27e0.json",
-          "flipTextureV": true
-        }
-      ],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_aeb560d9.json", "positionDefinitionsResource": "mtr:corail/definition_9acc95f2.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_42e1775d.json", "positionDefinitionsResource": "mtr:corail/definition_6179d0ad.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_df58f3d3.json", "positionDefinitionsResource": "mtr:corail/definition_325536be.json", "flipTextureV": true }],
       "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_orange_comp_back",
+      "name": "Corail Car Orange (COMPART) (Back)",
+      "color": "FF6600",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel", "textureResource": "mtr:corail/corail1cmd.png", "modelPropertiesResource": "mtr:corail/properties_f44949c2.json", "positionDefinitionsResource": "mtr:corail/definition_4800943c.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_d696208c.json", "positionDefinitionsResource": "mtr:corail/definition_f5a5f55e.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_bce3698.json", "positionDefinitionsResource": "mtr:corail/definition_5d1c008d.json", "flipTextureV": true }],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_green_front",
+      "name": "Corail Car Green (Front)",
+      "color": "00D10E",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1orange.png", "modelPropertiesResource": "mtr:corail/properties_3c4b2d2e.json", "positionDefinitionsResource": "mtr:corail/definition_224849b0.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_9b8e64a0.json", "positionDefinitionsResource": "mtr:corail/definition_dd0abb19.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_9f87e2cb.json", "positionDefinitionsResource": "mtr:corail/definition_bec62b9e.json", "flipTextureV": true }],
+      "hasGangway1": false,
       "hasGangway2": true,
       "hasBarrier1": false,
       "hasBarrier2": false,
@@ -21516,9 +20916,9 @@
       "legacyDoorCloseSoundTime": 0.0
     },
     {
-      "id": "corail_car_bourg_midlle",
-      "name": "Corail Car BOURGOGNE (Middle)",
-      "color": "FF0000",
+      "id": "corail_car_green_comp_front",
+      "name": "Corail Car (COMPART) (Front)",
+      "color": "00D10E",
       "transportMode": "TRAIN",
       "length": 26.0,
       "width": 2.0,
@@ -21529,34 +20929,10 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1bourgogne.png",
-          "modelPropertiesResource": "mtr:corail/properties_fb13a443.json",
-          "positionDefinitionsResource": "mtr:corail/definition_ba6d6850.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_8e089d49.json",
-          "positionDefinitionsResource": "mtr:corail/definition_7c627606.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_534cdec5.json",
-          "positionDefinitionsResource": "mtr:corail/definition_5b901cfa.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": true,
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel", "textureResource": "mtr:corail/corail1vertcmd.png", "modelPropertiesResource": "mtr:corail/properties_5b34f6d7.json", "positionDefinitionsResource": "mtr:corail/definition_2c246495.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_1f91e62f.json", "positionDefinitionsResource": "mtr:corail/definition_1af73b91.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_7f84d54d.json", "positionDefinitionsResource": "mtr:corail/definition_20b36d04.json", "flipTextureV": true }],
+      "hasGangway1": false,
       "hasGangway2": true,
       "hasBarrier1": false,
       "hasBarrier2": false,
@@ -21583,33 +20959,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_af016c88.json",
-          "positionDefinitionsResource": "mtr:corail/definition_7beab495.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_11f53a11.json",
-          "positionDefinitionsResource": "mtr:corail/definition_baafbd7f.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_96ba056d.json",
-          "positionDefinitionsResource": "mtr:corail/definition_185993e6.json",
-          "flipTextureV": true
-        }
-      ],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1orange.png", "modelPropertiesResource": "mtr:corail/properties_a8f5f310.json", "positionDefinitionsResource": "mtr:corail/definition_8b10c6d.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_c87fe715.json", "positionDefinitionsResource": "mtr:corail/definition_edde28f3.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_b1449dca.json", "positionDefinitionsResource": "mtr:corail/definition_ef8efae6.json", "flipTextureV": true }],
       "hasGangway1": true,
       "hasGangway2": true,
       "hasBarrier1": false,
@@ -21637,34 +20989,500 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel", "textureResource": "mtr:corail/corail1vertcmd.png", "modelPropertiesResource": "mtr:corail/properties_688c5aa3.json", "positionDefinitionsResource": "mtr:corail/definition_2a64933a.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_11c30e06.json", "positionDefinitionsResource": "mtr:corail/definition_fc139eb9.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_32ceddb.json", "positionDefinitionsResource": "mtr:corail/definition_463c6054.json", "flipTextureV": true }],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_green_back",
+      "name": "Corail Car Green (Back)",
+      "color": "00D103",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1orange.png", "modelPropertiesResource": "mtr:corail/properties_9c3e62c1.json", "positionDefinitionsResource": "mtr:corail/definition_ded88210.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_781a206e.json", "positionDefinitionsResource": "mtr:corail/definition_8c80765a.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_a2a18d8e.json", "positionDefinitionsResource": "mtr:corail/definition_33c375bf.json", "flipTextureV": true }],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_green_comp_back",
+      "name": "Corail Car Green (COMPART) (Back)",
+      "color": "00D103",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel", "textureResource": "mtr:corail/corail1vertcmd.png", "modelPropertiesResource": "mtr:corail/properties_9ba18b4b.json", "positionDefinitionsResource": "mtr:corail/definition_a53bbfe0.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_5a16aedc.json", "positionDefinitionsResource": "mtr:corail/definition_c88f0b7f.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_d7d63951.json", "positionDefinitionsResource": "mtr:corail/definition_e71b3efc.json", "flipTextureV": true }],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_ouigo_front",
+      "name": "Corail Car OUIGO (Front)",
+      "color": "FF00DD",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1ouigo.png", "modelPropertiesResource": "mtr:corail/properties_cc6cb700.json", "positionDefinitionsResource": "mtr:corail/definition_69f9f2e8.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_eb96d709.json", "positionDefinitionsResource": "mtr:corail/definition_75f2b7.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_b95d302a.json", "positionDefinitionsResource": "mtr:corail/definition_1ee772ae.json", "flipTextureV": true }],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_ouigo_midlle",
+      "name": "Corail Car OUIGO (Middle)",
+      "color": "FF00DD",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1ouigo.png", "modelPropertiesResource": "mtr:corail/properties_d737efe8.json", "positionDefinitionsResource": "mtr:corail/definition_5f6f0f19.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_e04bb0a.json", "positionDefinitionsResource": "mtr:corail/definition_9432cea5.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_12df4ca1.json", "positionDefinitionsResource": "mtr:corail/definition_c1d7e2e2.json", "flipTextureV": true }],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_ouigo_back",
+      "name": "Corail Car OUIGO (Back)",
+      "color": "FF00F7",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1ouigo.png", "modelPropertiesResource": "mtr:corail/properties_38b329ee.json", "positionDefinitionsResource": "mtr:corail/definition_d5c0c80a.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_7d143f3e.json", "positionDefinitionsResource": "mtr:corail/definition_5fe4960e.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_5e1cdda.json", "positionDefinitionsResource": "mtr:corail/definition_a5a8623b.json", "flipTextureV": true }],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_bourg_midlle",
+      "name": "Corail Car BOURGOGNE (Middle)",
+      "color": "FF0000",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1bourgogne.png", "modelPropertiesResource": "mtr:corail/properties_dd5e68e0.json", "positionDefinitionsResource": "mtr:corail/definition_179199ea.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_f5c997aa.json", "positionDefinitionsResource": "mtr:corail/definition_8a136b48.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_c3ce575f.json", "positionDefinitionsResource": "mtr:corail/definition_7dc7e60e.json", "flipTextureV": true }],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_bourg_front",
+      "name": "Corail Car BOURGOGNE (Front)",
+      "color": "FF0000",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1bourgogne.png", "modelPropertiesResource": "mtr:corail/properties_2c0ca7b2.json", "positionDefinitionsResource": "mtr:corail/definition_f07d2d2c.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_744e92ab.json", "positionDefinitionsResource": "mtr:corail/definition_f2feff13.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_9f48dfc5.json", "positionDefinitionsResource": "mtr:corail/definition_5f015612.json", "flipTextureV": true }],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_bourg_back",
+      "name": "Corail Car BOURGOGNE (Back)",
+      "color": "FF0000",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1bourgogne.png", "modelPropertiesResource": "mtr:corail/properties_81096c48.json", "positionDefinitionsResource": "mtr:corail/definition_c0d8a06c.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_502aa53d.json", "positionDefinitionsResource": "mtr:corail/definition_86f8864c.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_3edee626.json", "positionDefinitionsResource": "mtr:corail/definition_c6ac2473.json", "flipTextureV": true }],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_cin_front",
+      "name": "Corail Car CINEMA (Front)",
+      "color": "DB5800",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
       "models": [
         {
-          "modelResource": "mtr:corail/corail_car_v2_cmd.bbmodel",
-          "textureResource": "mtr:corail/corail1vertcmd.png",
-          "modelPropertiesResource": "mtr:corail/properties_3aa0fe5a.json",
-          "positionDefinitionsResource": "mtr:corail/definition_cdebde76.json",
+          "modelResource": "mtr:corail/corail_car_v2_cmd_cinema2.bbmodel",
+          "textureResource": "mtr:corail/corail1orangecmdcinema.png",
+          "modelPropertiesResource": "mtr:corail/properties_169584cd.json",
+          "positionDefinitionsResource": "mtr:corail/definition_3073f860.json",
           "flipTextureV": true
         }
       ],
-      "bogie1Models": [
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_e3531da4.json", "positionDefinitionsResource": "mtr:corail/definition_84e84d67.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_a31b10f8.json", "positionDefinitionsResource": "mtr:corail/definition_134436fb.json", "flipTextureV": true }],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_cin_midlle",
+      "name": "Corail Car CINEMA (Middle)",
+      "color": "DB5800",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
         {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_1ef648aa.json",
-          "positionDefinitionsResource": "mtr:corail/definition_b5939a12.json",
+          "modelResource": "mtr:corail/corail_car_v2_cmd_cinema2.bbmodel",
+          "textureResource": "mtr:corail/corail1orangecmdcinema.png",
+          "modelPropertiesResource": "mtr:corail/properties_d6be3ef6.json",
+          "positionDefinitionsResource": "mtr:corail/definition_3d57d22b.json",
           "flipTextureV": true
         }
+      ],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_1460ecb6.json", "positionDefinitionsResource": "mtr:corail/definition_130b8655.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_3398fe6a.json", "positionDefinitionsResource": "mtr:corail/definition_e499fc38.json", "flipTextureV": true }],
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_car_cin_back",
+      "name": "Corail Car CINEMA (Back)",
+      "color": "DB5800",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.2,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:corail/corail_car_v2_cmd_cinema2.bbmodel",
+          "textureResource": "mtr:corail/corail1orangecmdcinema.png",
+          "modelPropertiesResource": "mtr:corail/properties_742b4b81.json",
+          "positionDefinitionsResource": "mtr:corail/definition_35d329b1.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_c4b162f1.json", "positionDefinitionsResource": "mtr:corail/definition_13274f08.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:corail/corail_car_v2.bbmodel", "textureResource": "mtr:corail/corail1.png", "modelPropertiesResource": "mtr:corail/properties_1c428a36.json", "positionDefinitionsResource": "mtr:corail/definition_cc36b794.json", "flipTextureV": true }],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_b6_or_b",
+      "name": "Corail B6DUX Orange (BACK)",
+      "color": "FE8F34",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1vertb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_cf15db81.json", "positionDefinitionsResource": "mtr:corail_b6/definition_9f497c75.json", "flipTextureV": true }],
+      "bogie1Models": [
+        { "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1vertb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_52997963.json", "positionDefinitionsResource": "mtr:corail_b6/definition_b5fb68.json", "flipTextureV": true }
       ],
       "bogie2Models": [
-        {
-          "modelResource": "mtr:corail/corail_car_v2.bbmodel",
-          "textureResource": "mtr:corail/corail1.png",
-          "modelPropertiesResource": "mtr:corail/properties_1d3686e6.json",
-          "positionDefinitionsResource": "mtr:corail/definition_900106bc.json",
-          "flipTextureV": true
-        }
+        { "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1vertb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_4ed1dcf.json", "positionDefinitionsResource": "mtr:corail_b6/definition_2b05417e.json", "flipTextureV": true }
       ],
       "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_b6_or_f",
+      "name": "Corail B6DUX Orange (FRONT)",
+      "color": "FE8F34",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1vertb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_6afa7678.json", "positionDefinitionsResource": "mtr:corail_b6/definition_22b17b17.json", "flipTextureV": true }],
+      "bogie1Models": [
+        { "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1vertb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_b5ba3bf5.json", "positionDefinitionsResource": "mtr:corail_b6/definition_b3f83815.json", "flipTextureV": true }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1vertb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_c5575df8.json", "positionDefinitionsResource": "mtr:corail_b6/definition_c01cede.json", "flipTextureV": true }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_b6_gr_b",
+      "name": "Corail B6DUX Green (BACK)",
+      "color": "41FE34",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1orangeb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_fb95b86b.json", "positionDefinitionsResource": "mtr:corail_b6/definition_37416323.json", "flipTextureV": true }],
+      "bogie1Models": [
+        { "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1vertb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_316846d2.json", "positionDefinitionsResource": "mtr:corail_b6/definition_7eeac96a.json", "flipTextureV": true }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1vertb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_53507a55.json", "positionDefinitionsResource": "mtr:corail_b6/definition_dc927e2.json", "flipTextureV": true }
+      ],
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "corail_b6_gr_f",
+      "name": "Corail B6DUX Vert (FRONT)",
+      "color": "41FF40",
+      "transportMode": "TRAIN",
+      "length": 26.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.2,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1orangeb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_b994602f.json", "positionDefinitionsResource": "mtr:corail_b6/definition_49f04aa2.json", "flipTextureV": true }],
+      "bogie1Models": [
+        { "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1vertb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_8a5b8788.json", "positionDefinitionsResource": "mtr:corail_b6/definition_81343f9e.json", "flipTextureV": true }
+      ],
+      "bogie2Models": [
+        { "modelResource": "mtr:corail_b6/corail_car_v2_b7.bbmodel", "textureResource": "mtr:corail_b6/corail1vertb6.png", "modelPropertiesResource": "mtr:corail_b6/properties_6edf771b.json", "positionDefinitionsResource": "mtr:corail_b6/definition_68947aea.json", "flipTextureV": true }
+      ],
+      "hasGangway1": false,
       "hasGangway2": true,
       "hasBarrier1": false,
       "hasBarrier2": false,
@@ -23854,6 +23672,1518 @@
       "legacyConstantPlaybackSpeed": false,
       "legacyDoorSoundBaseResource": "",
       "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_nr_inv_cab_1",
+      "name": "MP59 NR Forward",
+      "color": "38c9b8",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -4.87,
+      "bogie2Position": 5.8,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b2d0403.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_41c1d822.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_b91c5e9e.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_80a532bc.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_9515f52a.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_19f13f35.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_nr_cab_1",
+      "name": "MP59 NR Backward",
+      "color": "38c9b8",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -5.8,
+      "bogie2Position": 4.95,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b37ac86.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_dab19da0.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_cb48212f.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_7f904cee.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_142d3598.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_be1a732.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_n_nr_cab_1",
+      "name": "MP59 NR middle car",
+      "color": "38c9b8",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.4,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_a8e17bb0.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_7572efb7.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_5816a472.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_ae24f249.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_b_nr_cab_1",
+      "name": "MP59 NR 2nd class",
+      "color": "38c9b8",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.3,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_31929a14.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_5f6fa865.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_f22067de.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_f44f6765.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_r_inv_cab_1",
+      "name": "MP59 R Forward",
+      "color": "38c9b8",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -4.87,
+      "bogie2Position": 5.8,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r_inv/mp59_m_r_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b2d0403.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_41c1d822.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r_inv/mp59_m_r_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_b91c5e9e.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_80a532bc.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r_inv/mp59_m_r_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_9515f52a.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_19f13f35.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_r_cab_1",
+      "name": "MP59 R Backward",
+      "color": "38c9b8",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -5.8,
+      "bogie2Position": 4.95,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r/mp59_m_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b37ac86.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_dab19da0.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r/mp59_m_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_cb48212f.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_7f904cee.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r/mp59_m_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_142d3598.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_be1a732.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_n_r_cab_1",
+      "name": "MP59 R Middle car",
+      "color": "38c9b8",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.4,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_r/mp59_n_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_r/mp59_n_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_a8e17bb0.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_7572efb7.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_r/mp59_n_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_r/mp59_n_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_r/mp59_n_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_r/mp59_n_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_5816a472.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_ae24f249.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_b_r_cab_1",
+      "name": "MP59 R 2nd class",
+      "color": "38c9b8",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.3,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_r/mp59_b_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_r/mp59_b_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_31929a14.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_5f6fa865.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_r/mp59_b_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_r/mp59_b_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_r/mp59_b_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_r/mp59_b_r.png",
+          "modelPropertiesResource": "mtr:mp59/properties_f22067de.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_f44f6765.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_l1_inv_cab_1",
+      "name": "MP59 R Forward",
+      "color": "1800DA",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -4.87,
+      "bogie2Position": 5.8,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r_inv/mp59_m_r_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b2d0403.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_41c1d822.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r_inv/mp59_m_r_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_b91c5e9e.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_80a532bc.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r_inv/mp59_m_r_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_9515f52a.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_19f13f35.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_l1_cab_1",
+      "name": "MP59 R Backward",
+      "color": "1800DA",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -5.8,
+      "bogie2Position": 4.95,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r/mp59_m_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b37ac86.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_dab19da0.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r/mp59_m_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_cb48212f.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_7f904cee.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_r/mp59_m_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_r/mp59_m_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_142d3598.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_be1a732.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_n_l1_cab_1",
+      "name": "MP59 R Middle car",
+      "color": "1800DA",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.4,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_r/mp59_n_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_r/mp59_n_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_a8e17bb0.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_7572efb7.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_r/mp59_n_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_r/mp59_n_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_r/mp59_n_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_r/mp59_n_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_5816a472.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_ae24f249.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_b_l1_cab_1",
+      "name": "MP59 R 2nd class",
+      "color": "1800DA",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.3,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_r/mp59_b_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_r/mp59_b_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_31929a14.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_5f6fa865.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_r/mp59_b_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_r/mp59_b_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_r/mp59_b_r.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_r/mp59_b_l1.png",
+          "modelPropertiesResource": "mtr:mp59/properties_f22067de.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_f44f6765.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_origine_inv_cab_1",
+      "name": "MP59 NR Forward",
+      "color": "7992af",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -4.87,
+      "bogie2Position": 5.8,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_origine.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b2d0403.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_41c1d822.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_b91c5e9e.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_80a532bc.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_9515f52a.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_19f13f35.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_origine_cab_1",
+      "name": "MP59 NR Backward",
+      "color": "7992af",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -5.8,
+      "bogie2Position": 4.95,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_origine.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b37ac86.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_dab19da0.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_cb48212f.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_7f904cee.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_142d3598.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_be1a732.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_n_origine_cab_1",
+      "name": "MP59 NR Middle car",
+      "color": "7992af",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.4,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_nr/mp59_n_origine.png",
+          "modelPropertiesResource": "mtr:mp59/properties_a8e17bb0.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_7572efb7.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_5816a472.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_ae24f249.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_a_origine_cab_1",
+      "name": "MP59 NR 1st class",
+      "color": "e4d9b6",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.3,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_a_origine.png",
+          "modelPropertiesResource": "mtr:mp59/properties_31929a14.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_5f6fa865.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_f22067de.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_f44f6765.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_ab_origine_cab_1",
+      "name": "MP59 NR Mixed car",
+      "color": "e4d9b6",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.3,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr/mp59_ab_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_origine.png",
+          "modelPropertiesResource": "mtr:mp59/properties_31929a14.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_5f6fa865.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr/mp59_ab_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_origine.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr/mp59_ab_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_origine.png",
+          "modelPropertiesResource": "mtr:mp59/properties_f22067de.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_f44f6765.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_ab_origine_inv_cab_1",
+      "name": "MP59 NR Mixed car flip",
+      "color": "e4d9b6",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.3,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr_inv/mp59_ab_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_origine.png",
+          "modelPropertiesResource": "mtr:mp59/properties_31929a14.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_5f6fa865.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr_inv/mp59_ab_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_origine.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr_inv/mp59_ab_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_origine.png",
+          "modelPropertiesResource": "mtr:mp59/properties_f22067de.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_f44f6765.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_origine_1992_inv_cab_1",
+      "name": "MP59 NR Forward",
+      "color": "7992af",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -4.87,
+      "bogie2Position": 5.8,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_origine_1992.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b2d0403.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_41c1d822.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_b91c5e9e.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_80a532bc.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_9515f52a.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_19f13f35.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_origine_1992_cab_1",
+      "name": "MP59 NR Backward",
+      "color": "7992af",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -5.8,
+      "bogie2Position": 4.95,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_origine_1992.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b37ac86.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_dab19da0.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_cb48212f.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_7f904cee.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_142d3598.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_be1a732.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_a_origine_1992_cab_1",
+      "name": "MP59 NR 1st class",
+      "color": "e4d9b6",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.3,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_a_origine_1992.png",
+          "modelPropertiesResource": "mtr:mp59/properties_31929a14.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_5f6fa865.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.png",
+          "modelPropertiesResource": "mtr:mp59/properties_f22067de.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_f44f6765.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_bleu_inv_cab_1",
+      "name": "MP59 NR Forward",
+      "color": "2d80ce",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -4.87,
+      "bogie2Position": 5.8,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b2d0403.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_41c1d822.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_b91c5e9e.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_80a532bc.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr_inv/mp59_m_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_9515f52a.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_19f13f35.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_m_bleu_cab_1",
+      "name": "MP59 NR Backward",
+      "color": "2d80ce",
+      "transportMode": "TRAIN",
+      "length": 15.25,
+      "width": 2.0,
+      "bogie1Position": -5.8,
+      "bogie2Position": 4.95,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_6b37ac86.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_dab19da0.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_cb48212f.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_7f904cee.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_m_nr/mp59_m_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_m_nr/mp59_m_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_142d3598.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_be1a732.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_n_bleu_cab_1",
+      "name": "MP59 NR Middle car",
+      "color": "2d80ce",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.4,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_nr/mp59_n_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_a8e17bb0.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_7572efb7.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_nr/mp59_n_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_n_nr/mp59_n_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_n_nr/mp59_n_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_5816a472.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_ae24f249.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_a_bleu_cab_1",
+      "name": "MP59 NR 1st class",
+      "color": "ffe000",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.3,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_a_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_31929a14.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_5f6fa865.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_a_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_a_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_f22067de.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_f44f6765.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_ab_bleu_cab_1",
+      "name": "MP59 NR Mixed car",
+      "color": "ffe000",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.3,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr/mp59_ab_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_31929a14.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_5f6fa865.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr/mp59_ab_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr/mp59_ab_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_f22067de.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_f44f6765.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_ab_bleu_inv_cab_1",
+      "name": "MP59 NR Mixed car flip",
+      "color": "ffe000",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.3,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr_inv/mp59_ab_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_31929a14.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_5f6fa865.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr_inv/mp59_ab_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_ab_nr_inv/mp59_ab_nr_inv.bbmodel",
+          "textureResource": "mtr:mp59/mp59_ab_nr/mp59_ab_bleu.png",
+          "modelPropertiesResource": "mtr:mp59/properties_f22067de.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_f44f6765.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
+    },
+    {
+      "id": "mtr_custom_train_mp59_b_bleu_1992_cab_1",
+      "name": "MP59 NR 2nd class",
+      "color": "ffe000",
+      "transportMode": "TRAIN",
+      "length": 14.25,
+      "width": 2.0,
+      "bogie1Position": -5.4,
+      "bogie2Position": 5.3,
+      "couplingPadding1": 1.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_b_bleu_1992.png",
+          "modelPropertiesResource": "mtr:mp59/properties_31929a14.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_5f6fa865.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_b_bleu_1992.png",
+          "modelPropertiesResource": "mtr:mp59/properties_93eff38c.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_d6dfa1d6.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:mp59/mp59_b_nr/mp59_b_nr.bbmodel",
+          "textureResource": "mtr:mp59/mp59_b_nr/mp59_b_bleu_1992.png",
+          "modelPropertiesResource": "mtr:mp59/properties_f22067de.json",
+          "positionDefinitionsResource": "mtr:mp59/definition_f44f6765.json",
+          "flipTextureV": false
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "",
+      "legacySpeedSoundBaseResource": "son_mp59",
+      "legacySpeedSoundCount": 30,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "son_mp59",
+      "legacyDoorCloseSoundTime": 1.0
     }
   ],
   "signs": [
