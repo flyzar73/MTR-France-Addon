@@ -17,9 +17,6 @@
   "block.mtrfranceaddon.ratp_platform": "RATP プラットホーム",
   "block.mtrfranceaddon.sncf_platform": "SNCFの白いプラットホーム",
   "block.mtrfranceaddon.sncf2_platform": "SNCFの灰色のプラットホーム",
-  "block.mtrfranceaddon.ratp_platform_indented": "RATP プラットホーム",
-  "block.mtrfranceaddon.sncf_platform_indented": "SNCFの白いプラットホーム",
-  "block.mtrfranceaddon.sncf2_platform_indented": "SNCFの灰色のプラットホーム",
   "item.mtrfranceaddon.rail_connector_base": "レール接続（時速%sキロ）",
   "item.mtrfranceaddon.rail_connector_oneway": "レール接続（時速%sキロ）（一方通行）"
 }
