@@ -18,7 +18,7 @@ public class RATPTicketBarrierBlock extends BlockTicketBarrier {
     @Override
     public VoxelShape getOutlineShape2(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         final Direction facing = IBlock.getStatePropertySafe(state, FACING);
-        return IBlock.getVoxelShapeByDirection(12.4, 0, -3.6, 16, 18, 21.2, facing);
+        return IBlock.getVoxelShapeByDirection(13, 0, -7, 16, 19, 16, facing);
     }
 
     @Nonnull
@@ -26,7 +26,7 @@ public class RATPTicketBarrierBlock extends BlockTicketBarrier {
     public VoxelShape getCollisionShape2(BlockState state, BlockView world, BlockPos blockPos, ShapeContext context) {
         final Direction facing = IBlock.getStatePropertySafe(state, FACING);
         final TicketSystem.EnumTicketBarrierOpen open = IBlock.getStatePropertySafe(state, OPEN);
-        final VoxelShape base = IBlock.getVoxelShapeByDirection(12.4, 0, -3.6, 16, 24, 21.2, facing);
+        final VoxelShape base = IBlock.getVoxelShapeByDirection(13, 0, -7, 16, 24, 21.2, facing);
         return TicketBarrierBlock.isOpen(open) ? base : VoxelShapes.union(IBlock.getVoxelShapeByDirection(0.0, 0.0, 7.0, 16.0, 24.0, 9.0, facing), base);
     }
 }

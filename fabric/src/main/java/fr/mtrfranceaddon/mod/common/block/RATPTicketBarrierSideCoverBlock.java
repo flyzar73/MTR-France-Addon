@@ -25,14 +25,14 @@ public class RATPTicketBarrierSideCoverBlock extends BlockExtension implements D
     @Override
     public VoxelShape getOutlineShape2(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         final Direction facing = IBlock.getStatePropertySafe(state, FACING);
-        return IBlock.getVoxelShapeByDirection(10.9, 0.0, -2.0, 16.0, 24.1, 19.5, facing);
+        return IBlock.getVoxelShapeByDirection(13, 0, -7, 16, 19, 16, facing);
     }
 
     @Nonnull
     @Override
     public VoxelShape getCollisionShape2(BlockState state, BlockView world, BlockPos blockPos, ShapeContext context) {
         final Direction facing = IBlock.getStatePropertySafe(state, FACING);
-        return IBlock.getVoxelShapeByDirection(10.9, 0.0, -2.0, 16.0, 24.1, 19.5, facing);
+        return IBlock.getVoxelShapeByDirection(13, 0, -7, 16, 19, 16, facing);
     }
 
     @Override
