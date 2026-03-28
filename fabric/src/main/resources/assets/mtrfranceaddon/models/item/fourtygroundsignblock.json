@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddon:block/fourtygroundsignblock",
+  "textures": {
+    "layer0": "mtrfranceaddon:item/fourtygroundsignblock"
+  }
+}

@@ -1,0 +1,505 @@
+{
+    "parts": [
+        {
+            "names": [
+                "inside"
+            ],
+            "positionDefinitions": [
+                "c41a31f1"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "INTERIOR",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 0.0,
+            "doorZMultiplier": 0.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "banquette"
+            ],
+            "positionDefinitions": [
+                "5ea2b542"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "INTERIOR",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 0.0,
+            "doorZMultiplier": 0.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "neon"
+            ],
+            "positionDefinitions": [
+                "1fdeabc2"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "LIGHT",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 0.0,
+            "doorZMultiplier": 0.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "fanaux_blancs"
+            ],
+            "positionDefinitions": [
+                "1fdeabc2"
+            ],
+            "condition": "ON_ROUTE_FORWARDS",
+            "renderStage": "LIGHT",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 0.0,
+            "doorZMultiplier": 0.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "fanaux_rouges"
+            ],
+            "positionDefinitions": [
+                "1fdeabc2"
+            ],
+            "condition": "ON_ROUTE_BACKWARDS",
+            "renderStage": "LIGHT",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 0.0,
+            "doorZMultiplier": 0.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "fanaux_depot"
+            ],
+            "positionDefinitions": [
+                "1fdeabc2"
+            ],
+            "condition": "AT_DEPOT",
+            "renderStage": "LIGHT",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 0.0,
+            "doorZMultiplier": 0.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "outside"
+            ],
+            "positionDefinitions": [
+                "53a25d74"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "EXTERIOR",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 0.0,
+            "doorZMultiplier": 0.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "girouette"
+            ],
+            "positionDefinitions": [
+                "f535662"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "LIGHT",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 0.0,
+            "doorZMultiplier": 0.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "door_left_left"
+            ],
+            "positionDefinitions": [
+                "9c331a2b"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "EXTERIOR",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 1.0,
+            "doorZMultiplier": -11.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "door_left_left_ins"
+            ],
+            "positionDefinitions": [
+                "dcca196"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "INTERIOR",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 1.0,
+            "doorZMultiplier": -11.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "door_left_right"
+            ],
+            "positionDefinitions": [
+                "e332b556"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "EXTERIOR",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 1.0,
+            "doorZMultiplier": 11.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "door_left_right_ins"
+            ],
+            "positionDefinitions": [
+                "e29d32e0"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "INTERIOR",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": 1.0,
+            "doorZMultiplier": 11.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "door_right_left"
+            ],
+            "positionDefinitions": [
+                "2a70d43b"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "EXTERIOR",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": -1.0,
+            "doorZMultiplier": 11.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "door_right_left_ins"
+            ],
+            "positionDefinitions": [
+                "1ad6376b"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "INTERIOR",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": -1.0,
+            "doorZMultiplier": 11.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "door_right_right"
+            ],
+            "positionDefinitions": [
+                "c2534afd"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "EXTERIOR",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": -1.0,
+            "doorZMultiplier": -11.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        },
+        {
+            "names": [
+                "door_right_right_ins"
+            ],
+            "positionDefinitions": [
+                "37e3e964"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "INTERIOR",
+            "type": "NORMAL",
+            "displayXPadding": 0.0,
+            "displayYPadding": 0.0,
+            "displayColorCjk": "",
+            "displayColor": "",
+            "displayMaxLineHeight": 0.0,
+            "displayCjkSizeRatio": 0.0,
+            "displayOptions": [],
+            "displayPadZeros": 0.0,
+            "displayType": "DESTINATION",
+            "displayDefaultText": "",
+            "doorXMultiplier": -1.0,
+            "doorZMultiplier": -11.0,
+            "doorAnimationType": "BOUNCY_1",
+            "renderFromOpeningDoorTime": 0,
+            "renderUntilOpeningDoorTime": 0,
+            "renderFromClosingDoorTime": 0,
+            "renderUntilClosingDoorTime": 0,
+            "flashOffTime": 0,
+            "flashOnTime": 0
+        }
+    ],
+    "modelYOffset": 1.0,
+    "gangwayInnerSideResource": "",
+    "gangwayInnerTopResource": "",
+    "gangwayInnerBottomResource": "",
+    "gangwayOuterSideResource": "",
+    "gangwayOuterTopResource": "",
+    "gangwayOuterBottomResource": "",
+    "gangwayWidth": 1.5,
+    "gangwayHeight": 2.25,
+    "gangwayYOffset": 1.0,
+    "gangwayZOffset": 0.5,
+    "barrierInnerSideResource": "",
+    "barrierInnerTopResource": "",
+    "barrierInnerBottomResource": "",
+    "barrierOuterSideResource": "",
+    "barrierOuterTopResource": "",
+    "barrierOuterBottomResource": "",
+    "barrierWidth": 2.25,
+    "barrierHeight": 1.0,
+    "barrierYOffset": 1.25,
+    "barrierZOffset": 0.25
+}

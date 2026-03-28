@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddon:block/leftssignblock",
+  "textures": {
+    "layer0": "mtrfranceaddon:item/leftssignblock"
+  }
+}
