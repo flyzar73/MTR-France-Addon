@@ -2,7 +2,6 @@ package fr.mtrfranceaddon.mod.common.block;
 
 import fr.mtrfranceaddon.mod.common.registry.ModBlockEntities;
 import fr.mtrfranceaddon.mod.common.registry.ModBlocks;
-import org.jetbrains.annotations.NotNull;
 import org.mtr.mapping.holder.*;
 import org.mtr.mapping.mapper.BlockEntityExtension;
 import org.mtr.mapping.mapper.BlockEntityRenderer;
@@ -24,7 +23,7 @@ public class InvisiblePlatform extends BlockPlatform implements BlockWithEntity 
     }
 
     @Override
-    public @NotNull BlockRenderType getRenderType2(BlockState state) {
+    public BlockRenderType getRenderType2(BlockState state) {
         return BlockRenderType.getEntityblockAnimatedMapped();
     }
 
@@ -34,17 +33,17 @@ public class InvisiblePlatform extends BlockPlatform implements BlockWithEntity 
     }
 
     @Override
-    public @NotNull VoxelShape getOutlineShape2(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+    public VoxelShape getOutlineShape2(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return VoxelShapes.fullCube();
     }
 
     @Override
-    public @NotNull VoxelShape getCollisionShape2(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+    public VoxelShape getCollisionShape2(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return VoxelShapes.fullCube();
     }
 
     @Override
-    public @NotNull VoxelShape getCullingShape2(BlockState state, BlockView world, BlockPos pos) {
+    public VoxelShape getCullingShape2(BlockState state, BlockView world, BlockPos pos) {
         return VoxelShapes.empty();
     }
 

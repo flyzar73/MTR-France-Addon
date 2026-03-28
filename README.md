@@ -5,7 +5,15 @@
 ![Fabric](https://img.shields.io/badge/Fabric-Supported-blue.svg)
 ![Forge](https://img.shields.io/badge/Forge-Supported-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+
+[![crowdin](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/translate/crowdin_46h.png)](https://crowdin.com/project/mtr-france-addon)
 [![Crowdin](https://badges.crowdin.net/mtr-france-addon/localized.svg)](https://crowdin.com/project/mtr-france-addon)
+
+[![github](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_64h.png)](https://github.com/MTR-France-Team/MTR-France-Addon)
+[![modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_64h.png)](https://modrinth.com/project/YJct9p8I)
+
+![fabric](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/supported/fabric_46h.png)
+![forge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/supported/forge_46h.png)
 
 Un addon pour le mod [Minecraft Transit Railway (MTR)](https://github.com/Minecraft-Transit-Railway/Minecraft-Transit-Railway/tree/master) qui vise à ajouter des éléments, signalétiques et décorations du réseau ferroviaire français.
 
