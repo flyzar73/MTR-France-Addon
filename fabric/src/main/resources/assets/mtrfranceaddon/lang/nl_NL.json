@@ -17,6 +17,9 @@
   "block.mtrfranceaddon.ratp_platform": "RATP spoor",
   "block.mtrfranceaddon.sncf_platform": "Wit SNCF spoor",
   "block.mtrfranceaddon.sncf2_platform": "Grijs SNCF spoor",
+  "block.mtrfranceaddon.ratp_platform_indented": "RATP spoor",
+  "block.mtrfranceaddon.sncf_platform_indented": "Witte SNCF spoor",
+  "block.mtrfranceaddon.sncf2_platform_indented": "Grijs SNCF spoor",
   "item.mtrfranceaddon.rail_connector_base": "Rail connector (%s km/u)",
   "item.mtrfranceaddon.rail_connector_oneway": "Rail connector (%s km/u) (enkele reis)"
 }
