@@ -18,15 +18,23 @@
   "block.mtrfranceaddon.ratp_platform": "RATP platform",
   "block.mtrfranceaddon.sncf_platform": "White SNCF platform",
   "block.mtrfranceaddon.sncf2_platform": "Gray SNCF platform",
-
   "block.mtrfranceaddon.ratp_platform_indented": "RATP platform",
   "block.mtrfranceaddon.sncf_platform_indented": "White SNCF platform",
   "block.mtrfranceaddon.sncf2_platform_indented": "Gray SNCF platform",
+  "block.mtrfranceaddon.ratp_platform_slab": "RATP platform",
+  "block.mtrfranceaddon.sncf_platform_slab": "White SNCF platform",
+  "block.mtrfranceaddon.sncf2_platform_slab": "Gray SNCF platform",
 
+  "block.mtrfranceaddon.ratp_ticket_barrier_side_cover": "Ticket barrier (side cover)",
   "block.mtrfranceaddon.ratp_ticket_barrier_entrance": "Ticket barrier (entrance)",
   "block.mtrfranceaddon.ratp_ticket_barrier_exit": "Ticket barrier (exit)",
-  "block.mtrfranceaddon.idfm_ticket_machine": "IDFM Ticket Machine",
-  "block.mtrfranceaddon.idfm_ticket_machine_2": "IDFM Big Ticket Machine",
+  "block.mtrfranceaddon.ratp_ticket_barrier_entrance_with_side": "Ticket barrier (entrance, with side cover)",
+  "block.mtrfranceaddon.ratp_ticket_barrier_exit_with_side": "Ticket barrier (exit, with side cover)",
+  "block.mtrfranceaddon.idfm_ticket_machine": "IDFM ticket machine",
+  "block.mtrfranceaddon.idfm_ticket_machine_2": "IDFM big ticket machine",
+
+  "block.mtrfranceaddon.idfm_seat": "IDFM seat",
+  "block.mtrfranceaddon.idfm_seat_with_pole": "IDFM seat with pole",
 
   "item.mtrfranceaddon.rail_connector_base": "Rail connector (%s km/h)",
   "item.mtrfranceaddon.rail_connector_oneway": "Rail connector (%s km/h) (One-Way)",

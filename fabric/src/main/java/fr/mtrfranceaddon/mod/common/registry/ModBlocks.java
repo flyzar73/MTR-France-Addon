@@ -121,6 +121,11 @@ public final class ModBlocks {
     );
 
     //Ticket Barrier Block
+    public static final BlockRegistryObject RATP_TICKET_BARRIER_SIDE_COVER = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_ticket_barrier_side_cover",
+            () -> new Block(new RATPTicketBarrierSideCoverBlock()),
+            ModItemGroups.MTRFranceAddonGroup
+    );
     public static final BlockRegistryObject RATP_TICKET_BARRIER_ENTRANCE = MTRFranceAddonRegistry.registerBlockWithItem(
             "ratp_ticket_barrier_entrance",
             () -> new Block(new RATPTicketBarrierBlock(true)),
@@ -131,9 +136,14 @@ public final class ModBlocks {
             () -> new Block(new RATPTicketBarrierBlock(false)),
             ModItemGroups.MTRFranceAddonGroup
     );
-    public static final BlockRegistryObject RATP_TICKET_BARRIER_SIDE_COVER = MTRFranceAddonRegistry.registerBlockWithItem(
-            "ratp_ticket_barrier_side_cover",
-            () -> new Block(new RATPTicketBarrierSideCoverBlock()),
+    public static final BlockRegistryObject RATP_TICKET_BARRIER_ENTRANCE_WITH_SIDE = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_ticket_barrier_entrance_with_side",
+            () -> new Block(new RATPTicketBarrierBlock(true)),
+            ModItemGroups.MTRFranceAddonGroup
+    );
+    public static final BlockRegistryObject RATP_TICKET_BARRIER_EXIT_WITH_SIDE = MTRFranceAddonRegistry.registerBlockWithItem(
+            "ratp_ticket_barrier_exit_with_side",
+            () -> new Block(new RATPTicketBarrierBlock(false)),
             ModItemGroups.MTRFranceAddonGroup
     );
 
