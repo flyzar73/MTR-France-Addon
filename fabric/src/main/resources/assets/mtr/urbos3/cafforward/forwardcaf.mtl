@@ -1,0 +1,22 @@
+# Made in Blockbench 4.11.2
+newmtl m_fb0daa7f-0dbd-13b6-1f6b-0cd63dfe8a8e
+map_Kd atlasbackward.png
+newmtl m_d0aa9cfc-9373-cc02-a767-a245ddd1d781
+map_Kd placedebouttige.png
+newmtl m_fb0d66da-b207-b754-fd93-d7514421ed74
+map_Kd light.png
+newmtl m_e3a6e2d6-42fa-7977-0d98-4480dbc11362
+map_Kd lightbackward.png
+newmtl m_78c0da9c-f558-74bc-257c-808f04645861
+map_Kd lightforward2.png
+newmtl m_ec4df777-1dbe-4da7-3d60-a7d814229a69
+map_Kd fix.png
+newmtl m_c5e116bd-7a76-8da4-a831-28197c519c15
+map_Kd int.png
+newmtl m_132cb509-9b54-b2d8-301c-0890121d45f2
+map_Kd display.png
+newmtl m_afa6df2a-d08d-809c-59a2-a63d57cca2e0
+map_Kd boardtab.png
+newmtl m_918a0d2b-1c5a-fec4-3952-15d1e3bc62b3
+map_Kd displays.png
+newmtl none

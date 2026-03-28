@@ -12,9 +12,9 @@ public class ModItemGroups {
             () -> new ItemStack(new ItemConvertible(ModBlocks.MTRFRANCEADDON_LOGO.get().data))
     );
 
-    public static final CreativeModeTabHolder TICKETS = MTRFranceAddonRegistry.REGISTRY.createCreativeModeTabHolder(
-            Constants.id("mtrfranceaddon_tickets_group"),
-            () -> new ItemStack(new ItemConvertible(ModBlocks.MTRFRANCEADDON_LOGO.get().data))
+    public static final CreativeModeTabHolder MTRSignAddonGroup = MTRFranceAddonRegistry.REGISTRY.createCreativeModeTabHolder(
+            Constants.id("sign_group"),
+            () -> new ItemStack(new ItemConvertible(ModBlocks.POLE.get().data))
     );
 
 }

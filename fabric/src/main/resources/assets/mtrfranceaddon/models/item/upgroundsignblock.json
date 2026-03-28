@@ -1,0 +1,6 @@
+{
+  "parent": "mtrfranceaddon:block/upgroundsignblock",
+  "textures": {
+    "layer0": "mtrfranceaddon:item/upgroundsignblock"
+  }
+}
