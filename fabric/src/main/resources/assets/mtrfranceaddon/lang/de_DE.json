@@ -17,6 +17,9 @@
   "block.mtrfranceaddon.ratp_platform": "RATP Plattform",
   "block.mtrfranceaddon.sncf_platform": "Weiße SNCF Plattform",
   "block.mtrfranceaddon.sncf2_platform": "Graue SNCF Plattform",
+  "block.mtrfranceaddon.ratp_platform_indented": "RATP Plattform",
+  "block.mtrfranceaddon.sncf_platform_indented": "Weiße SNCF Plattform",
+  "block.mtrfranceaddon.sncf2_platform_indented": "Plattform Graue SNCF",
   "item.mtrfranceaddon.rail_connector_base": "Bahnstecker (%s km/h)",
   "item.mtrfranceaddon.rail_connector_oneway": "Eisenbahnverbinder (%s km/h) (Eine Richtung)"
 }
