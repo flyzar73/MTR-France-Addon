@@ -20653,8 +20653,8 @@
     },
 
     {
-      "id": "bb_22200_or_5",
-      "name": "BB 22200 (ORANGE) (P5)",
+      "id": "bb_22200_be_5",
+      "name": "BB 22200 (BETON) (P5)",
       "color": "FF6600",
       "transportMode": "TRAIN",
       "length": 17.5,
@@ -20666,9 +20666,33 @@
       "description": "A BB22200 Orange",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_6f7cd2a2.json", "positionDefinitionsResource": "mtr:bb22200/definition_29922049.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_933b95a7.json", "positionDefinitionsResource": "mtr:bb22200/definition_5a33863a.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_a39bdf7c.json", "positionDefinitionsResource": "mtr:bb22200/definition_35ca09a3.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_6381ddd0.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_8574ce57.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_33daa7e1.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_f519aa7e.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_c1dec273.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_cfdcb3b2.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20683,8 +20707,8 @@
       "legacyDoorCloseSoundTime": 0.0
     },
     {
-      "id": "bb_22200_or_6",
-      "name": "BB 22200 (ORANGE) (P6)",
+      "id": "bb_22200_be_6",
+      "name": "BB 22200 (BETON) (P6)",
       "color": "FF6600",
       "transportMode": "TRAIN",
       "length": 17.5,
@@ -20696,9 +20720,33 @@
       "description": "A BB22200 Orange",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_70c434c1.json", "positionDefinitionsResource": "mtr:bb22200/definition_65c9c294.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_738554d5.json", "positionDefinitionsResource": "mtr:bb22200/definition_88b8d9f4.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_ba95a880.json", "positionDefinitionsResource": "mtr:bb22200/definition_e746629a.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_ed388148.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_96a6f5fe.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_a8452a9.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_af0f3efe.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_d068c334.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_653d2d53.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20726,9 +20774,33 @@
       "description": "A BB22200 Bourgogne",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexpbourgogne.png", "modelPropertiesResource": "mtr:bb22200/properties_6f7cd2a2.json", "positionDefinitionsResource": "mtr:bb22200/definition_29922049.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_933b95a7.json", "positionDefinitionsResource": "mtr:bb22200/definition_5a33863a.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_a39bdf7c.json", "positionDefinitionsResource": "mtr:bb22200/definition_35ca09a3.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexpbourgogne.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_6129c85.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_da128f89.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_5836255f.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_a7929f8e.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_4bce13e4.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_2a9255e8.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20756,9 +20828,33 @@
       "description": "A BB22200 Bourgogne",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexpbourgogne.png", "modelPropertiesResource": "mtr:bb22200/properties_70c434c1.json", "positionDefinitionsResource": "mtr:bb22200/definition_65c9c294.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_738554d5.json", "positionDefinitionsResource": "mtr:bb22200/definition_88b8d9f4.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_ba95a880.json", "positionDefinitionsResource": "mtr:bb22200/definition_e746629a.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexpbourgogne.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_37934eff.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_c1de703f.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_4025da8e.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_a8368025.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_207d3131.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_32391893.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20786,9 +20882,33 @@
       "description": "A BB22200 PACA",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexpbleu.png", "modelPropertiesResource": "mtr:bb22200/properties_aa7ad1e7.json", "positionDefinitionsResource": "mtr:bb22200/definition_2705689.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_ee96dbb5.json", "positionDefinitionsResource": "mtr:bb22200/definition_fcf03cc2.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_f5e572e.json", "positionDefinitionsResource": "mtr:bb22200/definition_55768774.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexpbleu.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_db9a93cc.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_278a3bb7.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_9fd4a528.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_bba78139.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_477552e8.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_d4626f7f.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20816,9 +20936,33 @@
       "description": "A BB22200 PACA",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexpbleu.png", "modelPropertiesResource": "mtr:bb22200/properties_afc91d94.json", "positionDefinitionsResource": "mtr:bb22200/definition_56628145.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_e2fde5cf.json", "positionDefinitionsResource": "mtr:bb22200/definition_9555c58.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_956efe15.json", "positionDefinitionsResource": "mtr:bb22200/definition_b7b7d034.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexpbleu.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_7c73afc4.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_1543da7d.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_1f87867a.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_82e2de04.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_8a34f28b.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_7fd5cf05.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20846,9 +20990,33 @@
       "description": "A BB22200 OUIGO",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexp1bisouigo.png", "modelPropertiesResource": "mtr:bb22200/properties_beedb657.json", "positionDefinitionsResource": "mtr:bb22200/definition_e81d0647.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_7bd31e21.json", "positionDefinitionsResource": "mtr:bb22200/definition_c68ec2e1.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_a77adb2.json", "positionDefinitionsResource": "mtr:bb22200/definition_7c87c462.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bisouigo.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_4347a6b4.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_a958ee55.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_730e4ced.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_7805c884.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_d7defdde.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_e00d5de4.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20876,9 +21044,33 @@
       "description": "A BB22200 OUIGO",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexp1bisouigo.png", "modelPropertiesResource": "mtr:bb22200/properties_3df891c5.json", "positionDefinitionsResource": "mtr:bb22200/definition_ceb9e1df.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_41c57aa0.json", "positionDefinitionsResource": "mtr:bb22200/definition_bcbc9b0d.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_901dd1ea.json", "positionDefinitionsResource": "mtr:bb22200/definition_3911a6b9.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bisouigo.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_3db67b3e.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_65f34ac7.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_51f22932.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_256d348.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_523f63e8.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_65512f47.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20906,9 +21098,33 @@
       "description": "A BB22200 PROTO",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexpprotobis.png", "modelPropertiesResource": "mtr:bb22200/properties_beedb657.json", "positionDefinitionsResource": "mtr:bb22200/definition_e81d0647.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_7bd31e21.json", "positionDefinitionsResource": "mtr:bb22200/definition_c68ec2e1.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_a77adb2.json", "positionDefinitionsResource": "mtr:bb22200/definition_7c87c462.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexpprotobis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_1d417595.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_8f8fde97.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_1278dc97.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_32b2eb07.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_5cee9c9e.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_463cef4b.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20936,9 +21152,33 @@
       "description": "A BB22200 PROTO",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexpprotobis.png", "modelPropertiesResource": "mtr:bb22200/properties_3df891c5.json", "positionDefinitionsResource": "mtr:bb22200/definition_ceb9e1df.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_41c57aa0.json", "positionDefinitionsResource": "mtr:bb22200/definition_bcbc9b0d.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_901dd1ea.json", "positionDefinitionsResource": "mtr:bb22200/definition_3911a6b9.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexpprotobis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_8ea3fe0.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_1f8e4fcc.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_ab373f40.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_5fdc83c2.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_514700b6.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_234a8eec.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20955,7 +21195,7 @@
     {
       "id": "bb_22200_fret_5",
       "name": "BB 22200 (FRET) (P5)",
-      "color": "00A81C",
+      "color": "00B324",
       "transportMode": "TRAIN",
       "length": 17.5,
       "width": 2.0,
@@ -20966,9 +21206,33 @@
       "description": "A BB22200 FRET",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexpfret.png", "modelPropertiesResource": "mtr:bb22200/properties_beedb657.json", "positionDefinitionsResource": "mtr:bb22200/definition_e81d0647.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_7bd31e21.json", "positionDefinitionsResource": "mtr:bb22200/definition_c68ec2e1.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_a77adb2.json", "positionDefinitionsResource": "mtr:bb22200/definition_7c87c462.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexpfret.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_4389fc40.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_2d94680a.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_6f5b0dd.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_27d01f37.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_1d03d0f7.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_b6cbb574.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -20985,7 +21249,7 @@
     {
       "id": "bb_22200_fret_6",
       "name": "BB 22200 (FRET) (P6)",
-      "color": "00A81C",
+      "color": "00B324",
       "transportMode": "TRAIN",
       "length": 17.5,
       "width": 2.0,
@@ -20996,9 +21260,33 @@
       "description": "A BB22200 FRET",
       "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
       "tags": [],
-      "models": [{ "modelResource": "mtr:bb22200/bb-22200-12.bbmodel", "textureResource": "mtr:bb22200/textexpfret.png", "modelPropertiesResource": "mtr:bb22200/properties_3df891c5.json", "positionDefinitionsResource": "mtr:bb22200/definition_ceb9e1df.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_41c57aa0.json", "positionDefinitionsResource": "mtr:bb22200/definition_bcbc9b0d.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:bb22200/bb-22200-11.bbmodel", "textureResource": "mtr:bb22200/textexp1bis.png", "modelPropertiesResource": "mtr:bb22200/properties_901dd1ea.json", "positionDefinitionsResource": "mtr:bb22200/definition_3911a6b9.json", "flipTextureV": true }],
+      "models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
+          "textureResource": "mtr:bb22200/textexpfret.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_f2a8676c.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_879a3ede.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_7e612b7a.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_5cefa444.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
+          "textureResource": "mtr:bb22200/textexp1bis.png",
+          "modelPropertiesResource": "mtr:bb22200/properties_ff437d38.json",
+          "positionDefinitionsResource": "mtr:bb22200/definition_eedb0ede.json",
+          "flipTextureV": true
+        }
+      ],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -23655,331 +23943,6 @@
       "legacyDoorSoundBaseResource": "son_mi84",
       "legacyDoorCloseSoundTime": 1.0
     },
-
-    {
-      "id": "bb_22200_or_6",
-      "name": "BB 22200 (ORANGE) (P6)",
-      "color": "FF6600",
-      "transportMode": "TRAIN",
-      "length": 17.5,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.0,
-      "couplingPadding2": 0.0,
-      "description": "A BB22200 Orange",
-      "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_2901e341.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_bd378143.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_fd88a8ec.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_ad5f002e.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_ea01d0bf.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_b25c724e.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": false,
-      "hasGangway2": false,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "bb_22200_or_5",
-      "name": "BB 22200 (ORANGE) (P5)",
-      "color": "FF6600",
-      "transportMode": "TRAIN",
-      "length": 17.5,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.0,
-      "couplingPadding2": 0.0,
-      "description": "A BB22200 Orange",
-      "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_76507474.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_bad7393e.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_14ccaaa3.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_5f3c5451.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_3481f90f.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_242119ab.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": false,
-      "hasGangway2": false,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "bb_22200_paca_5",
-      "name": "BB 22200 (PACA) (P5)",
-      "color": "003CC7",
-      "transportMode": "TRAIN",
-      "length": 17.5,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.0,
-      "couplingPadding2": 0.0,
-      "description": "A BB22200 PACA",
-      "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
-          "textureResource": "mtr:bb22200/textexpbleu.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_292c2f3d.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_a1e00cb0.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_9bc408a7.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_4aeb57d6.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_6e6420a.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_6c927884.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": false,
-      "hasGangway2": false,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "bb_22200_paca_6",
-      "name": "BB 22200 (PACA) (P6)",
-      "color": "003CC7",
-      "transportMode": "TRAIN",
-      "length": 17.5,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.0,
-      "couplingPadding2": 0.0,
-      "description": "A BB22200 PACA",
-      "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
-          "textureResource": "mtr:bb22200/textexpbleu.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_2eac482c.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_ec10695c.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_9525e726.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_d69c78e3.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_35a0b75a.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_e17183ca.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": false,
-      "hasGangway2": false,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "bb_22200_ouigo_6",
-      "name": "BB 22200 (OUIGO) (P6)",
-      "color": "FF00F7",
-      "transportMode": "TRAIN",
-      "length": 17.5,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.0,
-      "couplingPadding2": 0.0,
-      "description": "A BB22200 OUIGO",
-      "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bisouigo.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_217529b9.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_9dc31638.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_7f36468d.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_f92a2ea1.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_93f4d8a6.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_7313b9d7.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": false,
-      "hasGangway2": false,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
-    {
-      "id": "bb_22200_ouigo_5",
-      "name": "BB 22200 (OUIGO) (P5)",
-      "color": "FF00F7",
-      "transportMode": "TRAIN",
-      "length": 17.5,
-      "width": 2.0,
-      "bogie1Position": -8.5,
-      "bogie2Position": 8.5,
-      "couplingPadding1": 0.0,
-      "couplingPadding2": 0.0,
-      "description": "A BB22200 OUIGO",
-      "wikipediaArticle": "https://fr.wikipedia.org/wiki/BB_22200",
-      "tags": [],
-      "models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-12.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bisouigo.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_91017355.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_b2161047.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie1Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_7583d7cc.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_3626b0a0.json",
-          "flipTextureV": true
-        }
-      ],
-      "bogie2Models": [
-        {
-          "modelResource": "mtr:bb22200/bb-22200-11.bbmodel",
-          "textureResource": "mtr:bb22200/textexp1bis.png",
-          "modelPropertiesResource": "mtr:bb22200/properties_edd523c6.json",
-          "positionDefinitionsResource": "mtr:bb22200/definition_6c2beea3.json",
-          "flipTextureV": true
-        }
-      ],
-      "hasGangway1": false,
-      "hasGangway2": false,
-      "hasBarrier1": false,
-      "hasBarrier2": false,
-      "legacyRiderOffset": 0.0,
-      "bveSoundBaseResource": "a_train",
-      "legacySpeedSoundBaseResource": "",
-      "legacySpeedSoundCount": 1,
-      "legacyUseAccelerationSoundsWhenCoasting": false,
-      "legacyConstantPlaybackSpeed": false,
-      "legacyDoorSoundBaseResource": "",
-      "legacyDoorCloseSoundTime": 0.0
-    },
     {
       "id": "mtr_custom_train_mp59_m_nr_inv_cab_1",
       "name": "MP59 NR Forward",
@@ -25506,9 +25469,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_d364815d.json", "positionDefinitionsResource": "mtr:z20500/definition_e41fe507.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_c5f26a48.json", "positionDefinitionsResource": "mtr:z20500/definition_759c12a5.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_a4800c3c.json", "positionDefinitionsResource": "mtr:z20500/definition_c154da7.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_57df27f8.json", "positionDefinitionsResource": "mtr:z20500/definition_417d2fe5.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_f461966f.json", "positionDefinitionsResource": "mtr:z20500/definition_e98537ea.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_778b2a1a.json", "positionDefinitionsResource": "mtr:z20500/definition_cf323d73.json", "flipTextureV": true }],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -25536,9 +25499,9 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_c1e96f5d.json", "positionDefinitionsResource": "mtr:z20500/definition_b0c68ff7.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_906fe86f.json", "positionDefinitionsResource": "mtr:z20500/definition_9730333d.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_a6c27c5d.json", "positionDefinitionsResource": "mtr:z20500/definition_2b6abf53.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_88fe2278.json", "positionDefinitionsResource": "mtr:z20500/definition_2652a6ba.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_e505b6a0.json", "positionDefinitionsResource": "mtr:z20500/definition_859ca49c.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_3381b5ac.json", "positionDefinitionsResource": "mtr:z20500/definition_819f5b42.json", "flipTextureV": true }],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
@@ -25566,9 +25529,99 @@
       "description": "",
       "wikipediaArticle": "",
       "tags": [],
-      "models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_3fbb08f7.json", "positionDefinitionsResource": "mtr:z20500/definition_a4eabac9.json", "flipTextureV": true }],
-      "bogie1Models": [{ "modelResource": "mtr:z20500/z_20500_4.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_7feafad.json", "positionDefinitionsResource": "mtr:z20500/definition_3c9cafca.json", "flipTextureV": true }],
-      "bogie2Models": [{ "modelResource": "mtr:z20500/z_20500_4.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_55a977d1.json", "positionDefinitionsResource": "mtr:z20500/definition_67896fce.json", "flipTextureV": true }],
+      "models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_51f88a3c.json", "positionDefinitionsResource": "mtr:z20500/definition_58fc2751.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:z20500/z_20500_4.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_4481a8a5.json", "positionDefinitionsResource": "mtr:z20500/definition_7b003fca.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:z20500/z_20500_4.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_de9acf39.json", "positionDefinitionsResource": "mtr:z20500/definition_65ad4ce4.json", "flipTextureV": true }],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "z20500_idfm_back",
+      "name": "Z20500 IDFM (Back)",
+      "color": "86B3E9",
+      "transportMode": "TRAIN",
+      "length": 25.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:z20500/z_20500_6idfm.bbmodel", "textureResource": "mtr:z20500/z20500_idfm2.png", "modelPropertiesResource": "mtr:z20500/properties_54032af.json", "positionDefinitionsResource": "mtr:z20500/definition_4ecf1942.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_9242724a.json", "positionDefinitionsResource": "mtr:z20500/definition_a4f92076.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_afa55b95.json", "positionDefinitionsResource": "mtr:z20500/definition_4992ee.json", "flipTextureV": true }],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "z20500_idfm_mid",
+      "name": "Z20500 IDFM (MIDDLE)",
+      "color": "86B3E9",
+      "transportMode": "TRAIN",
+      "length": 25.5,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.1,
+      "couplingPadding2": 0.1,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:z20500/z_20500_6idfm.bbmodel", "textureResource": "mtr:z20500/z20500_idfm2.png", "modelPropertiesResource": "mtr:z20500/properties_f489078.json", "positionDefinitionsResource": "mtr:z20500/definition_1e4ce0b6.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_c25fd139.json", "positionDefinitionsResource": "mtr:z20500/definition_56f1429.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:z20500/z_20500_6.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_ab37f5d1.json", "positionDefinitionsResource": "mtr:z20500/definition_aa162e29.json", "flipTextureV": true }],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0.0,
+      "bveSoundBaseResource": "a_train",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0.0
+    },
+    {
+      "id": "z20500_idfm_Front",
+      "name": "Z20500 IDFM (Front)",
+      "color": "86B3E9",
+      "transportMode": "TRAIN",
+      "length": 25.0,
+      "width": 2.0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "couplingPadding1": 0.0,
+      "couplingPadding2": 0.0,
+      "description": "",
+      "wikipediaArticle": "",
+      "tags": [],
+      "models": [{ "modelResource": "mtr:z20500/z_20500_6idfm.bbmodel", "textureResource": "mtr:z20500/z20500_idfm2.png", "modelPropertiesResource": "mtr:z20500/properties_9231b2bb.json", "positionDefinitionsResource": "mtr:z20500/definition_eab1657f.json", "flipTextureV": true }],
+      "bogie1Models": [{ "modelResource": "mtr:z20500/z_20500_4.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_daac2e43.json", "positionDefinitionsResource": "mtr:z20500/definition_79fda710.json", "flipTextureV": true }],
+      "bogie2Models": [{ "modelResource": "mtr:z20500/z_20500_4.bbmodel", "textureResource": "mtr:z20500/z20500_idf.png", "modelPropertiesResource": "mtr:z20500/properties_7cd817ed.json", "positionDefinitionsResource": "mtr:z20500/definition_f9331102.json", "flipTextureV": true }],
       "hasGangway1": false,
       "hasGangway2": false,
       "hasBarrier1": false,
