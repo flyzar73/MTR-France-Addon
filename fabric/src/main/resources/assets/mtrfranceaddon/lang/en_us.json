@@ -12,7 +12,6 @@
   "block.mtrfranceaddon.ratp_logo_1951-1960_block": "RATP 1st logo from 1951 to 1960",
   "block.mtrfranceaddon.ratp_logo_1960-1976_block": "RATP 2nd logo from 1960 to 1976",
   "block.mtrfranceaddon.ratp_logo_1976-1992_block": "RATP 3rd logo from 1976 to 1992",
-  "itemGroup.mtrfranceaddon.mtrfranceaddon_group": "MTR France Addon",
 
   "block.mtrfranceaddon.invisible_platform": "Barrier platform",
   "block.mtrfranceaddon.ratp_platform": "RATP platform",
@@ -111,5 +110,6 @@
   "block.mtrfranceaddon.threehundredgallows": "300 km/h sign for signaling gallows",
   "block.mtrfranceaddon.squaregallows": "Square sign for signaling gallows",
 
-  "itemgroup.mtrfranceaddon.sign_group": "MTR Sign"
+  "itemgroup.mtrfranceaddon.sign_group": "MTR Sign",
+  "itemGroup.mtrfranceaddon.mtrfranceaddon_group": "MTR France Addon"
 }
